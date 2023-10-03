@@ -1,5 +1,5 @@
 function freeze:general/ids/give_all
-function freeze:game/general/map/load with storage freeze:map_data FrozenCrag
+$function freeze:game/general/map/load with storage freeze:map_data $(map)
 
 scoreboard players set $score_blue var 0
 scoreboard players set $score_red var 0
