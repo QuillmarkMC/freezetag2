@@ -1,0 +1,1 @@
+$schedule function freeze:general/state/unload/$(Name) 10t replace

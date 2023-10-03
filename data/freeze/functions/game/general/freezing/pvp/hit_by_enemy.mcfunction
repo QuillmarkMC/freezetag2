@@ -1,0 +1,1 @@
+execute unless score @s freeze_grace matches 1.. unless entity @s[tag=Frozen] run function freeze:game/general/freezing/states/freeze

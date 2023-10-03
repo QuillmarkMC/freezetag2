@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "hit_by_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    },
+    "is_team_red": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "team": "Red"
+          }
+        }
+      }
+    },
+    "is_team_blue": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "team": "Blue"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hit_by_player"
+    ],
+    [
+      "is_team_red",
+      "is_team_blue"
+    ]
+  ],
+  "rewards": {
+    "function": "freeze:game/general/freezing/pvp/attacked"
+  }
+}

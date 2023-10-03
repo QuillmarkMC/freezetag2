@@ -1,5 +1,6 @@
 {
   "values": [
-      "freeze:tick"
+      "freeze:tick",
+      "quill:tick"
   ]
 }

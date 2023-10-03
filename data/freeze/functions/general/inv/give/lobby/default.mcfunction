@@ -1,0 +1,1 @@
+function freeze:general/inv/clear/lobby

@@ -1,0 +1,4 @@
+item replace entity @s armor.head with minecraft:golden_helmet{Unbreakable:1b,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],display:{Name:'{"text":"Red Helmet","color":"red","italic":false}'},CustomModelData:1}
+item replace entity @s armor.chest with minecraft:golden_chestplate{Unbreakable:1b,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],display:{Name:'{"text":"Red Chestplate","color":"red","italic":false}'},CustomModelData:1}
+item replace entity @s armor.legs with minecraft:golden_leggings{Unbreakable:1b,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],display:{Name:'{"text":"Red Leggings","color":"red","italic":false}'},CustomModelData:1}
+item replace entity @s armor.feet with minecraft:golden_boots{Unbreakable:1b,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],display:{Name:'{"text":"Red Boots","color":"red","italic":false}'},CustomModelData:1}
