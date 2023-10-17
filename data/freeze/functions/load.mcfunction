@@ -8,8 +8,12 @@ scoreboard players set $cp gamestate 1
 scoreboard players set $tdm gamestate 2
 
 scoreboard objectives add var dummy
+scoreboard players set $-1 var -1
+scoreboard players set $2 var 2
 
 scoreboard objectives add ids dummy
+
+scoreboard objectives add death deathCount
 
 #Options
 scoreboard objectives add options dummy
@@ -33,6 +37,8 @@ execute unless score $overtime_deduction options matches 0.. run scoreboard play
 execute unless score $freeze_time options matches 0.. run scoreboard players set $freeze_time options 200
 #default 200
 execute unless score $heat_time options matches 0.. run scoreboard players set $heat_time options 200
+#default 3
+execute unless score $max_cap_amount options matches 0.. run scoreboard players set $max_cap_amount options 3
 
 # #UI
 # scoreboard objectives add ui_id dummy
@@ -41,6 +47,21 @@ execute unless score $heat_time options matches 0.. run scoreboard players set $
 # scoreboard players set $3 ui_draw_button 2
 # scoreboard objectives add ui_screen_id dummy
 # scoreboard players set $items ui_screen_id 1
+
+#Items
+scoreboard objectives add use minecraft.used:carrot_on_a_stick
+scoreboard objectives add item dummy
+scoreboard objectives add item2 dummy
+#{Name:"avalanche"},{Name:"turtle"},{Name:"whoaball"}
+data merge storage freeze:var {Items:[{Name:"axe"},{Name:"blaze"},{Name:"bow"},{Name:"crossbow"},{Name:"explosion"},{Name:"glow"},{Name:"hot_rod"},{Name:"icicle"},{Name:"invis"},{Name:"phoenix"},{Name:"snowman"},{Name:"speed"}]}
+scoreboard objectives add use_bow minecraft.used:bow
+scoreboard objectives add use_crossbow minecraft.used:crossbow
+scoreboard objectives add bow_arrows dummy
+scoreboard objectives add campfire_time dummy
+scoreboard objectives add mine_timer dummy
+
+#Item Giver
+scoreboard objectives add item_giver_cooldown dummy
 
 #Freezing
 scoreboard objectives add freeze_timer dummy
@@ -66,6 +87,8 @@ team add Ready
 team modify Ready color dark_green
 team modify Ready friendlyFire false
 team modify Ready prefix {"text":"[Ready] ","color":"dark_green"}
+team add Dev
+team modify color color dark_aqua
 
 ##Gamerules
 gamerule announceAdvancements false

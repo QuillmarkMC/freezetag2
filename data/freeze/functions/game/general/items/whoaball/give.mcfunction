@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.$(Slot) with carrot_on_a_stick{display:{Name:'{"text":"Whoaball","italic":false,"bold":true,"color":"white"}',Lore:['{"text":"Throw it and freeze everyone around where it lands.","color":"dark_purple"}','{"text":"Throw item to get rid of it.","color":"dark_purple"}']},HideFlags:255,Unbreakable:1b,CustomModelData:0,Item:"whoaball",Slot:$(Slot)} 1

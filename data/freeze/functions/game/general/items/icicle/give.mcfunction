@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.$(Slot) with stick{display:{Name:'{"text":"Icicle","italic":false,"bold":true,"color":"aqua"}',Lore:['{"text":"Freezing an enemy give you two new items in return.","color":"dark_purple"}','{"text":"Throw item to get rid of it.","color":"dark_purple"}']},HideFlags:255,Unbreakable:1b,CustomModelData:0,Item:"icicle",Slot:$(Slot)}

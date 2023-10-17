@@ -1,0 +1,1 @@
+function freeze:game/general/freezing/states/hypothermia

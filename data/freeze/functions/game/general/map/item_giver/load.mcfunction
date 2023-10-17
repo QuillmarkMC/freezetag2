@@ -1,0 +1,1 @@
+$function freeze:game/general/map/item_giver/summon with storage freeze:var MapLoading.ItemGivers.List[$(Index)]

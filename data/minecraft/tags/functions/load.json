@@ -1,6 +1,5 @@
 {
   "values": [
-      "freeze:load",
-      "quill:load"
+      "freeze:load"
   ]
 }

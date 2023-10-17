@@ -1,0 +1,1 @@
+$function freeze:game/general/items/$(Name)/init {Slot:1}
