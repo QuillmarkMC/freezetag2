@@ -79,7 +79,7 @@ data merge storage freeze:map_data {\
     RedSpawnRot:"-130",\
     BlueSpawn:"357 32 -2090",\
     BlueSpawnRot:"61",\
-    ItemGivers: {List: [\
+    ItemGivers: { List: [\
       {Pos:"369 31 -2060",Cooldown:200},\
       {Pos:"347 31 -2057",Cooldown:200},\
       {Pos:"335 31 -2089",Cooldown:200},\
@@ -116,6 +116,6 @@ data merge storage freeze:map_data {\
       {Pos:"312 32 -2052",Cooldown:200},\
       {Pos:"312 32 -2066",Cooldown:200}\
     ]}\
-  }
+  }\
 }
 
