@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.$(Slot) with carrot_on_a_stick{display:{Name:'{"text":"Glacierback","italic":false,"bold":true,"color":"aqua"}',Lore:['{"text":"Gives you speed 3 for 12 seconds.","color":"dark_purple"}','{"text":"Throw item to get rid of it.","color":"dark_purple"}']},HideFlags:255,Unbreakable:1b,CustomModelData:0,Item:"turtle",Slot:$(Slot)} 1

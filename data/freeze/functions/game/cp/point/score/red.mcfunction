@@ -1,0 +1,1 @@
+$scoreboard players add $score_red var $(Red)

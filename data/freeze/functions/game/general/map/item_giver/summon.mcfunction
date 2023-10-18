@@ -1,0 +1,1 @@
+$execute positioned $(Pos) run function freeze:game/general/item_giver/summon {Cooldown:$(Cooldown)}
