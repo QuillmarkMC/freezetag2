@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.$(Slot) with carrot_on_a_stick{display:{Name:'{"text":"Mystery Box","italic":false,"bold":true,"color":"gray"}',Lore:['{"text":"","color":"dark_purple"}','{"text":"Throw item to get rid of it.","color":"dark_purple"}']},HideFlags:255,Unbreakable:1b,CustomModelData:11,Item:"mystery",Slot:$(Slot)}

@@ -54,7 +54,7 @@ scoreboard objectives add use minecraft.used:carrot_on_a_stick
 scoreboard objectives add item dummy
 scoreboard objectives add item2 dummy
 #{Name:"avalanche"},{Name:"turtle"},{Name:"whoaball"}
-data merge storage freeze:var {Items:[{Name:"axe"},{Name:"blaze"},{Name:"bow"},{Name:"crossbow"},{Name:"explosion"},{Name:"glow"},{Name:"hot_rod"},{Name:"icicle"},{Name:"invis"},{Name:"phoenix"},{Name:"snowman"},{Name:"speed"}]}
+data merge storage freeze:var {Items:[{Name:"avalanche"},{Name:"axe"},{Name:"blaze"},{Name:"bow"},{Name:"crossbow"},{Name:"explosion"},{Name:"glow"},{Name:"hot_rod"},{Name:"icicle"},{Name:"invis"},{Name:"mystery"},{Name:"phoenix"},{Name:"snowman"},{Name:"speed"},{Name:"turtle"},{Name:"whoaball"}]}
 scoreboard objectives add use_bow minecraft.used:bow
 scoreboard objectives add use_crossbow minecraft.used:crossbow
 scoreboard objectives add bow_arrows dummy
