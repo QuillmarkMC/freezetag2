@@ -49,6 +49,7 @@ execute unless score $max_cap_amount options matches 0.. run scoreboard players 
 # scoreboard players set $items ui_screen_id 1
 
 #Items
+scoreboard objectives add drop custom:drop
 scoreboard objectives add use minecraft.used:carrot_on_a_stick
 scoreboard objectives add item dummy
 scoreboard objectives add item2 dummy

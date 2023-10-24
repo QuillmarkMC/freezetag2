@@ -1,5 +1,6 @@
 data merge storage freeze:map_data {\
   FrozenCrag:{\
+    Spawnbox:"57 2 8",\
     RedSpawn:"202 33 4",\
     RedSpawnRot:"90",\
     BlueSpawn:"-88 34 4",\
@@ -17,27 +18,25 @@ data merge storage freeze:map_data {\
     ]}\
   },\
   WatchTower:{\
+    Spawnbox:"1059 15 -228",\
     RedSpawn:"1110 59 -228",\
     RedSpawnRot:"90",\
     BlueSpawn:"1008 59 -228",\
     BlueSpawnRot:"-90",\
     ItemGivers: {List: [\
-      {Pos:"1059.5 58 -283.5",Cooldown:200},\
-      {Pos:"1059.5 65 -175.5",Cooldown:200},\
-      {Pos:"1059.5 43 -171.5",Cooldown:200},\
-      {Pos:"1091.5 45 -189.5",Cooldown:200},\
-      {Pos:"1029.5 52 -192.5",Cooldown:200},\
-      {Pos:"1026.5 45 -266.5",Cooldown:200},\
-      {Pos:"1059.5 44 -283.5",Cooldown:200},\
-      {Pos:"1092.5 53 -261.5",Cooldown:200},\
-      {Pos:"1059.5 48 -216.5",Cooldown:200},\
-      {Pos:"1059.5 48 -238.5",Cooldown:200}\
+      {Pos:"1059.5 58 -176.5",Cooldown:200},\
+      {Pos:"1032.5 49 -181.5",Cooldown:200},\
+      {Pos:"1059.5 46.5 -215.5",Cooldown:200},\
+      {Pos:"1059.5 46.5 -239.5",Cooldown:200},\
+      {Pos:"1086.5 51 -271.5",Cooldown:200},\
+      {Pos:"1059.5 58 -280.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [\
       {Pos:"1059.5 47 -227.5",Name:"BigOil",Rad:9.5}\
     ]}\
   },\
   Castle:{\
+    Spawnbox:"-236 5 537",\
     RedSpawn:"-259 11 555",\
     RedSpawnRot:"-135",\
     BlueSpawn:"-215 11 515",\
@@ -75,6 +74,7 @@ data merge storage freeze:map_data {\
     ]}\
   },\
   Town:{\
+    Spawnbox:"312 27 -2059",\
     RedSpawn:"270 32 -2034",\
     RedSpawnRot:"-130",\
     BlueSpawn:"357 32 -2090",\

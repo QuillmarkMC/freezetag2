@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "requirement": {
+    "hit": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
@@ -14,8 +14,39 @@
           "type": "minecraft:player"
         }
       }
+    },
+    "red_hit_blue": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Red"
+        },
+        "entity": {
+          "team": "Blue"
+        }
+      }
+    },
+    "blue_hit_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Blue"
+        },
+        "entity": {
+          "team": "Red"
+        }
+      }
     }
   },
+  "requirements": [
+    [
+      "hit"
+    ],
+    [
+      "red_hit_blue",
+      "blue_hit_red"
+    ]
+  ],
   "rewards": {
     "function": "freeze:game/general/items/axe/use"
   }

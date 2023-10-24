@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "requirement": {
+    "hit": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
@@ -11,11 +11,43 @@
           }
         },
         "entity": {
-          "type": "minecraft:player"
+          "type": "minecraft:player",
+          "nbt": "{Tags:[\"FrozenThisTick\"]}"
+        }
+      }
+    },
+    "red_hit_blue": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Red"
+        },
+        "entity": {
+          "team": "Blue"
+        }
+      }
+    },
+    "blue_hit_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Blue"
+        },
+        "entity": {
+          "team": "Red"
         }
       }
     }
   },
+  "requirements": [
+    [
+      "hit"
+    ],
+    [
+      "blue_hit_red",
+      "red_hit_blue"
+    ]
+  ],
   "rewards": {
     "function": "freeze:game/general/items/icicle/use"
   }

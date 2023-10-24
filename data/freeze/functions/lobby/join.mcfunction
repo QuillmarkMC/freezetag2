@@ -8,7 +8,7 @@ spawnpoint @s -268 73 -18
 tp @s -267.5 73 -17.5
 advancement grant @s only freeze:general/inv_change
 
-#
+#Effects
 effect give @s saturation infinite 255 true
 effect give @s regeneration infinite 255 true
 effect give @s resistance infinite 255 true

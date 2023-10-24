@@ -1,0 +1,1 @@
+execute if score @s campfire_time matches 1.. run function freeze:game/general/items/blaze/respawn

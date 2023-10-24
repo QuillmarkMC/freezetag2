@@ -10,6 +10,21 @@
         }
       }
     },
+    "is_firework": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:firework_rocket"
+            },
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
     "is_team_red": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
@@ -33,7 +48,8 @@
   },
   "requirements": [
     [
-      "hit_by_player"
+      "hit_by_player",
+      "is_firework"
     ],
     [
       "is_team_red",
