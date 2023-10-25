@@ -26,13 +26,13 @@ data merge storage freeze:map_data {\
     ItemGivers: {List: [\
       {Pos:"1059.5 58 -176.5",Cooldown:200},\
       {Pos:"1032.5 49 -181.5",Cooldown:200},\
-      {Pos:"1059.5 46.5 -215.5",Cooldown:200},\
-      {Pos:"1059.5 46.5 -239.5",Cooldown:200},\
+      {Pos:"1059.5 42 -216.5",Cooldown:200},\
+      {Pos:"1059.5 42 -238.5",Cooldown:200},\
       {Pos:"1086.5 51 -271.5",Cooldown:200},\
       {Pos:"1059.5 58 -280.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [\
-      {Pos:"1059.5 47 -227.5",Name:"BigOil",Rad:9.5}\
+      {Pos:"1059.5 46 -227.5",Name:"BigOil",Rad:9.5}\
     ]}\
   },\
   Castle:{\
