@@ -1,0 +1,1 @@
+data merge storage freeze:bossbar {Colors:{None:'white',Red:'red',Blue:'aqua',Contested:'dark_purple'}}

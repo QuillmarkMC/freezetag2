@@ -1,0 +1,1 @@
+function freeze:general/state/switch {load:lobby,map:none}

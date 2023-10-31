@@ -16,24 +16,28 @@
       }
     },
     "red_hit_blue": {
-      "trigger": "minecraft:player_hurt_entity",
+      "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "team": "Red"
-        },
-        "entity": {
           "team": "Blue"
+        },
+        "damage": {
+          "source_entity": {
+            "team": "Red"
+          }
         }
       }
     },
     "blue_hit_red": {
-      "trigger": "minecraft:player_hurt_entity",
+      "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "team": "Blue"
-        },
-        "entity": {
           "team": "Red"
+        },
+        "damage": {
+          "source_entity": {
+            "team": "Blue"
+          }
         }
       }
     }

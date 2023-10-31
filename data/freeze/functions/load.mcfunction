@@ -8,6 +8,7 @@ scoreboard players set $cp gamestate 1
 scoreboard players set $tdm gamestate 2
 
 scoreboard objectives add var dummy
+scoreboard players set $snowball_fix var 1
 scoreboard players set $-1 var -1
 scoreboard players set $2 var 2
 
@@ -30,7 +31,7 @@ scoreboard objectives add options dummy
 # execute unless score $item_snowman options matches -1 run scoreboard players set $item_snowman options 1
 # execute unless score $item_speed options matches -1 run scoreboard players set $item_speed options 1
 #default 2000
-execute unless score $win_score options matches 0.. run scoreboard players set $win_score options 2
+execute unless score $win_score options matches 0.. run scoreboard players set $win_score options 500
 #default 100
 execute unless score $overtime_deduction options matches 0.. run scoreboard players set $overtime_deduction options 100
 #default 200
@@ -53,11 +54,12 @@ scoreboard objectives add drop custom:drop
 scoreboard objectives add use minecraft.used:carrot_on_a_stick
 scoreboard objectives add item dummy
 scoreboard objectives add item2 dummy
-#{Name:"avalanche"},{Name:"turtle"},{Name:"whoaball"}
-data merge storage freeze:var {Items:[{Name:"avalanche"},{Name:"axe"},{Name:"blaze"},{Name:"bow"},{Name:"crossbow"},{Name:"explosion"},{Name:"glow"},{Name:"hot_rod"},{Name:"icicle"},{Name:"invis"},{Name:"mystery"},{Name:"phoenix"},{Name:"snowman"},{Name:"speed"},{Name:"turtle"},{Name:"whoaball"}]}
+#{Name:"mystery"},
+data merge storage freeze:var {Items:[{Name:"avalanche"},{Name:"axe"},{Name:"blaze"},{Name:"bow"},{Name:"crossbow"},{Name:"explosion"},{Name:"glow"},{Name:"hot_rod"},{Name:"icicle"},{Name:"invis"},{Name:"phoenix"},{Name:"snowman"},{Name:"speed"},{Name:"turtle"},{Name:"whoaball"}]}
 scoreboard objectives add use_bow minecraft.used:bow
 scoreboard objectives add use_crossbow minecraft.used:crossbow
 scoreboard objectives add bow_arrows dummy
+scoreboard objectives add avalanche dummy
 scoreboard objectives add campfire_time dummy
 scoreboard objectives add mine_timer dummy
 
@@ -68,8 +70,12 @@ scoreboard objectives add item_giver_cooldown dummy
 scoreboard objectives add freeze_timer dummy
 scoreboard objectives add freeze_grace dummy
 
-##Map Data
+##Data
 function freeze:game/general/map/data
+function freeze:game/cp/bossbar/data
+
+##Bossbars
+bossbar add freeze:hud ""
 
 ##Teams
 team add Red

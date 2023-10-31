@@ -1,0 +1,1 @@
+$execute align x align z positioned ~0.0005 ~ ~0.0005 summon block_display run function freeze:game/general/items/avalanche/snow/init {Team:$(Team),Height:$(Height),Time:$(Time)}

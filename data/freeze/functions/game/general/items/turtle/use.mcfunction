@@ -1,2 +1,1 @@
-execute if entity @s[team=Red] summon item_display run function freeze:game/general/items/turtle/init {Team:Red}
-execute if entity @s[team=Blue] summon item_display run function freeze:game/general/items/turtle/init {Team:Blue}
+$function freeze:game/general/items/use_non_click {Slot:$(Slot)}

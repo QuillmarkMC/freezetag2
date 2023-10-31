@@ -1,6 +1,3 @@
 scoreboard players remove @s mine_timer 1
-# execute if entity @s[team=Blue] if entity @a[distance=..1,team=Red,tag=!Frozen] run function freeze:game/general/items/turtle/blow_up {Team:Red}
-# execute if entity @s[team=Red] if entity @a[distance=..1,team=Blue,tag=!Frozen] run function freeze:game/general/items/turtle/blow_up {Team:Blue}
-execute if score @s mine_timer matches ..0 if entity @s[team=Blue] run function freeze:game/general/items/turtle/blow_up {Team:Red}
-execute if score @s mine_timer matches ..0 if entity @s[team=Red] run say function freeze:game/general/items/turtle/blow_up {Team:Blue}
-execute if score @s mine_timer matches ..0 if entity @s[team=Red] run say hey
+$execute positioned ~-0.5 ~ ~-0.5 if entity @a[dx=0,dy=0,dz=0,team=$(Team),tag=!Frozen] run function freeze:game/general/items/turtle/blow_up {Team:$(Team)}
+$execute if score @s mine_timer matches ..0 run function freeze:game/general/items/turtle/blow_up {Team:$(Team)}

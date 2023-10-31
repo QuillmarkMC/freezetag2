@@ -6,9 +6,9 @@ data merge storage freeze:map_data {\
     BlueSpawn:"-88 34 4",\
     BlueSpawnRot:"-90",\
     ControlPoints: { List: [\
-      {Pos:"57.5 14 8.5",Name:"WatchTower",Rad:15.5},\
-      {Pos:"57.4 49 -76.5",Name:"GoldMine",Rad:15.5},\
-      {Pos:"64.5 33 80.5",Name:"FrozenLake",Rad:15.5}\
+      {Pos:"57.5 14 8.5",Name:"WatchTower",Rad:15.5,Slot:1},\
+      {Pos:"57.4 49 -76.5",Name:"GoldMine",Rad:15.5,Slot:0},\
+      {Pos:"64.5 33 80.5",Name:"FrozenLake",Rad:15.5,Slot:2}\
     ]},\
     ItemGivers: {List: [\
       {Pos:"-78.5 33 -5.5",Cooldown:200},\
@@ -32,7 +32,7 @@ data merge storage freeze:map_data {\
       {Pos:"1059.5 58 -280.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [\
-      {Pos:"1059.5 46 -227.5",Name:"BigOil",Rad:9.5}\
+      {Pos:"1059.5 46 -227.5",Name:"BigOil",Rad:9.5,Slot:0}\
     ]}\
   },\
   Castle:{\
