@@ -29,7 +29,11 @@ data merge storage freeze:map_data {\
       {Pos:"1059.5 42 -216.5",Cooldown:200},\
       {Pos:"1059.5 42 -238.5",Cooldown:200},\
       {Pos:"1086.5 51 -271.5",Cooldown:200},\
-      {Pos:"1059.5 58 -280.5",Cooldown:200}\
+      {Pos:"1059.5 58 -280.5",Cooldown:200},\
+      {Pos:"1103.5 58 -222.5",Cooldown:200},\
+      {Pos:"1013.5 58 -232.5",Cooldown:200},\
+      {Pos:"1093.5 46 -227.5",Cooldown:200},\
+      {Pos:"1023.5 46 -227.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [\
       {Pos:"1059.5 46 -227.5",Name:"BigOil",Rad:9.5,Slot:0}\
