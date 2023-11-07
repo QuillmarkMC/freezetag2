@@ -1,1 +1,1 @@
-$function freeze:general/state/switch {load:tdm,map:$(Map)}
+$function freeze:general/state/switch {Load:tdm,Map:$(Map)}

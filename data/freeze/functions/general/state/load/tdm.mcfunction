@@ -1,1 +1,1 @@
-function freeze:game/tdm/load
+$function freeze:game/tdm/load {Map:$(Map)}

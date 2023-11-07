@@ -1,0 +1,1 @@
+$execute as @e[type=marker,tag=Spawnpoint,tag=$(Team)Spawn,limit=1,sort=random] run function freeze:game/general/spawnpoint/tp_player_here {UUID:$(UUID)}

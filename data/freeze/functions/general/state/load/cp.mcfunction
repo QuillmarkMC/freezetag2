@@ -1,1 +1,1 @@
-$function freeze:game/cp/load {map:$(map)}
+$function freeze:game/cp/load {Map:$(Map)}

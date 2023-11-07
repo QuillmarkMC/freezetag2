@@ -90,10 +90,6 @@ team add Spectate
 team modify Spectate color dark_gray
 team modify Spectate friendlyFire false
 team modify Spectate prefix {"text":"[Spectate] ","color":"dark_gray"}
-team add Ready
-team modify Ready color dark_green
-team modify Ready friendlyFire false
-team modify Ready prefix {"text":"[Ready] ","color":"dark_green"}
 team add Dev
 team modify color color dark_aqua
 

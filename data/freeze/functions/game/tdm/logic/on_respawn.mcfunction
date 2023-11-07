@@ -1,0 +1,3 @@
+execute if entity @s[team=Red] unless score @s campfire_time matches 1.. run function freeze:game/general/spawnpoint/find/least_enemy_spawn/red with entity @s
+execute if entity @s[team=Blue] unless score @s campfire_time matches 1.. run function freeze:game/general/spawnpoint/find/least_enemy_spawn/blue with entity @s
+execute if score @s campfire_time matches 1.. run function freeze:game/general/items/blaze/respawn

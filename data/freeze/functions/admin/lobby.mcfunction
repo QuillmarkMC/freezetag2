@@ -1,1 +1,1 @@
-function freeze:general/state/switch {load:lobby,map:none}
+function freeze:general/state/switch {Load:lobby,Map:none}

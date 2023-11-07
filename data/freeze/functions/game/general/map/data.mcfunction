@@ -1,10 +1,11 @@
 data merge storage freeze:map_data {\
   FrozenCrag:{\
+    DefaultSubstate:"",\
     Spawnbox:"57 2 8",\
-    RedSpawn:"202 33 4",\
-    RedSpawnRot:"90",\
-    BlueSpawn:"-88 34 4",\
-    BlueSpawnRot:"-90",\
+    Spawnpoints: { List: [\
+      {Pos:"202 33 4",Rot:"90",Team:"Red"},\
+      {Pos:"-88 34 4",Rot:"-90",Team:"Blue"}\
+    ]},\
     ControlPoints: { List: [\
       {Pos:"57.5 14 8.5",Name:"WatchTower",Rad:15.5,Slot:1},\
       {Pos:"57.4 49 -76.5",Name:"GoldMine",Rad:15.5,Slot:0},\
@@ -17,12 +18,13 @@ data merge storage freeze:map_data {\
       {Pos:"-66.5 32 9.5",Cooldown:200}\
     ]}\
   },\
-  WatchTower:{\
-    Spawnbox:"1059 15 -228",\
-    RedSpawn:"1110 59 -228",\
-    RedSpawnRot:"90",\
-    BlueSpawn:"1008 59 -228",\
-    BlueSpawnRot:"-90",\
+  BigOil:{\
+    DefaultSubstate:"Intro",\
+    Spawnbox:"1059 28 -228",\
+    Spawnpoints: { List: [\
+      {Pos:"1110 59 -228",Rot:"90",Team:"Red"},\
+      {Pos:"1008 59 -228",Rot:"-90",Team:"Blue"}\
+    ]},\
     ItemGivers: {List: [\
       {Pos:"1059.5 58 -176.5",Cooldown:200},\
       {Pos:"1032.5 49 -181.5",Cooldown:200},\
@@ -39,12 +41,14 @@ data merge storage freeze:map_data {\
       {Pos:"1059.5 46 -227.5",Name:"BigOil",Rad:9.5,Slot:0}\
     ]}\
   },\
-  Castle:{\
-    Spawnbox:"-236 5 537",\
-    RedSpawn:"-259 11 555",\
-    RedSpawnRot:"-135",\
-    BlueSpawn:"-215 11 515",\
-    BlueSpawnRot:"45",\
+  GlacialKeep:{\
+    DefaultSubstate:"",\
+    Spawnbox:"-236 6 537",\
+    Spawnpoints: { List: [\
+      {Pos:"-224.5 11 532.5",Rot:"135",Team:"Blue"},\
+      {Pos:"-227.5 11 529.5",Rot:"45",Team:"None"},\
+      {Pos:"-229.5 11 527.5",Rot:"-45",Team:"Red"}\
+    ]},\
     ItemGivers: {List: [\
       {Pos:"-269.5 17 520.5",Cooldown:200},\
       {Pos:"-266.5 11 502.5",Cooldown:200},\
@@ -75,7 +79,8 @@ data merge storage freeze:map_data {\
       {Pos:"-202.5 17 528.5",Cooldown:200},\
       {Pos:"-235.5 12 537.5",Cooldown:200},\
       {Pos:"-215.5 17 549.5",Cooldown:200}\
-    ]}\
+    ]},\
+    ControlPoints: { List: [] }\
   },\
   Town:{\
     Spawnbox:"312 27 -2059",\
@@ -83,43 +88,7 @@ data merge storage freeze:map_data {\
     RedSpawnRot:"-130",\
     BlueSpawn:"357 32 -2090",\
     BlueSpawnRot:"61",\
-    ItemGivers: { List: [\
-      {Pos:"369 31 -2060",Cooldown:200},\
-      {Pos:"347 31 -2057",Cooldown:200},\
-      {Pos:"335 31 -2089",Cooldown:200},\
-      {Pos:"365 31 -2030",Cooldown:200},\
-      {Pos:"369 31 -2011",Cooldown:200},\
-      {Pos:"387 31 -2027",Cooldown:200},\
-      {Pos:"403 31 -2044",Cooldown:200},\
-      {Pos:"393 31 -2074",Cooldown:200},\
-      {Pos:"384 31 -2100",Cooldown:200},\
-      {Pos:"352 31 -2129",Cooldown:200},\
-      {Pos:"327 31 -2138",Cooldown:200},\
-      {Pos:"330 31 -2114",Cooldown:200},\
-      {Pos:"300 31 -2122",Cooldown:200},\
-      {Pos:"310 31 -2145",Cooldown:200},\
-      {Pos:"284 31 -2138",Cooldown:200},\
-      {Pos:"274 31 -2112",Cooldown:200},\
-      {Pos:"252 31 -2125",Cooldown:200},\
-      {Pos:"259 31 -2094",Cooldown:200},\
-      {Pos:"236 31 -2085",Cooldown:200},\
-      {Pos:"226 32 -2056",Cooldown:200},\
-      {Pos:"257 31 -2071",Cooldown:200},\
-      {Pos:"250 31 -2045",Cooldown:200},\
-      {Pos:"236 32 -2023",Cooldown:200},\
-      {Pos:"263 32 -2011",Cooldown:200},\
-      {Pos:"271 32 -1983",Cooldown:200},\
-      {Pos:"288 31 -2015",Cooldown:200},\
-      {Pos:"316 31 -1972",Cooldown:200},\
-      {Pos:"317 31 -2005",Cooldown:200},\
-      {Pos:"357 31 -2011",Cooldown:200},\
-      {Pos:"364 32 -1983",Cooldown:200},\
-      {Pos:"329 31 -2030",Cooldown:200},\
-      {Pos:"291 31 -2085",Cooldown:200},\
-      {Pos:"277 31 -2051",Cooldown:200},\
-      {Pos:"312 32 -2052",Cooldown:200},\
-      {Pos:"312 32 -2066",Cooldown:200}\
-    ]}\
+    ItemGivers: { List: [] }\
   }\
 }
 

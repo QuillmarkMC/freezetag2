@@ -1,9 +1,10 @@
 #Spawns
-#$spawnpoint @a $(Spawnbox)
-$spawnpoint @a[team=Red] $(RedSpawn) $(RedSpawnRot)
-$spawnpoint @a[team=Blue] $(BlueSpawn) $(BlueSpawnRot)
-$tp @a[team=Red] $(RedSpawn) $(RedSpawnRot) 0
-$tp @a[team=Blue] $(BlueSpawn) $(BlueSpawnRot) 0
+$spawnpoint @a $(Spawnbox)
+$data merge storage freeze:var {MapLoading:{Spawnpoints:$(Spawnpoints)}}
+execute store result score $loop var run data get storage freeze:var MapLoading.Spawnpoints.List
+function freeze:game/general/map/spawnpoint/loop
+execute as @a[team=Red] run function freeze:game/general/spawnpoint/find/team_spawn/red with entity @s
+execute as @a[team=Blue] run function freeze:game/general/spawnpoint/find/team_spawn/blue with entity @s
 
 #Item Givers
 $data merge storage freeze:var {MapLoading:{ItemGivers:$(ItemGivers)}}
