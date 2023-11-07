@@ -45,9 +45,26 @@ data merge storage freeze:map_data {\
     DefaultSubstate:"",\
     Spawnbox:"-236 6 537",\
     Spawnpoints: { List: [\
-      {Pos:"-224.5 11 532.5",Rot:"135",Team:"Blue"},\
-      {Pos:"-227.5 11 529.5",Rot:"45",Team:"None"},\
-      {Pos:"-229.5 11 527.5",Rot:"-45",Team:"Red"}\
+      {Pos:"-112 11 513",Rot:"44",Team:"Red"},\
+      {Pos:"-204 11 525",Rot:"88",Team:"Red"},\
+      {Pos:"-245 11 511",Rot:"0",Team:"Red"},\
+      {Pos:"-252 11 507",Rot:"-1",Team:"Red"},\
+      {Pos:"-269 17 502",Rot:"0",Team:"Red"},\
+      {Pos:"-258 17 511",Rot:"-90",Team:"Red"},\
+      {Pos:"-226 21.5 519",Rot:"2",Team:"Red"},\
+      {Pos:"-245 17 553",Rot:"115",Team:"Blue"},\
+      {Pos:"-221 17 569",Rot:"-178",Team:"Blue"},\
+      {Pos:"-203 17 555",Rot:"143",Team:"Blue"},\
+      {Pos:"-207 11 562",Rot:"180",Team:"Blue"},\
+      {Pos:"-258 11 556",Rot:"135",Team:"Blue"},\
+      {Pos:"-264 11 526",Rot:"-92",Team:"Blue"},\
+      {Pos:"-269 17 545",Rot:"-90",Team:"Blue"},\
+      {Pos:"-236 13 546",Rot:"-136",Team:"None"},\
+      {Pos:"-228 11 543",Rot:"138",Team:"None"},\
+      {Pos:"-217 17 505",Rot:"90",Team:"None"},\
+      {Pos:"-201.5 17 511",Rot:"90",Team:"None"},\
+      {Pos:"-213 11 548",Rot:"42",Team:"None"},\
+      {Pos:"-239 11 523",Rot:"0",Team:"None"}\
     ]},\
     ItemGivers: {List: [\
       {Pos:"-269.5 17 520.5",Cooldown:200},\
