@@ -45,7 +45,7 @@ data merge storage freeze:map_data {\
     DefaultSubstate:"",\
     Spawnbox:"-236 6 537",\
     Spawnpoints: { List: [\
-      {Pos:"-112 11 513",Rot:"44",Team:"Red"},\
+      {Pos:"-212 11 513",Rot:"44",Team:"Red"},\
       {Pos:"-204 11 525",Rot:"88",Team:"Red"},\
       {Pos:"-245 11 511",Rot:"0",Team:"Red"},\
       {Pos:"-252 11 507",Rot:"-1",Team:"Red"},\
@@ -82,7 +82,7 @@ data merge storage freeze:map_data {\
       {Pos:"-221.5 11 503.5",Cooldown:200},\
       {Pos:"-238.5 11 507.5",Cooldown:200},\
       {Pos:"-245.5 18 545.5",Cooldown:200},\
-      {Pos:"-240.5 17 599.5",Cooldown:200},\
+      {Pos:"-240.5 17 559.5",Cooldown:200},\
       {Pos:"-202.5 17 569.5",Cooldown:200},\
       {Pos:"-212.5 17 536.5",Cooldown:200},\
       {Pos:"-214.5 17 511.5",Cooldown:200},\
@@ -108,4 +108,3 @@ data merge storage freeze:map_data {\
     ItemGivers: { List: [] }\
   }\
 }
-
