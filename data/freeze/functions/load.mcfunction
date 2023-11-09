@@ -54,8 +54,6 @@ scoreboard objectives add drop custom:drop
 scoreboard objectives add use minecraft.used:carrot_on_a_stick
 scoreboard objectives add item dummy
 scoreboard objectives add item2 dummy
-#{Name:"mystery"},
-data merge storage freeze:var {Items:[{Name:"avalanche"},{Name:"axe"},{Name:"blaze"},{Name:"bow"},{Name:"crossbow"},{Name:"explosion"},{Name:"glow"},{Name:"hot_rod"},{Name:"icicle"},{Name:"invis"},{Name:"phoenix"},{Name:"snowman"},{Name:"speed"},{Name:"turtle"},{Name:"whoaball"}]}
 scoreboard objectives add use_bow minecraft.used:bow
 scoreboard objectives add use_crossbow minecraft.used:crossbow
 scoreboard objectives add bow_arrows dummy
@@ -73,6 +71,7 @@ scoreboard objectives add freeze_grace dummy
 ##Data
 function freeze:game/general/map/data
 function freeze:game/cp/bossbar/data
+function freeze:game/general/items/loot/data
 
 ##Bossbars
 bossbar add freeze:hud ""

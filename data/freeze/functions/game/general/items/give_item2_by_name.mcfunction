@@ -1,0 +1,2 @@
+$function freeze:game/general/items/loot/iterate_loot_array/start {Array:"MasterItemList",Function:"find_index",Args:[$(Item)]}
+function freeze:game/general/items/give_item2 with storage freeze:items Iterating.Output

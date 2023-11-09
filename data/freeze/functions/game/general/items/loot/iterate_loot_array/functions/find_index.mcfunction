@@ -1,0 +1,2 @@
+#Expects Args[0] to be the name used for comparison
+$execute if data storage freeze:items {Iterating:{Args:["$(Name)"]}} run data modify storage freeze:items Iterating.Output.Item set value $(MasterIndex)
