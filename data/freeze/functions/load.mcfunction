@@ -11,6 +11,7 @@ scoreboard objectives add var dummy
 scoreboard players set $snowball_fix var 1
 scoreboard players set $-1 var -1
 scoreboard players set $2 var 2
+scoreboard players set $4 var 4
 
 scoreboard objectives add ids dummy
 

@@ -1,2 +1,2 @@
-execute at @s run forceload remove ~ ~
+#execute at @s run forceload remove ~ ~
 kill @s
