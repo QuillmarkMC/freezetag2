@@ -2,6 +2,7 @@ data merge storage freeze:map_data {\
   FrozenCrag:{\
     LoadedArea:"255 -128 -128 127",\
     Spawnbox:"57 2 8",\
+    SpectateSpawn:"57 37 8 90",\
     Spawnpoints: { List: [\
       {Pos:"202 33 4",Rot:"90",Team:"Red"},\
       {Pos:"-88 34 4",Rot:"-90",Team:"Blue"}\
@@ -26,6 +27,7 @@ data merge storage freeze:map_data {\
   },\
   BigOil:{\
     LoadedArea:"1135 -145 976 -320",\
+    SpectateSpawn:"1059 68 -228 -90",\
     Spawnbox:"1059 28 -228",\
     Spawnpoints: { List: [\
       {Pos:"1110 59 -228",Rot:"90",Team:"Red"},\
@@ -49,6 +51,7 @@ data merge storage freeze:map_data {\
   },\
   GlacialKeep:{\
     LoadedArea:"-164 485 -302 611",\
+    SpectateSpawn:"-225 15 527 45",\
     Spawnbox:"-236 6 537",\
     Spawnpoints: { List: [\
       {Pos:"-212 11 513",Rot:"44",Team:"Red"},\

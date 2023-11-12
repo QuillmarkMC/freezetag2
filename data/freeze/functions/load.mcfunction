@@ -82,15 +82,32 @@ bossbar add freeze:hud ""
 team add Red
 team modify Red color red
 team modify Red friendlyFire true
+team modify Red collisionRule pushOtherTeams
 team modify Red prefix {"text":"[Red] ","color":"red"}
 team add Blue
 team modify Blue color aqua
 team modify Blue friendlyFire true
+team modify Blue collisionRule pushOtherTeams
 team modify Blue prefix {"text":"[Blue] ","color":"aqua"}
 team add Spectate
 team modify Spectate color dark_gray
 team modify Spectate friendlyFire false
 team modify Spectate prefix {"text":"[Spectate] ","color":"dark_gray"}
+team add TempBlue
+team modify TempBlue color aqua
+team modify TempBlue friendlyFire false
+team modify TempBlue collisionRule never
+team modify TempBlue prefix {"text":"[Blue] ","color":"aqua"}
+team add TempRed
+team modify TempRed color red
+team modify TempRed friendlyFire false
+team modify TempRed collisionRule never
+team modify TempRed prefix {"text":"[Red] ","color":"red"}
+team add Random
+team modify Random color dark_purple
+team modify Random friendlyFire false
+team modify Random collisionRule never
+team modify Random prefix {"text":"[Random] ","color":"dark_purple"}
 team add Dev
 team modify color color dark_aqua
 

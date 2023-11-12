@@ -16,5 +16,8 @@ $spawnpoint @a $(Spawnbox)
 $data merge storage freeze:var {MapLoading:{Spawnpoints:$(Spawnpoints)}}
 execute store result score $loop var run data get storage freeze:var MapLoading.Spawnpoints.List
 function freeze:game/general/map/spawnpoint/loop
-execute as @a[team=Red] run function freeze:game/general/spawnpoint/find/team_spawn/red with entity @s
-execute as @a[team=Blue] run function freeze:game/general/spawnpoint/find/team_spawn/blue with entity @s
+
+#Spectators (kept in here instead of gamemode loading because they will work the same on every map/they don't need as complicated of spawning overhead)
+$spawnpoint @a[team=Spectate] $(SpectateSpawn)
+$tp @a[team=Spectate] $(SpectateSpawn) 0
+gamemode spectator @a[team=Spectate] 
