@@ -1,6 +1,5 @@
-execute as @e[tag=ControlPoint] at @s run function freeze:general/clean_forceloaded_item
-execute as @e[tag=ItemGiver] at @s run function freeze:general/clean_forceloaded_item
-execute as @e[tag=Spawnpoint] at @s run function freeze:general/clean_forceloaded_item
+function freeze:game/general/map/clean
+function freeze:game/general/items/clean
 
 #Effects
 effect clear @a

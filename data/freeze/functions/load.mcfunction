@@ -61,6 +61,7 @@ scoreboard objectives add bow_arrows dummy
 scoreboard objectives add avalanche dummy
 scoreboard objectives add campfire_time dummy
 scoreboard objectives add mine_timer dummy
+scoreboard objectives add temp_item_giver_timer dummy
 
 #Item Giver
 scoreboard objectives add item_giver_cooldown dummy

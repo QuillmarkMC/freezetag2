@@ -10,5 +10,8 @@ function freeze:game/general/snowball/tick
 #Avalanche
 execute as @e[tag=AvalancheSnow] at @s run function freeze:game/general/items/avalanche/snow/tick
 
+#Mystery
+execute as @e[type=item_display,tag=TempItemGiverCore] at @s run function freeze:game/general/items/mystery/temp_item_giver/tick_item_giver
+
 #Turtle
 execute as @e[tag=Turtle] at @s run function freeze:game/general/items/turtle/tick with entity @s item.tag
