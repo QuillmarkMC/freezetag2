@@ -1,5 +1,4 @@
 #Set up players
-function freeze:general/ids/give_all
 $function freeze:game/general/map/load with storage freeze:map_data $(Map)
 execute as @a[team=Red] run function freeze:game/general/spawnpoint/find/team_spawn/red with entity @s
 execute as @a[team=Blue] run function freeze:game/general/spawnpoint/find/team_spawn/blue with entity @s

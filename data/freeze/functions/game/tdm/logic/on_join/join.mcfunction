@@ -1,0 +1,1 @@
+$function freeze:general/on_join/spectate with storage freeze:map_data $(Map)

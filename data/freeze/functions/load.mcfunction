@@ -17,6 +17,9 @@ scoreboard objectives add ids dummy
 
 scoreboard objectives add death deathCount
 
+scoreboard objectives add join minecraft.custom:leave_game
+scoreboard objectives add match_id dummy
+
 #Options
 scoreboard objectives add options dummy
 # scoreboard objectives add change_options trigger
