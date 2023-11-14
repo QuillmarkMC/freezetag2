@@ -45,13 +45,8 @@ execute unless score $heat_time options matches 0.. run scoreboard players set $
 #default 3
 execute unless score $max_cap_amount options matches 0.. run scoreboard players set $max_cap_amount options 3
 
-# #UI
-# scoreboard objectives add ui_id dummy
-# scoreboard objectives add ui_draw_button dummy
-# scoreboard players set $2 ui_draw_button 2
-# scoreboard players set $3 ui_draw_button 2
-# scoreboard objectives add ui_screen_id dummy
-# scoreboard players set $items ui_screen_id 1
+#Triggers
+scoreboard objectives add unstuck_me trigger
 
 #Items
 scoreboard objectives add drop custom:drop
