@@ -1,2 +1,2 @@
 #On marker: data:{Item:(item folder name),Player:(player uuid),Slot:(slot the item is in),Team:(player team)}
-$execute summon item_display run function freeze:game/general/items/turtle/init {Team:$(Team)}
+$execute summon item_display run function freeze:game/general/items/turtle/init {Team:$(Team),Player:$(Player)}
