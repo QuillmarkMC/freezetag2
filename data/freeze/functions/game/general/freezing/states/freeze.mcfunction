@@ -6,6 +6,7 @@ effect clear @s
 effect give @s slowness infinite 255 true
 effect give @s weakness infinite 255 true
 effect give @s jump_boost infinite 128 true
+attribute @s generic.knockback_resistance base set 1
 tag @s add Frozen
 tag @s add FrozenThisTick
 function freeze:game/general/items/clear
