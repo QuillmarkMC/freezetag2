@@ -12,6 +12,7 @@ scoreboard players set $snowball_fix var 1
 scoreboard players set $-1 var -1
 scoreboard players set $2 var 2
 scoreboard players set $4 var 4
+execute unless score $run_game var matches 0.. run scoreboard players set $run_game var 1
 
 scoreboard objectives add ids dummy
 
