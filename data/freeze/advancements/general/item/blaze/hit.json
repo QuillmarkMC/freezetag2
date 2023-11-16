@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "blue_hit_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Blue"
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"Campfire\",\"RedCampfire\"]}"
+        }
+      }
+    },
+    "red_hit_blue": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Red"
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"Campfire\",\"BlueCampfire\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blue_hit_red",
+      "red_hit_blue"
+    ]
+  ],
+  "rewards": {
+    "function": "freeze:game/general/items/blaze/hit_interaction"
+  }
+}

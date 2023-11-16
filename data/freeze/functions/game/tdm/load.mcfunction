@@ -5,8 +5,7 @@ execute as @a[team=Blue] run function freeze:game/general/spawnpoint/find/team_s
 execute as @a run function freeze:game/general/unstuck/reset
 
 #Set up gamemode
-function freeze:game/general/items/loot/iterate_loot_array/start {Array:"MasterItemList",Function:"create_blacklist",Args:["snowman","mystery"]}
-data modify storage freeze:items InPlayItems set from storage freeze:items Iterating.OutputArray
+function freeze:game/general/items/loot/update {Blacklist:["snowman","mystery"]}
 
 scoreboard players set $score_blue var 0
 scoreboard players set $score_red var 0
