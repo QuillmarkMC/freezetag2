@@ -1,9 +1,10 @@
 {
   "criteria": {
-    "hit": {
+    "red_hit_blue": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
+          "team": "Red",
           "equipment": {
             "mainhand": {
               "nbt": "{Item:\"icicle\"}"
@@ -11,19 +12,9 @@
           }
         },
         "entity": {
+          "team":"Blue",
           "type": "minecraft:player",
           "nbt": "{Tags:[\"FrozenThisTick\"]}"
-        }
-      }
-    },
-    "red_hit_blue": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "player": {
-          "team": "Red"
-        },
-        "entity": {
-          "team": "Blue"
         }
       }
     },
@@ -31,21 +22,25 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "team": "Blue"
+          "team": "Blue",
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Item:\"icicle\"}"
+            }
+          }
         },
         "entity": {
-          "team": "Red"
+          "team":"Red",
+          "type": "minecraft:player",
+          "nbt": "{Tags:[\"FrozenThisTick\"]}"
         }
       }
     }
   },
   "requirements": [
     [
-      "hit"
-    ],
-    [
-      "blue_hit_red",
-      "red_hit_blue"
+      "red_hit_blue",
+      "blue_hit_red"
     ]
   ],
   "rewards": {

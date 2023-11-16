@@ -10,21 +10,6 @@
         }
       }
     },
-    "is_firework": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "damage": {
-          "type": {
-            "direct_entity": {
-              "type": "minecraft:firework_rocket"
-            },
-            "source_entity": {
-              "type": "minecraft:player"
-            }
-          }
-        }
-      }
-    },
     "is_team_red": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
@@ -44,16 +29,49 @@
           }
         }
       }
+    },
+    "is_firework": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:player"
+            },
+            "direct_entity": {
+              "type": "minecraft:firework_rocket"
+            }
+          }
+        }
+      }
+    },
+    "is_not_firework": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:player"
+            },
+            "direct_entity": {
+              "type": "#freeze:freezing_entity_source_no_firework"
+            }
+          }
+        }
+      }
     }
   },
   "requirements": [
     [
-      "hit_by_player",
-      "is_firework"
+      "hit_by_player"
     ],
     [
       "is_team_red",
       "is_team_blue"
+    ],
+    [
+      "is_firework",
+      "is_not_firework"
     ]
   ],
   "rewards": {

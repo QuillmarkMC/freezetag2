@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "hit": {
+    "red_hit_blue": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
@@ -8,20 +8,11 @@
             "mainhand": {
               "nbt": "{Item:\"axe\"}"
             }
-          }
-        },
-        "entity": {
-          "type": "minecraft:player"
-        }
-      }
-    },
-    "red_hit_blue": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "player": {
+          },
           "team": "Red"
         },
         "entity": {
+          "type": "minecraft:player",
           "team": "Blue"
         }
       }
@@ -30,18 +21,21 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Item:\"axe\"}"
+            }
+          },
           "team": "Blue"
         },
         "entity": {
+          "type": "minecraft:player",
           "team": "Red"
         }
       }
     }
   },
   "requirements": [
-    [
-      "hit"
-    ],
     [
       "red_hit_blue",
       "blue_hit_red"
