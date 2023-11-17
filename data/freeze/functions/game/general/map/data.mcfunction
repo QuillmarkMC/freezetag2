@@ -8,9 +8,9 @@ data merge storage freeze:map_data {\
       {Pos:"-88 34 4",Rot:"-90",Team:"Blue"}\
     ]},\
     ControlPoints: { List: [\
-      {Pos:"57.5 14 8.5",Name:"WatchTower",Rad:15.5,Slot:1},\
-      {Pos:"57.4 49 -76.5",Name:"GoldMine",Rad:15.5,Slot:0},\
-      {Pos:"64.5 33 80.5",Name:"FrozenLake",Rad:15.5,Slot:2}\
+      {Pos:"57.5 14 8.5",Name:"Watch⠀Tower",Rad:15.5,Slot:1},\
+      {Pos:"57.4 49 -76.5",Name:"Gold⠀Mine",Rad:15.5,Slot:0},\
+      {Pos:"64.5 33 80.5",Name:"Frozen⠀Lake",Rad:15.5,Slot:2}\
     ]},\
     ItemGivers: {List: [\
       {Pos:"-78.5 33 -5.5",Cooldown:200},\
@@ -46,7 +46,7 @@ data merge storage freeze:map_data {\
       {Pos:"1023.5 46 -227.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [\
-      {Pos:"1059.5 46 -227.5",Name:"BigOil",Rad:9.5,Slot:0}\
+      {Pos:"1059.5 46 -227.5",Name:"Big⠀Oil",Rad:9.5,Slot:0}\
     ]}\
   },\
   GlacialKeep:{\
@@ -104,6 +104,7 @@ data merge storage freeze:map_data {\
       {Pos:"-269.5 17 569.5",Cooldown:200},\
       {Pos:"-202.5 17 528.5",Cooldown:200},\
       {Pos:"-235.5 12 537.5",Cooldown:200},\
+      {Pos:"-234.5 17 515.5",Cooldown:200},\
       {Pos:"-215.5 17 549.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [] }\

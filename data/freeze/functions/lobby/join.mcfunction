@@ -6,6 +6,8 @@ xp set @s 0 points
 xp set @s 0 levels
 spawnpoint @s -268 73 -18 -90
 tp @s -267.5 73 -17.5 -90 0
+scoreboard players set @s join_team 0
+scoreboard players enable @s join_team
 advancement grant @s only freeze:general/inv_change
 
 #Effects

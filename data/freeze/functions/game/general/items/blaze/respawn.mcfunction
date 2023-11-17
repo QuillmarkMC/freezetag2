@@ -1,5 +1,4 @@
 #run with entity @s
-say hi
 $execute at @e[type=item_display,tag=Campfire,nbt={item:{tag:{UUID:$(UUID)}}}] run tp @s ~ ~ ~
 $execute as @e[type=item_display,tag=Campfire,nbt={item:{tag:{UUID:$(UUID)}}}] run function freeze:game/general/items/blaze/clean
 scoreboard players set @s freeze_grace 0

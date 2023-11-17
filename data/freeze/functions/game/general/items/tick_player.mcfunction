@@ -1,5 +1,5 @@
 #Detect item click
-execute if score @s use matches 1.. run function freeze:game/general/items/use with entity @s SelectedItem.tag
+execute if score @s use matches 1.. run function freeze:game/general/items/use
 
 #Avalanche
 execute if score @s avalanche matches 1.. run function freeze:game/general/items/avalanche/tick

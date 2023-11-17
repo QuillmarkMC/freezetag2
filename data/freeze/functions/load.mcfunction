@@ -23,30 +23,14 @@ scoreboard objectives add match_id dummy
 
 #Options
 scoreboard objectives add options dummy
-# scoreboard objectives add change_options trigger
-# scoreboard players set $-1 options -1
-# execute unless score $items options matches -1 run scoreboard players set $items options 1
-# execute unless score $item_bow options matches -1 run scoreboard players set $item_bow options 1
-# execute unless score $item_creeper options matches -1 run scoreboard players set $item_creeper options 1
-# execute unless score $item_fire_rod options matches -1 run scoreboard players set $item_fire_rod options 1
-# execute unless score $item_glow options matches -1 run scoreboard players set $item_glow options 1
-# execute unless score $item_invis options matches -1 run scoreboard players set $item_invis options 1
-# execute unless score $item_revive options matches -1 run scoreboard players set $item_revive options 1
-# execute unless score $item_snowball options matches -1 run scoreboard players set $item_snowball options 1
-# execute unless score $item_snowman options matches -1 run scoreboard players set $item_snowman options 1
-# execute unless score $item_speed options matches -1 run scoreboard players set $item_speed options 1
-#default 2000
 execute unless score $win_score options matches 0.. run scoreboard players set $win_score options 500
-#default 100
 execute unless score $overtime_deduction options matches 0.. run scoreboard players set $overtime_deduction options 100
-#default 200
 execute unless score $freeze_time options matches 0.. run scoreboard players set $freeze_time options 200
-#default 200
 execute unless score $heat_time options matches 0.. run scoreboard players set $heat_time options 200
-#default 3
 execute unless score $max_cap_amount options matches 0.. run scoreboard players set $max_cap_amount options 3
 
 #Triggers
+scoreboard objectives add join_team trigger
 scoreboard objectives add unstuck_me trigger
 
 #Items
