@@ -1,6 +1,7 @@
 data merge storage freeze:map_data {\
   FrozenCrag:{\
     LoadedArea:"255 -128 -128 127",\
+    IntroFunction:"frozen_crag",\
     Spawnbox:"57 2 8",\
     SpectateSpawn:"57 37 8 90",\
     Spawnpoints: { List: [\
@@ -8,9 +9,9 @@ data merge storage freeze:map_data {\
       {Pos:"-88 34 4",Rot:"-90",Team:"Blue"}\
     ]},\
     ControlPoints: { List: [\
-      {Pos:"57.5 14 8.5",Name:"Watch⠀Tower",Rad:15.5,Slot:1},\
-      {Pos:"57.4 49 -76.5",Name:"Gold⠀Mine",Rad:15.5,Slot:0},\
-      {Pos:"64.5 33 80.5",Name:"Frozen⠀Lake",Rad:15.5,Slot:2}\
+      {Pos:"57.5 14 8.5",Name:"Watch Tower",Rad:15.5,Slot:1},\
+      {Pos:"57.4 49 -76.5",Name:"Gold Mine",Rad:15.5,Slot:0},\
+      {Pos:"64.5 33 80.5",Name:"Frozen Lake",Rad:15.5,Slot:2}\
     ]},\
     ItemGivers: {List: [\
       {Pos:"-78.5 33 -5.5",Cooldown:200},\
@@ -27,6 +28,7 @@ data merge storage freeze:map_data {\
   },\
   BigOil:{\
     LoadedArea:"1135 -145 976 -320",\
+    IntroFunction:"big_oil",\
     SpectateSpawn:"1059 68 -228 -90",\
     Spawnbox:"1059 28 -228",\
     Spawnpoints: { List: [\
@@ -46,11 +48,12 @@ data merge storage freeze:map_data {\
       {Pos:"1023.5 46 -227.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [\
-      {Pos:"1059.5 46 -227.5",Name:"Big⠀Oil",Rad:9.5,Slot:0}\
+      {Pos:"1059.5 46 -227.5",Name:"Big Oil",Rad:9.5,Slot:0}\
     ]}\
   },\
   GlacialKeep:{\
     LoadedArea:"-164 485 -302 611",\
+    IntroFunction:"none",\
     SpectateSpawn:"-225 15 527 45",\
     Spawnbox:"-236 6 537",\
     Spawnpoints: { List: [\

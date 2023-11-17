@@ -21,3 +21,6 @@ function freeze:game/general/map/spawnpoint/loop
 $spawnpoint @a[team=Spectate] $(SpectateSpawn)
 $tp @a[team=Spectate] $(SpectateSpawn) 0
 gamemode spectator @a[team=Spectate] 
+
+#Start Intro
+$function freeze:game/general/map/intro/$(IntroFunction)/start

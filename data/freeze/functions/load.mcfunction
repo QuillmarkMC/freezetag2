@@ -60,6 +60,7 @@ function freeze:game/general/items/loot/data
 
 ##Bossbars
 bossbar add freeze:hud ""
+bossbar set freeze:hud color yellow
 
 ##Teams
 team add Red
