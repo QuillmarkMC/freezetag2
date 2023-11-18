@@ -10,7 +10,7 @@ data merge storage freeze:map_data {\
     ]},\
     ControlPoints: { List: [\
       {Pos:"57.5 14 8.5",Name:"Watch Tower",Rad:15.5,Slot:1},\
-      {Pos:"57.4 49 -76.5",Name:"Gold Mine",Rad:15.5,Slot:0},\
+      {Pos:"57.4 35 -76.5",Name:"Gold Mine",Rad:15.5,Slot:0},\
       {Pos:"64.5 33 80.5",Name:"Frozen Lake",Rad:15.5,Slot:2}\
     ]},\
     ItemGivers: {List: [\
@@ -113,11 +113,49 @@ data merge storage freeze:map_data {\
     ControlPoints: { List: [] }\
   },\
   Town:{\
-    Spawnbox:"312 27 -2059",\
-    RedSpawn:"270 32 -2034",\
-    RedSpawnRot:"-130",\
-    BlueSpawn:"357 32 -2090",\
-    BlueSpawnRot:"61",\
-    ItemGivers: { List: [] }\
+    LoadedArea:"1136 -2193 1343 -2416",\
+    IntroFunction:"none",\
+    SpectateSpawn:"1235.5 45 -2348.5 0",\
+    Spawnbox:"-1238.5 3 -2304.5",\
+    Spawnpoints: { List: [\
+      {Pos:"1209.5 11 -2309.5",Rot:"-90",Team:"Red"},\
+      {Pos:"1205.5 11 -2329.5",Rot:"-90",Team:"Red"},\
+      {Pos:"1223.5 11 -2349.5",Rot:"-90",Team:"Red"},\
+      {Pos:"1198.5 10 -2280.5",Rot:"-90",Team:"Red"},\
+      {Pos:"1190.5 11 -2305.5",Rot:"-90",Team:"Red"},\
+      {Pos:"1276.5 10 -2337.5",Rot:"90",Team:"Blue"},\
+      {Pos:"1289.5 11 -2320.5",Rot:"90",Team:"Blue"},\
+      {Pos:"1284.5 2 -2279.5",Rot:"90",Team:"Blue"},\
+      {Pos:"1276.5 10 -2266.5",Rot:"90",Team:"Blue"},\
+      {Pos:"1258.5 11 -2317.5",Rot:"90",Team:"Blue"},\
+      {Pos:"1250.5 11 -2293.5",Rot:"90",Team:"None"},\
+      {Pos:"1248.5 10 -2270.5",Rot:"180",Team:"None"},\
+      {Pos:"1247.5 3 -2243.5",Rot:"90",Team:"None"},\
+      {Pos:"1263.5 3 -2260.5",Rot:"0",Team:"None"},\
+      {Pos:"1222.5 3 -2261.5",Rot:"108",Team:"None"},\
+      {Pos:"1237.5 11 -2314.5",Rot:"20",Team:"None"},\
+      {Pos:"1247.5 11 -2332.5",Rot:"-30",Team:"None"},\
+      {Pos:"1230.5 11 -2335.5",Rot:"-40",Team:"None"},\
+      {Pos:"1212.5 10 -2273.5",Rot:"-120",Team:"None"}\
+    ]},\
+    ItemGivers: { List: [\
+      {Pos:"1290.5 11 -2309.5",Cooldown:200},\
+      {Pos:"1285.5 11 -2332.5",Cooldown:200},\
+      {Pos:"1269.5 11 -2329.5",Cooldown:200},\
+      {Pos:"1262.5 11 -2303.5",Cooldown:200},\
+      {Pos:"1260.5 10 -2279.5",Cooldown:200},\
+      {Pos:"1274.5 10 -2244.5",Cooldown:200},\
+      {Pos:"1248.5 13 -2252.5",Cooldown:200},\
+      {Pos:"1223.5 2.5 -2244.5",Cooldown:200},\
+      {Pos:"1205.5 1 -2233.5",Cooldown:200},\
+      {Pos:"1194.5 5 -2265.5",Cooldown:200},\
+      {Pos:"1185.5 11 -2290.5",Cooldown:200},\
+      {Pos:"1191.5 11 -2319.5",Cooldown:200},\
+      {Pos:"1235.6 10 -2343.5",Cooldown:200},\
+      {Pos:"1224.5 13 -2323.5",Cooldown:200},\
+      {Pos:"1235.5 11 -2298.5",Cooldown:200},\
+      {Pos:"1218.5 10 -2285.5",Cooldown:200}\
+    ]},\
+    ControlPoints: { List: [] }\
   }\
 }
