@@ -52,7 +52,7 @@ data merge storage freeze:map_data {\
       {Pos:"1023.5 46 -227.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [\
-      {Pos:"1059.5 46 -227.5",Name:"Big Oil",Rad:9.5,Slot:0}\
+      {Pos:"1059.5 46 -227.5",Name:"Big Oil",Rad:10.5,Slot:0}\
     ]}\
   },\
   GlacialKeep:{\
