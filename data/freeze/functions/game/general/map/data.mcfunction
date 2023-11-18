@@ -1,7 +1,9 @@
 data merge storage freeze:map_data {\
   FrozenCrag:{\
+    Time:"noon",\
+    Weather:"clear",\
     LoadedArea:"255 -128 -128 127",\
-    IntroFunction:"frozen_crag",\
+    FunctionName:"frozen_crag",\
     Spawnbox:"57 2 8",\
     SpectateSpawn:"57 37 8 90",\
     Spawnpoints: { List: [\
@@ -27,8 +29,10 @@ data merge storage freeze:map_data {\
     ]}\
   },\
   BigOil:{\
+    Time:"noon",\
+    Weather:"clear",\
     LoadedArea:"1135 -145 976 -320",\
-    IntroFunction:"big_oil",\
+    FunctionName:"big_oil",\
     SpectateSpawn:"1059 68 -228 -90",\
     Spawnbox:"1059 28 -228",\
     Spawnpoints: { List: [\
@@ -52,8 +56,10 @@ data merge storage freeze:map_data {\
     ]}\
   },\
   GlacialKeep:{\
+    Time:"noon",\
+    Weather:"clear",\
     LoadedArea:"-164 485 -302 611",\
-    IntroFunction:"none",\
+    FunctionName:"none",\
     SpectateSpawn:"-225 15 527 45",\
     Spawnbox:"-236 6 537",\
     Spawnpoints: { List: [\
@@ -112,11 +118,13 @@ data merge storage freeze:map_data {\
     ]},\
     ControlPoints: { List: [] }\
   },\
-  Town:{\
+  FrostyFjord:{\
+    Time:12400,\
+    Weather:"rain",\
     LoadedArea:"1136 -2193 1343 -2416",\
-    IntroFunction:"none",\
-    SpectateSpawn:"1235.5 45 -2348.5 0",\
-    Spawnbox:"-1238.5 3 -2304.5",\
+    FunctionName:"frosty_fjord",\
+    SpectateSpawn:"1235 45 -2348 0",\
+    Spawnbox:"1238 3 -2305",\
     Spawnpoints: { List: [\
       {Pos:"1209.5 11 -2309.5",Rot:"-90",Team:"Red"},\
       {Pos:"1205.5 11 -2329.5",Rot:"-90",Team:"Red"},\
@@ -154,7 +162,8 @@ data merge storage freeze:map_data {\
       {Pos:"1235.6 10 -2343.5",Cooldown:200},\
       {Pos:"1224.5 13 -2323.5",Cooldown:200},\
       {Pos:"1235.5 11 -2298.5",Cooldown:200},\
-      {Pos:"1218.5 10 -2285.5",Cooldown:200}\
+      {Pos:"1218.5 10 -2285.5",Cooldown:200},\
+      {Pos:"1200.5 14 -2338.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [] }\
   }\

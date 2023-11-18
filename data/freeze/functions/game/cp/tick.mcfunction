@@ -1,6 +1,5 @@
 #Freezing
 function freeze:game/general/freezing/tick
-execute as @a[tag=!Frozen,tag=!Respawning,team=!Spectate] at @s if block ~ ~ ~ powder_snow run function freeze:game/general/freezing/states/freeze
 
 #Items
 function freeze:game/general/items/tick

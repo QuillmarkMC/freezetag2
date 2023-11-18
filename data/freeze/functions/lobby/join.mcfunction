@@ -6,6 +6,7 @@ xp set @s 0 points
 xp set @s 0 levels
 spawnpoint @s -1332 68 276 0
 spreadplayers -1332 276 0 1 under 70 false @s
+execute at @s run tp @s ~ ~ ~ 0 0
 scoreboard players set @s join_team 0
 scoreboard players enable @s join_team
 advancement grant @s only freeze:general/inv_change
