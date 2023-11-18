@@ -12,7 +12,7 @@ data merge storage freeze:map_data {\
     ]},\
     ControlPoints: { List: [\
       {Pos:"57.5 14 8.5",Name:"Watch Tower",Rad:15.5,Slot:1},\
-      {Pos:"57.5 35 -74.5",Name:"Gold Mine",Rad:15.5,Slot:0},\
+      {Pos:"56.5 35 -74.5",Name:"Gold Mine",Rad:15.5,Slot:0},\
       {Pos:"64.5 33 80.5",Name:"Frozen Lake",Rad:15.5,Slot:2}\
     ]},\
     ItemGivers: {List: [\
