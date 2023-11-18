@@ -59,7 +59,7 @@ data merge storage freeze:map_data {\
     Time:"noon",\
     Weather:"clear",\
     LoadedArea:"-164 485 -302 611",\
-    FunctionName:"none",\
+    FunctionName:"glacial_keep",\
     SpectateSpawn:"-225 15 527 45",\
     Spawnbox:"-236 6 537",\
     Spawnpoints: { List: [\
