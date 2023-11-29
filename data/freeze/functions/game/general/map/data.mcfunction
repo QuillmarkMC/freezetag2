@@ -147,23 +147,23 @@ data merge storage freeze:map_data {\
       {Pos:"1212.5 10 -2273.5",Rot:"-120",Team:"None"}\
     ]},\
     ItemGivers: { List: [\
-      {Pos:"1290.5 11 -2309.5",Cooldown:200},\
-      {Pos:"1285.5 11 -2332.5",Cooldown:200},\
-      {Pos:"1269.5 11 -2329.5",Cooldown:200},\
-      {Pos:"1262.5 11 -2303.5",Cooldown:200},\
-      {Pos:"1260.5 10 -2279.5",Cooldown:200},\
-      {Pos:"1274.5 10 -2244.5",Cooldown:200},\
-      {Pos:"1248.5 13 -2252.5",Cooldown:200},\
-      {Pos:"1223.5 2.5 -2244.5",Cooldown:200},\
-      {Pos:"1205.5 1 -2233.5",Cooldown:200},\
-      {Pos:"1194.5 5 -2265.5",Cooldown:200},\
-      {Pos:"1185.5 11 -2290.5",Cooldown:200},\
-      {Pos:"1191.5 11 -2319.5",Cooldown:200},\
-      {Pos:"1235.6 10 -2343.5",Cooldown:200},\
-      {Pos:"1224.5 13 -2323.5",Cooldown:200},\
-      {Pos:"1235.5 11 -2298.5",Cooldown:200},\
-      {Pos:"1218.5 10 -2285.5",Cooldown:200},\
-      {Pos:"1200.5 14 -2338.5",Cooldown:200}\
+      {Pos:"1290.5 11 -2309.5",Cooldown:138},\
+      {Pos:"1285.5 11 -2332.5",Cooldown:138},\
+      {Pos:"1269.5 11 -2329.5",Cooldown:138},\
+      {Pos:"1262.5 11 -2303.5",Cooldown:138},\
+      {Pos:"1260.5 10 -2279.5",Cooldown:138},\
+      {Pos:"1274.5 10 -2244.5",Cooldown:138},\
+      {Pos:"1248.5 13 -2252.5",Cooldown:138},\
+      {Pos:"1185.5 11 -2290.5",Cooldown:138},\
+      {Pos:"1191.5 11 -2319.5",Cooldown:138},\
+      {Pos:"1235.6 10 -2343.5",Cooldown:138},\
+      {Pos:"1224.5 13 -2323.5",Cooldown:138},\
+      {Pos:"1235.5 11 -2298.5",Cooldown:138},\
+      {Pos:"1218.5 10 -2285.5",Cooldown:138},\
+      {Pos:"1200.5 14 -2338.5",Cooldown:138},\
+      {Pos:"1223.5 2.5 -2244.5",Cooldown:138},\
+      {Pos:"1205.5 1 -2233.5",Cooldown:138},\
+      {Pos:"1194.5 5 -2265.5",Cooldown:138}\
     ]},\
     ControlPoints: { List: [] }\
   }\
