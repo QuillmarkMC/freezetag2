@@ -7,7 +7,7 @@ effect clear @s minecraft:jump_boost
 effect clear @s minecraft:weakness
 attribute @s generic.knockback_resistance base set 0
 tag @s remove Frozen
-advancement grant @s only freeze:general/inv_change
+function freeze:general/inv/change
 
 #visuals
 execute at @s run particle minecraft:block ice ~ ~1.5 ~ 0.5 0.8 0.5 100 25 force

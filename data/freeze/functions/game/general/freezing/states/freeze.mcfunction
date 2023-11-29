@@ -10,7 +10,7 @@ attribute @s generic.knockback_resistance base set 1
 tag @s add Frozen
 tag @s add FrozenThisTick
 function freeze:game/general/items/clear
-advancement grant @s only freeze:general/inv_change
+function freeze:general/inv/change
 
 #visuals
 execute at @s run particle minecraft:snowflake ~ ~1.5 ~ 0.1 0.1 0.1 0.1 50 force

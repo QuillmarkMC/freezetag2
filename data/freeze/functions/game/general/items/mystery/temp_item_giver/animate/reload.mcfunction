@@ -1,5 +1,5 @@
 #Change items
-data modify entity @s item.tag.CustomModelData set value 1
+data modify entity @s item.tag.CustomModelData set value 12
 execute on passengers run data modify entity @s item.id set value "minecraft:phantom_membrane"
 
 #Particle

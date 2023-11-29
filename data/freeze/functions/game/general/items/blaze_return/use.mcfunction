@@ -1,0 +1,1 @@
+function freeze:game/general/items/blaze/respawn with entity @s

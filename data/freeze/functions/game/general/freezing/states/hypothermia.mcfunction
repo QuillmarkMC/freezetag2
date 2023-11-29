@@ -8,5 +8,5 @@ scoreboard players reset @s death
 scoreboard players operation @s freeze_grace = $heat_time options
 tellraw @a [{"selector":"@s"},{"text":" has succumb to hypothermia","color":"white"}]
 function freeze:game/general/items/clear
-advancement grant @s only freeze:general/inv_change
+function freeze:general/inv/change
 execute if data storage freeze:gamestate {State:{Name:"tdm"}} run function freeze:game/tdm/logic/score
