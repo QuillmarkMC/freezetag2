@@ -1,6 +1,6 @@
-execute store result score $temp_blue_team var if entity @s[team=TempBlue]
-execute store result score $temp_red_team var if entity @s[team=TempRed]
-execute store result score $temp_random_team var if entity @s[team=Random]
+execute store result score $temp_blue_team var if entity @a[team=TempBlue]
+execute store result score $temp_red_team var if entity @a[team=TempRed]
+execute store result score $temp_random_team var if entity @a[team=Random]
 scoreboard players operation $temp_larger_team var = $temp_blue_team var 
 scoreboard players operation $temp_larger_team var > $temp_red_team var
 scoreboard players operation $temp_smaller_team var = $temp_blue_team var

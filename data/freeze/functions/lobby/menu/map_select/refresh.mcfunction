@@ -1,0 +1,2 @@
+$data modify storage freeze:menu MapSelect.SelectedMap set from storage freeze:menu MapSelect.Maps[$(SelectedIndex)]
+function freeze:lobby/menu/map_select/update_visuals with storage freeze:menu MapSelect.SelectedMap

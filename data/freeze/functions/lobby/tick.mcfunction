@@ -1,1 +1,1 @@
-execute as @a if score @s join_team matches 1.. run function freeze:lobby/teams/trigger
+execute as @a if score @s lobby_trigger matches 1.. run function freeze:lobby/teams/trigger

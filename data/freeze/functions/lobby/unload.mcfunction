@@ -2,6 +2,9 @@
 effect clear @a
 clear @a
 
+#Clean Menus
+function freeze:lobby/menu/clean
+
 #Assign Teams
 execute as @a[team=Random,sort=random] run function freeze:lobby/teams/assign_random
 execute as @a[team=TempBlue] run team join Blue

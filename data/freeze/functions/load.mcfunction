@@ -30,7 +30,7 @@ execute unless score $heat_time options matches 0.. run scoreboard players set $
 execute unless score $max_cap_amount options matches 0.. run scoreboard players set $max_cap_amount options 3
 
 #Triggers
-scoreboard objectives add join_team trigger
+scoreboard objectives add lobby_trigger trigger
 scoreboard objectives add unstuck_me trigger
 
 #Items

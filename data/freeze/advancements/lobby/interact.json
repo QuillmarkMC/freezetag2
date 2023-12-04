@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:interaction",
-              "nbt": "{Tags:[\"UIElement\"]}"
+              "nbt": "{Tags:[\"MenuInteract\"]}"
             }
           }
         ]
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "freeze:lobby/ui/interactions/interact"
+    "function": "freeze:lobby/menu/interact/click"
   }
 }
