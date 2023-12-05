@@ -55,7 +55,7 @@ data merge storage freeze:map_data {\
       {Pos:"1059.5 46 -227.5",Name:"Big Oil",Rad:10.5,Slot:0}\
     ]}\
   },\
-  GlacialKeep:{\
+  OldGlacialKeep:{\
     Time:"noon",\
     Weather:"clear",\
     LoadedArea:"-164 485 -302 611",\
@@ -115,6 +115,86 @@ data merge storage freeze:map_data {\
       {Pos:"-235.5 12 537.5",Cooldown:200},\
       {Pos:"-234.5 17 515.5",Cooldown:200},\
       {Pos:"-215.5 17 549.5",Cooldown:200}\
+    ]},\
+    ControlPoints: { List: [] }\
+  },\
+  GlacialKeep:{\
+    Time:"noon",\
+    Weather:"rain",\
+    LoadedArea:"207 943 112 848",\
+    FunctionName:"glacial_keep",\
+    SpectateSpawn:"166 132 899 135",\
+    Spawnbox:"165 112 899",\
+    Spawnpoints: { List: [\
+      {Pos:"125 118 922",Rot:"-90",Team:"Red"},\
+      {Pos:"131 124 921",Rot:"-120",Team:"Red"},\
+      {Pos:"143 124 921",Rot:"-135",Team:"Red"},\
+      {Pos:"132 124 909",Rot:"-90",Team:"Red"},\
+      {Pos:"132 124 902",Rot:"0",Team:"Red"},\
+      {Pos:"137 124 905",Rot:"-130",Team:"Red"},\
+      {Pos:"145 124 905",Rot:"-90",Team:"Red"},\
+      {Pos:"137 124 891",Rot:"-90",Team:"Red"},\
+      {Pos:"134 118 912",Rot:"-160",Team:"Red"},\
+      {Pos:"136 118 904",Rot:"-90",Team:"Red"},\
+      {Pos:"141 118 907",Rot:"-60",Team:"Red"},\
+      {Pos:"139 117 927",Rot:"-130",Team:"Red"},\
+      {Pos:"186 124 866",Rot:"40",Team:"Blue"},\
+      {Pos:"175 124 866",Rot:"75",Team:"Blue"},\
+      {Pos:"175 124 860",Rot:"-45",Team:"Blue"},\
+      {Pos:"184 118 860",Rot:"45",Team:"Blue"},\
+      {Pos:"180 118 870",Rot:"90",Team:"Blue"},\
+      {Pos:"195 118 870",Rot:"45",Team:"Blue"},\
+      {Pos:"190 118 877",Rot:"60",Team:"Blue"},\
+      {Pos:"183 124 874",Rot:"45",Team:"Blue"},\
+      {Pos:"183 124 886",Rot:"45",Team:"Blue"},\
+      {Pos:"195 118 891",Rot:"30",Team:"Blue"},\
+      {Pos:"199 124 889",Rot:"0",Team:"Blue"},\
+      {Pos:"183 124 895",Rot:"0",Team:"Blue"},\
+      {Pos:"-239 11 523",Rot:"0",Team:"None"},\
+      {Pos:"199 124 919",Rot:"0",Team:"None"},\
+      {Pos:"186 124 933",Rot:"90",Team:"None"},\
+      {Pos:"158 124 933",Rot:"90",Team:"None"},\
+      {Pos:"182 124.3 919",Rot:"130",Team:"None"},\
+      {Pos:"173 124 922",Rot:"90",Team:"None"},\
+      {Pos:"165 118 929",Rot:"-180",Team:"None"},\
+      {Pos:"155 118 928",Rot:"-90",Team:"None"},\
+      {Pos:"148 118 915",Rot:"-130",Team:"None"},\
+      {Pos:"148 118 900",Rot:"-90",Team:"None"},\
+      {Pos:"135 118 892",Rot:"-90",Team:"None"},\
+      {Pos:"134 118 867",Rot:"-50",Team:"None"},\
+      {Pos:"149 118 865",Rot:"0",Team:"None"},\
+      {Pos:"161 118 869",Rot:"0",Team:"None"},\
+      {Pos:"149 124 866",Rot:"0",Team:"None"},\
+      {Pos:"135 124 864",Rot:"-55",Team:"None"},\
+      {Pos:"131 124 891",Rot:"0",Team:"None"},\
+    ]},\
+    ItemGivers: {List: [\
+      {Pos:"199.5 124 933.5",Cooldown:200},\
+      {Pos:"192.5 119 926.5",Cooldown:200},\
+      {Pos:"195.5 118 902.5",Cooldown:200},\
+      {Pos:"191.5 118 884.5",Cooldown:200},\
+      {Pos:"199.5 124 866.5",Cooldown:200},\
+      {Pos:"189.5 124 902.5",Cooldown:200},\
+      {Pos:"177.5 125 911.5",Cooldown:200},\
+      {Pos:"165.5 119 899.5",Cooldown:200},\
+      {Pos:"150.5 121 896.5",Cooldown:200},\
+      {Pos:"165.5 118 922.5",Cooldown:200},\
+      {Pos:"165.5 124 921.5",Cooldown:200},\
+      {Pos:"150.5 124 933.5",Cooldown:200},\
+      {Pos:"145.5 118 923.5",Cooldown:200},\
+      {Pos:"133.5 118 915.5",Cooldown:200},\
+      {Pos:"133.5 124 915.5",Cooldown:200},\
+      {Pos:"128.5 124 895.5",Cooldown:200},\
+      {Pos:"137.5 125 878.5",Cooldown:200},\
+      {Pos:"157.5 124 866.5",Cooldown:200},\
+      {Pos:"161.5 125 874.5",Cooldown:200},\
+      {Pos:"124.5 118 873.5",Cooldown:200},\
+      {Pos:"134.5 118 881.5",Cooldown:200},\
+      {Pos:"139.5 118 895.5",Cooldown:200},\
+      {Pos:"143.5 124 911.5",Cooldown:200},\
+      {Pos:"145.5 124 898.5",Cooldown:200},\
+      {Pos:"118.5 125 883.5",Cooldown:200},\
+      {Pos:"181.5 118 870.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [] }\
   },\
