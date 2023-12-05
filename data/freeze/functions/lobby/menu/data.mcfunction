@@ -53,5 +53,74 @@ data merge storage freeze:menu {\
         MapDesc: "Three control points spread through three craggy caves."\
       }\
     ]\
+  },\
+  GameOptions: {\
+    CurrentOptions: {\
+      Index: 0,\
+      WinScore: 50,\
+      FreezeTime: 10,\
+      HeatTime: 10,\
+      OvertimeDeduction: 100\
+    },\
+    MapOptions: [\
+      {\
+        Index: 0,\
+        WinScore: 50,\
+        FreezeTime: 10,\
+        HeatTime: 5,\
+        OvertimeDeduction: 100\
+      },\
+      {\
+        Index: 1,\
+        WinScore: 100,\
+        FreezeTime: 10,\
+        HeatTime: 10,\
+        OvertimeDeduction: 100\
+      },\
+      {\
+        Index: 2,\
+        WinScore: 1000,\
+        FreezeTime: 10,\
+        HeatTime: 5,\
+        OvertimeDeduction: 100\
+      },\
+      {\
+        Index: 3,\
+        WinScore: 3000,\
+        FreezeTime: 10,\
+        HeatTime: 10,\
+        OvertimeDeduction: 100\
+      }\
+    ],\
+    DefaultMapOptions: [\
+      {\
+        Index: 0,\
+        WinScore: 50,\
+        FreezeTime: 10,\
+        HeatTime: 5,\
+        OvertimeDeduction: 100\
+      },\
+      {\
+        Index: 1,\
+        WinScore: 100,\
+        FreezeTime: 10,\
+        HeatTime: 10,\
+        OvertimeDeduction: 100\
+      },\
+      {\
+        Index: 2,\
+        WinScore: 1000,\
+        FreezeTime: 10,\
+        HeatTime: 5,\
+        OvertimeDeduction: 100\
+      },\
+      {\
+        Index: 3,\
+        WinScore: 3000,\
+        FreezeTime: 10,\
+        HeatTime: 10,\
+        OvertimeDeduction: 100\
+      }\
+    ]\
   }\
 }

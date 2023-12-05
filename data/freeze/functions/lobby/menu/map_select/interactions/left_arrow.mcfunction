@@ -6,3 +6,6 @@ scoreboard players remove $selected_map var 1
 execute if score $selected_map var matches ..-1 run scoreboard players set $selected_map var 3
 execute store result storage freeze:menu MapSelect.SelectedIndex int 1 run scoreboard players get $selected_map var
 function freeze:lobby/menu/map_select/refresh with storage freeze:menu MapSelect
+
+#Update Game Options Board
+function freeze:lobby/menu/game_options/update_selected_options with storage freeze:menu MapSelect.SelectedMap
