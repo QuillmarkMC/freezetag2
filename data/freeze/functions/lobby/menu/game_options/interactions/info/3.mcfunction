@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"["},{"text":"Heat Time","color":"gold"},{"text":"] "},{"text":"The amount of invulnerability time you have after respawning."}]

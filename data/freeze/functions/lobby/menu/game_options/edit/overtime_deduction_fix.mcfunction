@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"[!] ","color":"dark_green"},{"text":"Overtime Deduction has been reduced to not be greater than the Win Score."}]
+data modify storage freeze:menu GameOptions.CurrentOptions.OvertimeDeduction set from storage freeze:menu GameOptions.CurrentOptions.WinScore

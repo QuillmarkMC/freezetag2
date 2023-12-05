@@ -1,0 +1,2 @@
+scoreboard players enable @s edit_win_score
+tellraw @s ["",{"text":"[?] ","color":"dark_green"},{"text":"Click "},{"text":"[HERE]","color":"dark_green","clickEvent":{"action":"suggest_command","value":"/trigger edit_win_score set "}},{"text":" and enter a value to edit this option."}]
