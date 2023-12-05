@@ -35,3 +35,5 @@ summon interaction -1336.5 70.5 297.04 {response:1b,width:0.2f,height:0.3f,Tags:
 summon interaction -1336.5 70.0 297.04 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/2"}}]}
 summon interaction -1336.5 69.5 297.04 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/3"}}]}
 summon interaction -1336.5 69.0 297.04 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/4"}}]}
+
+function freeze:lobby/menu/game_options/update_visuals with storage freeze:menu GameOptions.CurrentOptions

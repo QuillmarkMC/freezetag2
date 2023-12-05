@@ -66,6 +66,19 @@ function freeze:game/general/items/loot/data
 bossbar add freeze:hud ""
 bossbar set freeze:hud color yellow
 
+##Forceloads (because mc is cringe)
+#lobby
+forceload add -1297 303 -1376 256
+#frozen crag
+forceload add 255 -128 0 127
+forceload add 0 -128 -128 127
+#big oil
+forceload add 1135 -145 976 -320
+#glacial keep
+forceload add 207 943 112 848
+#frosty fjord
+forceload add 1136 -2193 1343 -2416
+
 ##Teams
 team add Red
 team modify Red color red

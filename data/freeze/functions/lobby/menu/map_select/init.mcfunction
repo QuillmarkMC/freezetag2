@@ -27,6 +27,8 @@ summon text_display -1330.0 69.9 296.95 {Tags:["MapSelect"],text:'{"text":"Map I
 summon text_display -1327.5 68.35 296.95 {Tags:["MapSelect"],text:'{"text":"Start Game"}',background:0,Rotation:[180f,0f]}
 summon interaction -1327.5 68.25 297.97 {response:1b,width:2f,height:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/start_game"}}]}
 
+function freeze:lobby/menu/map_select/update_visuals with storage freeze:menu MapSelect.SelectedMap
+
 ##OLD POSITIONS JUST IN CASE
 
 # #Background
