@@ -1,7 +1,7 @@
 kill @e[tag=GameOptions]
 
 #Background
-summon item_display -1334.5 70 297.0 {Tags:["GameOptions"],item:{id:"minecraft:red_stained_glass_pane",Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,1f]}}
+#summon item_display -1334.5 70 297.0 {Tags:["GameOptions"],item:{id:"minecraft:red_stained_glass_pane",Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,1f]}}
 
 #Option Titles (The random white space is the exact amount of spaces needed to push to the next line, which is needed because otherwise it doesn't left align ffs)
 summon text_display -1333.5 70.5 296.95 {line_width:120,Tags:["GameOptions","Option1"],text:'{"text":"                                Win Score:"}',background:0,Rotation:[180f,0f],alignment:"left"}
