@@ -21,6 +21,7 @@ data merge storage freeze:menu {\
         Gamemode: "Team Death Match",\
         GamemodeDesc: "Score points by freezing the enemy team.",\
         MapDesc: "A castle frozen in a glacial mountain."\
+        MapImage: "15"\
       },\
       {\
         Index: 1,\
@@ -31,6 +32,7 @@ data merge storage freeze:menu {\
         Gamemode: "Team Death Match",\
         GamemodeDesc: "Score points by freezing the enemy team.",\
         MapDesc: "A large frosty fishing village. Watch out for the water, it\\'s extra cold!"\
+        MapImage: "16"\
       },\
       {\
         Index: 2,\
@@ -41,6 +43,7 @@ data merge storage freeze:menu {\
         Gamemode: "Control Point",\
         GamemodeDesc: "Score points by standing on the control points.",\
         MapDesc: "A singular control point on an oil rig in the middle of a lake. Don\\'t fall in the oil!"\
+        MapImage: "17"\
       },\
       {\
         Index: 3,\
@@ -51,6 +54,7 @@ data merge storage freeze:menu {\
         Gamemode: "Control Point",\
         GamemodeDesc: "Score points by standing on the control points.",\
         MapDesc: "Three control points spread through three craggy caves."\
+        MapImage: "18\
       }\
     ]\
   },\
