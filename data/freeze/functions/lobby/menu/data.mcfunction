@@ -9,7 +9,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "4 - 12 Players",\
         Gamemode: "Team Death Match",\
         GamemodeDesc: "Score points by freezing the enemy team.",\
-        MapDesc: "A castle frozen in a glacial mountain."\
+        MapDesc: "A castle frozen in a glacial mountain.",\
         MapImage: "15"\
     },\
     Maps: [\
@@ -21,7 +21,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "4 - 12 Players",\
         Gamemode: "Team Death Match",\
         GamemodeDesc: "Score points by freezing the enemy team.",\
-        MapDesc: "A castle frozen in a glacial mountain."\
+        MapDesc: "A castle frozen in a glacial mountain.",\
         MapImage: "15"\
       },\
       {\
@@ -32,7 +32,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "10+ Players",\
         Gamemode: "Team Death Match",\
         GamemodeDesc: "Score points by freezing the enemy team.",\
-        MapDesc: "A large frosty fishing village. Watch out for the water, it\\'s extra cold!"\
+        MapDesc: "A large frosty fishing village. Watch out for the water, it\\'s extra cold!",\
         MapImage: "16"\
       },\
       {\
@@ -43,7 +43,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "6 - 12 Players",\
         Gamemode: "Control Point",\
         GamemodeDesc: "Score points by standing on the control points.",\
-        MapDesc: "A singular control point on an oil rig in the middle of a lake. Don\\'t fall in the oil!"\
+        MapDesc: "A singular control point on an oil rig in the middle of a lake. Don\\'t fall in the oil!",\
         MapImage: "17"\
       },\
       {\
@@ -54,7 +54,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "10+ Players",\
         Gamemode: "Control Point",\
         GamemodeDesc: "Score points by standing on the control points.",\
-        MapDesc: "Three control points spread through three craggy caves."\
+        MapDesc: "Three control points spread through three craggy caves.",\
         MapImage: "18"\
       }\
     ]\
