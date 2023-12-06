@@ -58,6 +58,7 @@ scoreboard objectives add freeze_timer dummy
 scoreboard objectives add freeze_grace dummy
 
 ##Data
+execute unless data storage freeze:gamestate State run function freeze:admin/lobby
 function freeze:game/general/map/data
 function freeze:game/cp/bossbar/data
 function freeze:game/general/items/loot/data
