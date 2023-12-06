@@ -1,10 +1,10 @@
 kill @e[tag=MapSelect]
 
 #Background
-summon item_display -1328.5 70 297.0 {Tags:["MapSelect"],item:{id:"minecraft:red_stained_glass_pane",Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,1f]}}
+#summon item_display -1328.5 70 297.0 {Tags:["MapSelect"],item:{id:"minecraft:red_stained_glass_pane",Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,1f]}}
 
 #Selected Map
-summon item_display -1327.5 70 296.97 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:pink_stained_glass_pane",Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]}}
+summon item_display -1327.5 70 296.97 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:15},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]}}
 
 #Select Arrows
 summon item_display -1326.25 70 296.97 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:13},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
