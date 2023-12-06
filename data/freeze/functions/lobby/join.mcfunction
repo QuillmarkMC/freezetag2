@@ -15,6 +15,9 @@ scoreboard players reset @s edit_heat_time
 scoreboard players reset @s edit_overtime_deduction
 function freeze:general/inv/change
 
+#This is dumb but whatever
+function freeze:lobby/menu/map_select/update_visuals with storage freeze:menu MapSelect.SelectedMap
+
 #Effects
 effect give @s saturation infinite 255 true
 effect give @s regeneration infinite 255 true
