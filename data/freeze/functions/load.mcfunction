@@ -61,6 +61,7 @@ scoreboard objectives add freeze_grace dummy
 function freeze:game/general/map/data
 function freeze:game/cp/bossbar/data
 function freeze:game/general/items/loot/data
+function freeze:lobby/menu/data
 
 ##Bossbars
 bossbar add freeze:hud ""
