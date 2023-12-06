@@ -10,6 +10,7 @@ data merge storage freeze:menu {\
         Gamemode: "Team Death Match",\
         GamemodeDesc: "Score points by freezing the enemy team.",\
         MapDesc: "A castle frozen in a glacial mountain."\
+        MapImage: "15"\
     },\
     Maps: [\
       {\
@@ -54,7 +55,7 @@ data merge storage freeze:menu {\
         Gamemode: "Control Point",\
         GamemodeDesc: "Score points by standing on the control points.",\
         MapDesc: "Three control points spread through three craggy caves."\
-        MapImage: "18\
+        MapImage: "18"\
       }\
     ]\
   },\
