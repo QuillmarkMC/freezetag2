@@ -137,12 +137,12 @@ data merge storage freeze:map_data {\
       {Pos:"134 118 912",Rot:"-160",Team:"Red"},\
       {Pos:"136 118 904",Rot:"-90",Team:"Red"},\
       {Pos:"141 118 907",Rot:"-60",Team:"Red"},\
-      {Pos:"139 117 927",Rot:"-130",Team:"Red"},\
+      {Pos:"139 118 927",Rot:"-130",Team:"Red"},\
       {Pos:"186 124 866",Rot:"40",Team:"Blue"},\
       {Pos:"175 124 866",Rot:"75",Team:"Blue"},\
       {Pos:"175 124 860",Rot:"-45",Team:"Blue"},\
       {Pos:"184 118 860",Rot:"45",Team:"Blue"},\
-      {Pos:"180 118 870",Rot:"90",Team:"Blue"},\
+      {Pos:"176 118 870",Rot:"90",Team:"Blue"},\
       {Pos:"195 118 870",Rot:"45",Team:"Blue"},\
       {Pos:"190 118 877",Rot:"60",Team:"Blue"},\
       {Pos:"183 124 874",Rot:"45",Team:"Blue"},\
@@ -150,7 +150,6 @@ data merge storage freeze:map_data {\
       {Pos:"195 118 891",Rot:"30",Team:"Blue"},\
       {Pos:"199 124 889",Rot:"0",Team:"Blue"},\
       {Pos:"183 124 895",Rot:"0",Team:"Blue"},\
-      {Pos:"-239 11 523",Rot:"0",Team:"None"},\
       {Pos:"199 124 919",Rot:"0",Team:"None"},\
       {Pos:"186 124 933",Rot:"90",Team:"None"},\
       {Pos:"158 124 933",Rot:"90",Team:"None"},\
@@ -188,12 +187,12 @@ data merge storage freeze:map_data {\
       {Pos:"137.5 125 878.5",Cooldown:200},\
       {Pos:"157.5 124 866.5",Cooldown:200},\
       {Pos:"161.5 125 874.5",Cooldown:200},\
-      {Pos:"124.5 118 873.5",Cooldown:200},\
+      {Pos:"159.5 118 873.5",Cooldown:200},\
       {Pos:"134.5 118 881.5",Cooldown:200},\
       {Pos:"139.5 118 895.5",Cooldown:200},\
       {Pos:"143.5 124 911.5",Cooldown:200},\
       {Pos:"145.5 124 898.5",Cooldown:200},\
-      {Pos:"118.5 125 883.5",Cooldown:200},\
+      {Pos:"153.5 125 883.5",Cooldown:200},\
       {Pos:"181.5 118 870.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [] }\
@@ -206,8 +205,8 @@ data merge storage freeze:map_data {\
     SpectateSpawn:"1235 45 -2348 0",\
     Spawnbox:"1238 3 -2305",\
     Spawnpoints: { List: [\
-      {Pos:"1209.5 11 -2309.5",Rot:"-90",Team:"Red"},\
-      {Pos:"1205.5 11 -2329.5",Rot:"-90",Team:"Red"},\
+      {Pos:"1211.0 12.5 -2314.0",Rot:"180",Team:"Red"},\
+      {Pos:"1205.5 12.5 -2329.5",Rot:"-90",Team:"Red"},\
       {Pos:"1223.5 11 -2349.5",Rot:"-90",Team:"Red"},\
       {Pos:"1198.5 10 -2280.5",Rot:"-90",Team:"Red"},\
       {Pos:"1190.5 11 -2305.5",Rot:"-90",Team:"Red"},\
@@ -234,16 +233,17 @@ data merge storage freeze:map_data {\
       {Pos:"1260.5 10 -2279.5",Cooldown:138},\
       {Pos:"1274.5 10 -2244.5",Cooldown:138},\
       {Pos:"1248.5 13 -2252.5",Cooldown:138},\
-      {Pos:"1185.5 11 -2290.5",Cooldown:138},\
-      {Pos:"1191.5 11 -2319.5",Cooldown:138},\
-      {Pos:"1235.6 10 -2343.5",Cooldown:138},\
-      {Pos:"1224.5 13 -2323.5",Cooldown:138},\
-      {Pos:"1235.5 11 -2298.5",Cooldown:138},\
+      {Pos:"1184.5 11 -2291.5",Cooldown:138},\
+      {Pos:"1210.5 5 -2320.5",Cooldown:138},\
+      {Pos:"1235.5 10 -2343.5",Cooldown:138},\
+      {Pos:"1229.5 10 -2330.5",Cooldown:138},\
+      {Pos:"1235.5 11 -2299.5",Cooldown:138},\
       {Pos:"1218.5 10 -2285.5",Cooldown:138},\
-      {Pos:"1200.5 14 -2338.5",Cooldown:138},\
+      {Pos:"1200.5 8 -2337.5",Cooldown:138},\
       {Pos:"1223.5 2.5 -2244.5",Cooldown:138},\
-      {Pos:"1205.5 1 -2233.5",Cooldown:138},\
-      {Pos:"1194.5 5 -2265.5",Cooldown:138}\
+      {Pos:"1205.5 2 -2233.5",Cooldown:138},\
+      {Pos:"1194.5 5 -2265.5",Cooldown:138},\
+      {Pos:"1204.5 10 -2300.5",Cooldown:138}\
     ]},\
     ControlPoints: { List: [] }\
   }\
