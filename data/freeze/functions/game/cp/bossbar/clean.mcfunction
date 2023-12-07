@@ -1,1 +1,0 @@
-bossbar set freeze:hud visible false

@@ -31,4 +31,4 @@ $function freeze:game/general/map/intro/$(FunctionName)/start
 $schedule function freeze:game/general/map/tick/$(FunctionName) 2t replace
 
 #Bossbar
-$function freeze:game/cp/bossbar/init {Map:$(FunctionName)}
+$function freeze:game/general/bossbar/init {Map:$(FunctionName)}

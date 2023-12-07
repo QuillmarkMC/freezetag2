@@ -57,16 +57,20 @@ scoreboard objectives add item_giver_cooldown dummy
 scoreboard objectives add freeze_timer dummy
 scoreboard objectives add freeze_grace dummy
 
+##Bossbars
+#bossbar add freeze:hud "hud"
+#bossbar set freeze:hud color yellow
+bossbar add freeze:hud_score "score"
+bossbar set freeze:hud_score color yellow
+bossbar add freeze:hud_points "points"
+bossbar set freeze:hud_points color yellow
+
 ##Data
 execute unless data storage freeze:gamestate State run function freeze:admin/lobby
 function freeze:game/general/map/data
-function freeze:game/cp/bossbar/data
+function freeze:game/general/bossbar/data
 function freeze:game/general/items/loot/data
 function freeze:lobby/menu/data
-
-##Bossbars
-bossbar add freeze:hud ""
-bossbar set freeze:hud color yellow
 
 ##Forceloads (because mc is cringe)
 #lobby

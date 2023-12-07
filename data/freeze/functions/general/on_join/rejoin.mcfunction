@@ -5,4 +5,4 @@ scoreboard players operation @s match_id = $current match_id
 scoreboard players operation @s gamestate = $state gamestate
 scoreboard players set @s join 0
 
-bossbar set freeze:hud players @a
+function freeze:game/general/bossbar/set_players

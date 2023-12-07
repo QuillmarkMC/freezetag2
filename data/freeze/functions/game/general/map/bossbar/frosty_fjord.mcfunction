@@ -1,0 +1,4 @@
+#data modify storage freeze:bossbar Bossbar set value '["",{"text":"Red: ","color":"red"},{"nbt":"Scores.Red","storage":"freeze:bossbar"},{"text":"    "},{"text":"Win Score: "},{"score":{"name":"$score_win","objective":"var"}},{"text":"    "},{"text":"Blue: ","color":"aqua"},{"nbt":"Scores.Blue","storage":"freeze:bossbar"}]'
+
+data modify storage freeze:bossbar Score set value '["",{"text":" ["},{"text":"Red: ","color":"red"},{"nbt":"Scores.RedFormatting","storage":"freeze:bossbar"},{"nbt":"Scores.Red","storage":"freeze:bossbar"},{"text":"]          "},{"text":"Win Score: "},{"score":{"name":"$score_win","objective":"var"}},{"text":"          ["},{"text":"Blue: ","color":"aqua"},{"nbt":"Scores.BlueFormatting","storage":"freeze:bossbar"},{"nbt":"Scores.Blue","storage":"freeze:bossbar"},{"text":"]"}]'
+data modify storage freeze:bossbar Points set value ""
