@@ -4,8 +4,8 @@ team leave @s
 effect clear @s
 xp set @s 0 points
 xp set @s 0 levels
-spawnpoint @s -1332 68 276 0
-spreadplayers -1332 276 0 1 under 70 false @s
+spawnpoint @s -1332 61 285 0
+spreadplayers -1332 61 285 1 under 63 false @s
 execute at @s run tp @s ~ ~ ~ 0 0
 scoreboard players set @s lobby_trigger 0
 scoreboard players enable @s lobby_trigger

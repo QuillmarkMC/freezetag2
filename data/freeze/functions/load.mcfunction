@@ -58,11 +58,11 @@ scoreboard objectives add freeze_timer dummy
 scoreboard objectives add freeze_grace dummy
 
 ##Bossbars
-#bossbar add freeze:hud "hud"
+#bossbar add freeze:hud ""
 #bossbar set freeze:hud color yellow
-bossbar add freeze:hud_score "score"
+bossbar add freeze:hud_score ""
 bossbar set freeze:hud_score color yellow
-bossbar add freeze:hud_points "points"
+bossbar add freeze:hud_points ""
 bossbar set freeze:hud_points color yellow
 
 ##Data
