@@ -1,19 +1,18 @@
 kill @e[tag=MapSelect]
 
 #Background
-#summon item_display -1328.5 70 297.0 {Tags:["MapSelect"],item:{id:"minecraft:red_stained_glass_pane",Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,1f]}}
+summon item_display -1331.5 63 295.998 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:19},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0f]}}
 
 #Title
 summon text_display -1331.5 64.4 295.95 {Tags:["MapSelect"],text:'{"text":"Map Select"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]}}
 
 #Selected Map
-summon item_display -1330.5 63 295.97 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:15},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]}}
+summon item_display -1330.6875 63 295.996 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:15},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,0f]}}
 
-#Select Arrows
-summon item_display -1329.25 63 295.97 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:13},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon item_display -1331.75 63 295.97 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:14},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon interaction -1329.25 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/left_arrow",Args:{}}}]}
-summon interaction -1331.75 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/right_arrow",Args:{}}}]}
+summon item_display -1329.4375 63 295.97 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:13},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display -1331.9375 63 295.97 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:14},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon interaction -1329.4375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/left_arrow",Args:{}}}]}
+summon interaction -1331.9375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/right_arrow",Args:{}}}]}
 
 #Selected Map Specfiic Text
 summon text_display -1330.5 64 295.95 {Tags:["MapSelect","MapName"],text:'{"text":"Glacial Keep"}',background:0,Rotation:[180f,0f]}
