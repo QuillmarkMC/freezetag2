@@ -1,1 +1,1 @@
-$function $(Function)
+$function $(Function) $(Args)
