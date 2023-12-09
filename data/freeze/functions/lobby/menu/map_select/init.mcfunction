@@ -1,7 +1,7 @@
 kill @e[tag=MapSelect]
 
 #Background
-summon item_display -1331.5 63 295.998 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:19},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,1f]}}
+summon item_display -1331.5 63 295.998 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:19},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0f]}}
 
 #Selected Map
 summon item_display -1330.5625 63 295.996 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:15},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,0f]}}
