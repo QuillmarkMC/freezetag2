@@ -5,7 +5,7 @@ summon item_display -1331.5 63 295.998 {Tags:["MapSelect"],item:{id:"minecraft:p
 
 #Title
 summon text_display -1331.5 64.75 295.994 {Tags:["MapSelect"],text:'{"text":"Map Select"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]}}
-summon item_display -1331.5 64.79 295.996 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:21},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.25f,2.25f,0f]}}
+summon item_display -1331.5 65.0 295.996 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:21},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.25f,2.25f,0f]}}
 
 #Selected Map
 summon item_display -1330.6875 63 295.996 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:15},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,0f]}}
