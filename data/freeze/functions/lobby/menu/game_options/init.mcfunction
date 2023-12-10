@@ -7,10 +7,10 @@ summon item_display -1336.998 63.0 292.50 {Tags:["GameOptions"],item:{id:"minecr
 summon text_display -1336.95 64.4 292.5 {Tags:["MapSelect"],text:'{"text":"Game Options"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]}}
 
 #Option Titles (The random white space is the exact amount of spaces needed to push to the next line, which is needed because otherwise it doesn't left align ffs)
-summon text_display -1336.95 63.75 293.5 {line_width:120,Tags:["GameOptions","Option1"],text:'{"text":"                                Win Score:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
-summon text_display -1336.95 63.0 293.5 {line_width:120,Tags:["GameOptions","Option2"],text:'{"text":"                                Freeze Time:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
-summon text_display -1336.95 62.25 293.5 {line_width:120,Tags:["GameOptions","Option3"],text:'{"text":"                                Heat Time:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
-summon text_display -1336.95 61.5 293.5 {line_width:120,Tags:["GameOptions","Option4"],text:'{"text":"                                Overtime Deduction:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
+summon text_display -1336.95 63.75 293.3 {line_width:120,Tags:["GameOptions","Option1"],text:'{"text":"                                Win Score:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
+summon text_display -1336.95 63.0 293.3 {line_width:120,Tags:["GameOptions","Option2"],text:'{"text":"                                Freeze Time:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
+summon text_display -1336.95 62.25 293.3 {line_width:120,Tags:["GameOptions","Option3"],text:'{"text":"                                Heat Time:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
+summon text_display -1336.95 61.5 293.3 {line_width:120,Tags:["GameOptions","Option4"],text:'{"text":"                                OT Deduction:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
 
 #Option Values (Same thing with this white space)
 summon text_display -1336.95 63.75 292.5 {line_width:40,Tags:["GameOptions","Value1"],text:'{"text":"           3000"}',background:0,Rotation:[-90f,0f],alignment:"right"}
