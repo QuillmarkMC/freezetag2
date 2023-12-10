@@ -15,7 +15,7 @@ summon interaction -1329.4375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInt
 summon interaction -1331.9375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/right_arrow",Args:{}}}]}
 
 #Selected Map Specfiic Text
-summon text_display -1330.6875 64.6875 295.95 {Tags:["MapSelect","MapName"],text:'{"text":"Glacial Keep"}',background:0,Rotation:[180f,0f]}
+summon text_display -1330.6875 64.1875 295.95 {Tags:["MapSelect","MapName"],text:'{"text":"Glacial Keep"}',background:0,Rotation:[180f,0f]}
 summon text_display -1333.0 63.8 295.95 {Tags:["MapSelect","Gamemode"],text:'{"text":"Team Death Match"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]}}
 summon text_display -1333.0 63.2 295.95 {line_width:90,Tags:["MapSelect","GamemodeDesc"],text:'{"text":"Score points by standing on the control points."}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]}}
 summon text_display -1333.0 62.7 295.95 {Tags:["MapSelect","RecommendedPlayers"],text:'{"text":"4 - 12 Players"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]}}
