@@ -46,6 +46,11 @@ summon item_display -1336.96875 63.0625 290.625 {Tags:["GameOptions"],item:{id:"
 summon item_display -1336.96875 62.3125 290.625 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:24},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon item_display -1336.96875 61.5625 290.625 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:24},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 
+#Reset Button
+summon text_display -1336.93 64.5000 290.65 {Tags:["GameOptions"],text:'{"text":"↺"}',background:0,Rotation:[-90f,0f]}
+summon interaction -1337.1025 64.4375 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/reset",Args:{}}}]}
+summon item_display -1336.96875 64.5000 290.625 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:25},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+
 # #Option Titles (The random white space is the exact amount of spaces needed to push to the next line, which is needed because otherwise it doesn't left align ffs)
 # summon text_display -1333.5 63.5 296.95 {line_width:120,Tags:["GameOptions","Option1"],text:'{"text":"                                Win Score:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
 # summon text_display -1333.5 63.0 296.95 {line_width:120,Tags:["GameOptions","Option2"],text:'{"text":"                                Freeze Time:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
