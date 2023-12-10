@@ -4,7 +4,8 @@ kill @e[tag=GameOptions]
 summon item_display -1336.998 63.0 292.50 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:22},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0f]}}
 
 #Title
-summon text_display -1336.95 64.4 292.5 {Tags:["MapSelect"],text:'{"text":"Game Options"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]}}
+summon text_display -1336.996 64.75 292.5 {Tags:["MapSelect"],text:'{"text":"Game Options"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]}}
+summon item_display -1336.994 65.0 292.5 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:21},Count:1b},Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.25f,2.25f,0f]}}
 
 #Option Titles (The random white space is the exact amount of spaces needed to push to the next line, which is needed because otherwise it doesn't left align ffs)
 summon text_display -1336.996 63.8125 293.1 {line_width:120,Tags:["GameOptions","Option1"],text:'{"text":"                                Win Score:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
