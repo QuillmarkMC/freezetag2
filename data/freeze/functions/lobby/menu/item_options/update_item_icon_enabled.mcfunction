@@ -1,0 +1,2 @@
+$execute if predicate freeze:$(Enabled) run data modify entity @s item.id set value "minecraft:green_stained_glass_pane"
+$execute unless predicate freeze:$(Enabled) run data modify entity @s item.id set value "minecraft:red_stained_glass_pane"
