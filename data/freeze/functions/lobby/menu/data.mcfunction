@@ -43,7 +43,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "6 - 12 Players",\
         Gamemode: "Control Point",\
         GamemodeDesc: "Score points by standing on the control points.",\
-        MapDesc: "A singular control point on an oil rig in the middle of a lake. Don\\'t fall in the oil!",\
+        MapDesc: "A single control point on an oil rig in a frozen lake. Don\\'t fall in the oil!",\
         MapImage: 17\
       },\
       {\
