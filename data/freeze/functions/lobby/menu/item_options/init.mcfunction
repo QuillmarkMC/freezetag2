@@ -8,10 +8,10 @@ summon text_display -1326.006 64.75 292.5 {Tags:["ItemOptions"],text:'{"text":"I
 summon item_display -1326.004 65.0 292.5 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:26},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.625f,2.625f,0f]}}
 
 #Select Arrows
-summon item_display -1326.03 63.75 291.5 {Tags:["ItemOptions"],item:{id:"phantom_membrane",tag:{CustomModelData:27},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon item_display -1326.03 61.25 291.5 {Tags:["ItemOptions"],item:{id:"phantom_membrane",tag:{CustomModelData:28},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon interaction -1325.56 63.5 291.5 {response:1b,height:0.5f,Tags:["MenuInteract","ItemOptions"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/up_arrow",Args:{}}}]}
-summon interaction -1325.56 61.0 291.5 {response:1b,height:0.5f,Tags:["MenuInteract","ItemOptions"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/down_arrow",Args:{}}}]}
+summon item_display -1326.03 64.0625 291.5 {Tags:["ItemOptions"],item:{id:"phantom_membrane",tag:{CustomModelData:27},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display -1326.03 61.5625 291.5 {Tags:["ItemOptions"],item:{id:"phantom_membrane",tag:{CustomModelData:28},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon interaction -1325.56 63.8125 291.5 {response:1b,height:0.5f,Tags:["MenuInteract","ItemOptions"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/up_arrow",Args:{}}}]}
+summon interaction -1325.56 61.3125 291.5 {response:1b,height:0.5f,Tags:["MenuInteract","ItemOptions"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/down_arrow",Args:{}}}]}
 
 #Items
 summon item_display -1326.03 63.3750 290.6250 {Tags:["ItemOptions","Item1"],item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:1}},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,1f]}}
