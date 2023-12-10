@@ -28,7 +28,7 @@ summon text_display -1333.0 62.9 295.95 {Tags:["MapSelect"],text:'{"text":"Map I
 #Start game button
 summon text_display -1330.6875 61.725 295.996 {Tags:["MapSelect"],text:'{"text":"Start Game"}',background:0,Rotation:[180f,0f]}
 summon interaction -1330.6875 61.625 296.97 {response:1b,width:2f,height:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/start_game",Args:{}}}]}
-summon item_display -1330.6875 61.725 295.97 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:20},Count:1b},Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]}}
+summon item_display -1330.6875 61.725 295.97 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:20},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]}}
 
 
 function freeze:lobby/menu/map_select/update_visuals with storage freeze:menu MapSelect.SelectedMap
