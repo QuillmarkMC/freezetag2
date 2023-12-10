@@ -20,20 +20,20 @@ summon text_display -1336.95 62.0 292.0 {line_width:40,Tags:["GameOptions","Valu
 
 #Option Edit
 summon text_display -1336.95 63.75 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.95 63.0 291.0 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.95 62.5 291.0 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.95 63.0 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.95 62.5 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
 summon text_display -1336.95 62.0 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
-summon interaction -1337.19 63.75 291.0 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/1",Args:{}}}]}
-summon interaction -1337.19 63.0 291.0 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/2",Args:{}}}]}
-summon interaction -1337.19 62.5 291.0 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/3",Args:{}}}]}
-summon interaction -1337.19 62.0 291.0 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/4",Args:{}}}]}
+summon interaction -1337.19 63.75 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/1",Args:{}}}]}
+summon interaction -1337.19 63.0 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/2",Args:{}}}]}
+summon interaction -1337.19 62.5 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/3",Args:{}}}]}
+summon interaction -1337.19 62.0 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/4",Args:{}}}]}
 
 #Option Info
-summon text_display -1336.95 63.75 290.5 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.95 63.0 290.5 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.95 62.5 290.5 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.95 62.0 290.5 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon interaction -1337.04 63.75 290.5 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/1",Args:{}}}]}
+summon text_display -1336.95 63.75 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.95 63.0 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.95 62.5 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.95 62.0 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon interaction -1337.04 63.75 290.65 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/1",Args:{}}}]}
 summon interaction -1337.04 63.0 290.5 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/2",Args:{}}}]}
 summon interaction -1337.04 62.5 290.5 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/3",Args:{}}}]}
 summon interaction -1337.04 62.0 290.5 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/4",Args:{}}}]}
