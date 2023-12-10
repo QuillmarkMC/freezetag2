@@ -19,12 +19,12 @@ summon interaction -1331.9375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInt
 summon text_display -1330.6875 64.15625 295.95 {Tags:["MapSelect","MapName"],text:'{"text":"Glacial Keep"}',background:0,Rotation:[180f,0f]}
 summon text_display -1333.0 63.925 295.95 {Tags:["MapSelect","Gamemode"],text:'{"text":"Team Death Match"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]}}
 summon text_display -1333.0 63.23 295.95 {line_width:90,Tags:["MapSelect","GamemodeDesc"],text:'{"text":"Score points by standing on the control points."}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]}}
-summon text_display -1333.0 62.55 295.95 {Tags:["MapSelect","RecommendedPlayers"],text:'{"text":"4 - 12 Players"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]}}
+summon text_display -1333.0 62.53 295.95 {Tags:["MapSelect","RecommendedPlayers"],text:'{"text":"4 - 12 Players"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]}}
 summon text_display -1333.0 61.58 295.95 {line_width:90,Tags:["MapSelect","MapDesc"],text:'{"text":"A singular control point on an oil rig in the middle of a lake. Don\'t fall in the oil!"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]}}
 
 #Static Text
 summon text_display -1333.0 64.125 295.95 {Tags:["MapSelect"],text:'{"text":"Gamemode"}',background:0,Rotation:[180f,0f]}
-summon text_display -1333.0 62.85 295.95 {Tags:["MapSelect"],text:'{"text":"Map Info"}',background:0,Rotation:[180f,0f]}
+summon text_display -1333.0 62.83 295.95 {Tags:["MapSelect"],text:'{"text":"Map Info"}',background:0,Rotation:[180f,0f]}
 
 #Start game button
 summon text_display -1330.6875 61.50625 295.93 {Tags:["MapSelect"],text:'{"text":"Start Game"}',background:0,Rotation:[180f,0f]}
