@@ -1,11 +1,14 @@
 kill @e[tag=ItemOptions]
 
+#Background
+summon item_display -1326.00 63.00 292.50 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:31},Count:1b},Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0f]}}
+
 #Title
 summon text_display -1326.05 64.4 292.5 {Tags:["ItemOptions"],text:'{"text":"Item Options"}',background:0,Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]}}
 
 #Select Arrows
-summon item_display -1326.03 63.75 291.5 {Tags:["ItemOptions"],item:{id:"minecraft:pink_stained_glass_pane",Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,0.5f,1f]}}
-summon item_display -1326.03 61.25 291.5 {Tags:["ItemOptions"],item:{id:"minecraft:pink_stained_glass_pane",Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,0.5f,1f]}}
+summon item_display -1326.03 63.75 291.5 {Tags:["ItemOptions"],item:{id:"phantom_membrane",tag:{CustomModelData:27},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,0f]}}
+summon item_display -1326.03 61.25 291.5 {Tags:["ItemOptions"],item:{id:"phantom_membrane",tag:{CustomModelData:28},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,0f]}}
 summon interaction -1325.56 63.5 291.5 {response:1b,height:0.5f,Tags:["MenuInteract","ItemOptions"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/up_arrow",Args:{}}}]}
 summon interaction -1325.56 61.0 291.5 {response:1b,height:0.5f,Tags:["MenuInteract","ItemOptions"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/down_arrow",Args:{}}}]}
 
@@ -16,12 +19,12 @@ summon item_display -1326.03 63.0 292.5 {Tags:["ItemOptions","Item3"],item:{id:"
 summon item_display -1326.03 62.0 290.5 {Tags:["ItemOptions","Item4"],item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:4}},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,1f]}}
 summon item_display -1326.03 62.0 291.5 {Tags:["ItemOptions","Item5"],item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:5}},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,1f]}}
 summon item_display -1326.03 62.0 292.5 {Tags:["ItemOptions","Item6"],item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:6}},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,1f]}}
-summon item_display -1326.02 63.0 290.5 {Tags:["ItemOptions","Item1Enabled"],item:{id:"minecraft:green_stained_glass_pane",Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon item_display -1326.02 63.0 291.5 {Tags:["ItemOptions","Item2Enabled"],item:{id:"minecraft:green_stained_glass_pane",Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon item_display -1326.02 63.0 292.5 {Tags:["ItemOptions","Item3Enabled"],item:{id:"minecraft:green_stained_glass_pane",Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon item_display -1326.02 62.0 290.5 {Tags:["ItemOptions","Item4Enabled"],item:{id:"minecraft:green_stained_glass_pane",Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon item_display -1326.02 62.0 291.5 {Tags:["ItemOptions","Item5Enabled"],item:{id:"minecraft:green_stained_glass_pane",Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon item_display -1326.02 62.0 292.5 {Tags:["ItemOptions","Item6Enabled"],item:{id:"minecraft:green_stained_glass_pane",Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display -1326.02 63.0 290.5 {Tags:["ItemOptions","Item1Enabled"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:29},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display -1326.02 63.0 291.5 {Tags:["ItemOptions","Item2Enabled"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:29},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display -1326.02 63.0 292.5 {Tags:["ItemOptions","Item3Enabled"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:29},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display -1326.02 62.0 290.5 {Tags:["ItemOptions","Item4Enabled"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:29},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display -1326.02 62.0 291.5 {Tags:["ItemOptions","Item5Enabled"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:29},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display -1326.02 62.0 292.5 {Tags:["ItemOptions","Item6Enabled"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:29},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon interaction -1325.66 62.6 290.5 {response:1b,height:0.8f,width:0.8f,Tags:["MenuInteract","ItemOptions","Item1"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/select_item",Args:{Name:"avalanche"}}}]}
 summon interaction -1325.66 62.6 291.5 {response:1b,height:0.8f,width:0.8f,Tags:["MenuInteract","ItemOptions","Item2"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/select_item",Args:{Name:"snowman"}}}]}
 summon interaction -1325.66 62.6 292.5 {response:1b,height:0.8f,width:0.8f,Tags:["MenuInteract","ItemOptions","Item3"],Passengers:[{id:"minecraft:marker",Tags:["ItemOptions"],data:{Function:"freeze:lobby/menu/item_options/interactions/select_item",Args:{Name:"hot_rod"}}}]}
