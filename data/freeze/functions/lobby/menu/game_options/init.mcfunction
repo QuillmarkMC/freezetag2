@@ -19,7 +19,7 @@ summon text_display -1336.95 62.5 292.0 {line_width:40,Tags:["GameOptions","Valu
 summon text_display -1336.95 62.0 292.0 {line_width:40,Tags:["GameOptions","Value4"],text:'{"text":"           100"}',background:0,Rotation:[-90f,0f],alignment:"right"}
 
 #Option Edit
-summon text_display -1336.95 63.5 291.0 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.95 63.75 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
 summon text_display -1336.95 63.0 291.0 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
 summon text_display -1336.95 62.5 291.0 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
 summon text_display -1336.95 62.0 291.0 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
