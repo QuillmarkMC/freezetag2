@@ -19,28 +19,28 @@ summon text_display -1336.996 62.3125 292.5 {line_width:40,Tags:["GameOptions","
 summon text_display -1336.996 61.5625 292.5 {line_width:40,Tags:["GameOptions","Value4"],text:'{"text":"           100"}',background:0,Rotation:[-90f,0f],alignment:"right"}
 
 #Option Edit
-summon text_display -1336.93 63.8125 291.37 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.93 63.0625 291.37 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.93 62.3125 291.37 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.93 61.5625 291.37 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
-summon interaction -1337.19 63.7500 291.4 {response:1b,width:0.625f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/1",Args:{}}}]}
-summon interaction -1337.19 63.0000 291.4 {response:1b,width:0.625f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/2",Args:{}}}]}
-summon interaction -1337.19 62.2500 291.4 {response:1b,width:0.625f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/3",Args:{}}}]}
-summon interaction -1337.19 61.5000 291.4 {response:1b,width:0.625f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/4",Args:{}}}]}
+summon text_display -1336.93 63.8125 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.93 63.0625 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.93 62.3125 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.93 61.5625 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
+summon interaction -1337.19 63.7500 291.37 {response:1b,width:0.625f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/1",Args:{}}}]}
+summon interaction -1337.19 63.0000 291.37 {response:1b,width:0.625f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/2",Args:{}}}]}
+summon interaction -1337.19 62.2500 291.37 {response:1b,width:0.625f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/3",Args:{}}}]}
+summon interaction -1337.19 61.5000 291.37 {response:1b,width:0.625f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/4",Args:{}}}]}
 summon item_display -1336.96875 63.8125 291.375 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:23},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon item_display -1336.96875 63.0625 291.375 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:23},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon item_display -1336.96875 62.3125 291.375 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:23},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon item_display -1336.96875 61.5625 291.375 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:23},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 
 #Option Info
-summon text_display -1336.9925 63.8125 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.9925 63.0625 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.9925 62.3125 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.9925 61.5625 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon interaction -1337.165 63.7500 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/1",Args:{}}}]}
-summon interaction -1337.165 63.0000 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/2",Args:{}}}]}
-summon interaction -1337.165 62.2500 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/3",Args:{}}}]}
-summon interaction -1337.165 61.5000 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/4",Args:{}}}]}
+summon text_display -1336.93 63.8125 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.93 63.0625 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.93 62.3125 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.93 61.5625 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon interaction -1337.04 63.7500 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/1",Args:{}}}]}
+summon interaction -1337.04 63.0000 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/2",Args:{}}}]}
+summon interaction -1337.04 62.2500 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/3",Args:{}}}]}
+summon interaction -1337.04 61.5000 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/4",Args:{}}}]}
 summon item_display -1336.96875 63.8125 290.625 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:24},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon item_display -1336.96875 63.0625 290.625 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:24},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon item_display -1336.96875 62.3125 290.625 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:24},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
