@@ -9,34 +9,34 @@ summon text_display -1336.95 64.4 292.5 {Tags:["MapSelect"],text:'{"text":"Game 
 #Option Titles (The random white space is the exact amount of spaces needed to push to the next line, which is needed because otherwise it doesn't left align ffs)
 summon text_display -1336.95 63.75 293.5 {line_width:120,Tags:["GameOptions","Option1"],text:'{"text":"                                Win Score:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
 summon text_display -1336.95 63.0 293.5 {line_width:120,Tags:["GameOptions","Option2"],text:'{"text":"                                Freeze Time:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
-summon text_display -1336.95 62.5 293.5 {line_width:120,Tags:["GameOptions","Option3"],text:'{"text":"                                Heat Time:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
-summon text_display -1336.95 62.0 293.5 {line_width:120,Tags:["GameOptions","Option4"],text:'{"text":"                                Overtime Deduction:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
+summon text_display -1336.95 62.25 293.5 {line_width:120,Tags:["GameOptions","Option3"],text:'{"text":"                                Heat Time:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
+summon text_display -1336.95 61.5 293.5 {line_width:120,Tags:["GameOptions","Option4"],text:'{"text":"                                Overtime Deduction:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
 
 #Option Values (Same thing with this white space)
 summon text_display -1336.95 63.5 292.0 {line_width:40,Tags:["GameOptions","Value1"],text:'{"text":"           3000"}',background:0,Rotation:[-90f,0f],alignment:"right"}
 summon text_display -1336.95 63.0 292.0 {line_width:40,Tags:["GameOptions","Value2"],text:'{"text":"           10"}',background:0,Rotation:[-90f,0f],alignment:"right"}
-summon text_display -1336.95 62.5 292.0 {line_width:40,Tags:["GameOptions","Value3"],text:'{"text":"           10"}',background:0,Rotation:[-90f,0f],alignment:"right"}
-summon text_display -1336.95 62.0 292.0 {line_width:40,Tags:["GameOptions","Value4"],text:'{"text":"           100"}',background:0,Rotation:[-90f,0f],alignment:"right"}
+summon text_display -1336.95 62.25 292.0 {line_width:40,Tags:["GameOptions","Value3"],text:'{"text":"           10"}',background:0,Rotation:[-90f,0f],alignment:"right"}
+summon text_display -1336.95 61.5 292.0 {line_width:40,Tags:["GameOptions","Value4"],text:'{"text":"           100"}',background:0,Rotation:[-90f,0f],alignment:"right"}
 
 #Option Edit
 summon text_display -1336.95 63.75 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
 summon text_display -1336.95 63.0 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
 summon text_display -1336.95 62.5 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.95 62.0 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.95 61.5 291.4 {Tags:["GameOptions"],text:'{"text":"Edit"}',background:0,Rotation:[-90f,0f]}
 summon interaction -1337.19 63.75 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/1",Args:{}}}]}
 summon interaction -1337.19 63.0 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/2",Args:{}}}]}
-summon interaction -1337.19 62.5 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/3",Args:{}}}]}
-summon interaction -1337.19 62.0 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/4",Args:{}}}]}
+summon interaction -1337.19 62.25 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/3",Args:{}}}]}
+summon interaction -1337.19 61.5 291.4 {response:1b,width:0.5f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/edit/4",Args:{}}}]}
 
 #Option Info
 summon text_display -1336.95 63.75 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
 summon text_display -1336.95 63.0 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.95 62.5 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon text_display -1336.95 62.0 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
-summon interaction -1337.04 63.75 290.65 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/1",Args:{}}}]}
-summon interaction -1337.04 63.0 290.5 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/2",Args:{}}}]}
-summon interaction -1337.04 62.5 290.5 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/3",Args:{}}}]}
-summon interaction -1337.04 62.0 290.5 {response:1b,width:0.2f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/4",Args:{}}}]}
+summon text_display -1336.95 62.25 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon text_display -1336.95 61.5 290.65 {Tags:["GameOptions"],text:'{"text":"?"}',background:0,Rotation:[-90f,0f]}
+summon interaction -1337.04 63.75 290.65 {response:1b,width:0.3f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/1",Args:{}}}]}
+summon interaction -1337.04 63.0 290.65 {response:1b,width:0.3f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/2",Args:{}}}]}
+summon interaction -1337.04 62.25 290.65 {response:1b,width:0.3f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/3",Args:{}}}]}
+summon interaction -1337.04 61.5 290.65 {response:1b,width:0.3f,height:0.3f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/game_options/interactions/info/4",Args:{}}}]}
 
 # #Option Titles (The random white space is the exact amount of spaces needed to push to the next line, which is needed because otherwise it doesn't left align ffs)
 # summon text_display -1333.5 63.5 296.95 {line_width:120,Tags:["GameOptions","Option1"],text:'{"text":"                                Win Score:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
