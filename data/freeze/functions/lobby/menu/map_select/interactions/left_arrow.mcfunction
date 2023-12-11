@@ -9,3 +9,6 @@ function freeze:lobby/menu/map_select/refresh with storage freeze:menu MapSelect
 
 #Update Game Options Board
 function freeze:lobby/menu/game_options/update_selected_options with storage freeze:menu MapSelect.SelectedMap
+
+#Update Item Options Board
+function freeze:lobby/menu/item_options/update_selected_map with storage freeze:menu MapSelect.SelectedMap

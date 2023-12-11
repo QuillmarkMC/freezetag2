@@ -1,1 +1,1 @@
-$function freeze:lobby/menu/item_options/edit/toggle_enable with storage freeze:menu ItemOptions.ItemInfo.$(Item)
+$function freeze:lobby/menu/item_options/edit/toggle_enable with storage freeze:menu ItemOptions.ItemInfo.$(InternalName)

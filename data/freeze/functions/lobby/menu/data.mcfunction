@@ -1,3 +1,4 @@
+say loading default menu data
 data merge storage freeze:menu {\
   MapSelect: {\
     SelectedIndex: 0,\
@@ -73,14 +74,14 @@ data merge storage freeze:menu {\
         WinScore: 50,\
         FreezeTime: 10,\
         HeatTime: 5,\
-        OvertimeDeduction: 100\
+        OvertimeDeduction: 10\
       },\
       {\
         Index: 1,\
         WinScore: 100,\
         FreezeTime: 10,\
         HeatTime: 10,\
-        OvertimeDeduction: 100\
+        OvertimeDeduction: 10\
       },\
       {\
         Index: 2,\
@@ -103,14 +104,14 @@ data merge storage freeze:menu {\
         WinScore: 50,\
         FreezeTime: 10,\
         HeatTime: 5,\
-        OvertimeDeduction: 100\
+        OvertimeDeduction: 10\
       },\
       {\
         Index: 1,\
         WinScore: 100,\
         FreezeTime: 10,\
         HeatTime: 10,\
-        OvertimeDeduction: 100\
+        OvertimeDeduction: 10\
       },\
       {\
         Index: 2,\
@@ -130,6 +131,7 @@ data merge storage freeze:menu {\
   },\
   ItemOptions: {\
     SelectedPage: 0,\
+    SelectedItem: { Item: "" },\
     ItemInfo: {\
       avalanche: {\
         Name: "Avalanche",\
@@ -145,7 +147,7 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 1,\
         Icon: 2,\
-        Desc: "Spawns a decoy snowman that counts as a player on control points."\
+        Desc: "Can be placed on the ground, spawns a decoy snowman that counts as a player on control points. Useless in Team Death Match."\
       },\
       hot_rod: {\
         Name: "Fire Rod",\
@@ -209,7 +211,7 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 3,\
         Icon: 10,\
-        Desc: "Spawns a temporary item giver that spawns 3 items. Will only spawn if there are no other Mystery Boxes in play."\
+        Desc: "Can be placed on the ground, spawns a temporary item giver that spawns 3 items. Will only spawn if there are no other Mystery Boxes in play."\
       },\
       phoenix: {\
         Name: "Phoenix Ignition",\
@@ -257,7 +259,7 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 3,\
         Icon: 16,\
-        Desc: "Throw it and freeze enemies in a 5 block area where it lands."\
+        Desc: "Throw it and freeze enemies in a 5 block area around where it lands."\
       },\
       none: {\
         Name: "",\

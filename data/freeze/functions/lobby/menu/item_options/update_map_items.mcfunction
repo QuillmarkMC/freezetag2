@@ -1,0 +1,1 @@
+$data modify storage freeze:menu ItemOptions.MapItems[$(Index)] set from storage freeze:menu ItemOptions.CurrentItems

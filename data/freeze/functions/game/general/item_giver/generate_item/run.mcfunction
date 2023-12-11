@@ -1,4 +1,5 @@
 #Takes in item list, slot, and optional blacklist array
+execute if data storage freeze:items {InPlayItems:[]} run return 0
 $function freeze:game/general/items/loot/iterate_loot_array/start {Array:$(Items),Function:"create_blacklist",Args:$(Blacklist)}
 data modify storage freeze:var ItemGiver.Items set from storage freeze:items Iterating.OutputArray
 $data modify storage freeze:var ItemGiver.Slot set value $(Slot)

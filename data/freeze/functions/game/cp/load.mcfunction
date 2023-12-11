@@ -6,7 +6,7 @@ execute as @a run function freeze:game/general/unstuck/reset
 execute as @a run function freeze:game/general/items/clear
 
 #Set up gamemode
-function freeze:game/general/items/loot/update {Blacklist:[]}
+#function freeze:game/general/items/loot/update {Blacklist:[]}
 
 schedule function freeze:game/cp/point/tick 1t replace
 

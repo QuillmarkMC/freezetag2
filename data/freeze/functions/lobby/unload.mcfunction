@@ -3,6 +3,7 @@ effect clear @a
 clear @a
 
 #Clean Menus
+function freeze:lobby/menu/item_options/edit/set_in_play_items
 function freeze:lobby/menu/game_options/edit/update_options
 function freeze:lobby/menu/clean
 

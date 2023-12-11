@@ -7,7 +7,7 @@ execute as @a run function freeze:game/general/items/clear
 function freeze:game/general/map/intro/tdm/start
 
 #Set up gamemode
-function freeze:game/general/items/loot/update {Blacklist:["snowman","mystery"]}
+#function freeze:game/general/items/loot/update {Blacklist:["snowman","mystery"]}
 
 scoreboard players set $score_blue var 0
 scoreboard players set $score_red var 0
