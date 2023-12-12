@@ -193,6 +193,7 @@ data merge storage freeze:map_data {\
       {Pos:"143.5 124 911.5",Cooldown:200},\
       {Pos:"145.5 124 898.5",Cooldown:200},\
       {Pos:"153.5 125 883.5",Cooldown:200},\
+      {Pos:"179.5 124 879.5",Cooldown:200},\
       {Pos:"181.5 118 870.5",Cooldown:200}\
     ]},\
     ControlPoints: { List: [] }\
