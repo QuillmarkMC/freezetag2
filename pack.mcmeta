@@ -1,7 +1,8 @@
 {
     "pack": {
         "pack_format": 26,
-        "description": "Data Pack for Frostbite Frenzy"
+        "description": "Data Pack for Frostbite Frenzy",
+        "supported_formats": [18, 26]
     },
     "filter": {
         "block": [
@@ -12,6 +13,14 @@
             {
                 "namespace": "minecraft",
                 "path": "advancements/.*"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": 18,
+                "directory": "jarmzie-moment"
             }
         ]
     }
