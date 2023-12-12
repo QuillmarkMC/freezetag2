@@ -6,3 +6,4 @@ scoreboard players operation @s gamestate = $state gamestate
 scoreboard players set @s join 0
 
 function freeze:game/general/bossbar/set_players
+function freeze:game/general/death_messages/reset
