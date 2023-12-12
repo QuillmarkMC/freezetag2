@@ -4,6 +4,7 @@ execute as @a[team=Red] run function freeze:game/general/spawnpoint/find/team_sp
 execute as @a[team=Blue] run function freeze:game/general/spawnpoint/find/team_spawn/blue with entity @s
 execute as @a run function freeze:game/general/unstuck/reset
 execute as @a run function freeze:game/general/items/clear
+function freeze:game/general/surrender/init
 
 #Set up gamemode
 #function freeze:game/general/items/loot/update {Blacklist:[]}
