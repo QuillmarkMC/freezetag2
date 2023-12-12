@@ -33,6 +33,7 @@ execute unless score $max_cap_amount options matches 0.. run scoreboard players 
 scoreboard objectives add lobby_trigger trigger
 scoreboard objectives add unstuck_me trigger
 scoreboard objectives add surrender trigger
+scoreboard objectives add toggle_death_messages trigger
 scoreboard objectives add edit_win_score trigger
 scoreboard objectives add edit_freeze_time trigger
 scoreboard objectives add edit_heat_time trigger

@@ -1,4 +1,3 @@
-say loading default menu data
 data merge storage freeze:menu {\
   MapSelect: {\
     SelectedIndex: 0,\
@@ -10,7 +9,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "4 - 12 Players",\
         Gamemode: "Team Death Match",\
         GamemodeDesc: "Score points by freezing the enemy team.",\
-        MapDesc: "A castle frozen in a glacial mountain.",\
+        MapDesc: "A castle frozen in a glacial mountain.\\\\n\\\\n",\
         MapImage: 15\
     },\
     Maps: [\
@@ -22,7 +21,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "4 - 12 Players",\
         Gamemode: "Team Death Match",\
         GamemodeDesc: "Score points by freezing the enemy team.",\
-        MapDesc: "A castle frozen in a glacial mountain.",\
+        MapDesc: "A castle frozen in a glacial mountain.\\\\n\\\\n",\
         MapImage: 15\
       },\
       {\
@@ -55,7 +54,7 @@ data merge storage freeze:menu {\
         RecommendedPlayers: "10+ Players",\
         Gamemode: "Control Point",\
         GamemodeDesc: "Score points by standing on the control points.",\
-        MapDesc: "Three control points spread through three craggy caves.",\
+        MapDesc: "Three control points spread through three craggy caves.\\\\n",\
         MapImage: 18\
       }\
     ]\
@@ -139,7 +138,7 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 0,\
         Icon: 1,\
-        Desc: "Shoots out 5 snowballs that leave slowing snow on the ground in an area where they land."\
+        Desc: "Shoots out 5 snowballs that leave slowing snow on the ground in an area where they land.\\\\n\\\\n\\\\n"\
       },\
       snowman: {\
         Name: "Decoy Snowman",\
@@ -147,7 +146,7 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 1,\
         Icon: 2,\
-        Desc: "Can be placed on the ground, spawns a decoy snowman that counts as a player on control points. Useless in Team Death Match."\
+        Desc: "Can be placed on the ground, spawns a decoy snowman that counts as a player on control points. Useless in Team Death Match.\\\\n"\
       },\
       hot_rod: {\
         Name: "Fire Rod",\
@@ -155,7 +154,7 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 2,\
         Icon: 3,\
-        Desc: "Gives you 3.5 seconds of heat."\
+        Desc: "Gives you 3.5 seconds of heat.\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n"\
       },\
       turtle: {\
         Name: "Glacierback",\
@@ -163,7 +162,7 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 3,\
         Icon: 4,\
-        Desc: "Can be placed on the ground, explodes when walked over by enemies. Blows up automatically after 20 seconds."\
+        Desc: "Can be placed on the ground, explodes when walked over by enemies. Blows up automatically after 20 seconds.\\\\n\\\\n"\
       },\
       glow: {\
         Name: "Glow Point",\
@@ -171,7 +170,7 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 4,\
         Icon: 5,\
-        Desc: "Makes all enemies on the closest control point glow. If in Team Death Match, only glows closest enemy."\
+        Desc: "Makes all enemies on the closest control point glow. If in Team Death Match, only glows closest enemy.\\\\n\\\\n\\\\n"\
       },\
       crossbow: {\
         Name: "Hot Shot",\
@@ -179,7 +178,7 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 5,\
         Icon: 6,\
-        Desc: "Shoots an exploding shot that unfreezes teammates."\
+        Desc: "Shoots an exploding shot that unfreezes teammates.\\\\n\\\\n\\\\n\\\\n\\\\n"\
       },\
       axe: {\
         Name: "Ice Pick",\
@@ -187,7 +186,7 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 0,\
         Icon: 7,\
-        Desc: "Hit an enemy to instantly kill them."\
+        Desc: "Hit an enemy to instantly kill them.\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n"\
       },\
       icicle: {\
         Name: "Icicle",\
@@ -195,7 +194,7 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 1,\
         Icon: 8,\
-        Desc: "Hit an enemy and freeze them to get two items in return."\
+        Desc: "Hit an enemy and freeze them to get two items in return.\\\\n\\\\n\\\\n\\\\n\\\\n"\
       },\
       invis: {\
         Name: "Invisibility",\
@@ -203,7 +202,7 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 2,\
         Icon: 9,\
-        Desc: "Turns you invisible for 10 seconds."\
+        Desc: "Turns you invisible for 10 seconds.\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n"\
       },\
       mystery: {\
         Name: "Mystery Box",\
@@ -219,7 +218,7 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 4,\
         Icon: 11,\
-        Desc: "Unfreezes all teammates within 16 blocks, but you instantly die in the process."\
+        Desc: "Unfreezes all teammates within 16 blocks, but you instantly die in the process.\\\\n\\\\n\\\\n"\
       },\
       explosion: {\
         Name: "Siberian Ex-snow-sion",\
@@ -227,7 +226,7 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 5,\
         Icon: 12,\
-        Desc: "Freezes all enemies within 6 blocks, but you freeze as well."\
+        Desc: "Freezes all enemies within 6 blocks, but you freeze as well.\\\\n\\\\n\\\\n\\\\n\\\\n"\
       },\
       bow: {\
         Name: "Snowy Sniper",\
@@ -235,7 +234,7 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 0,\
         Icon: 13,\
-        Desc: "A bow that has 3 shots that can be used to freeze enemies or unfreeze teammates."\
+        Desc: "A bow that has 3 shots that can be used to freeze enemies or unfreeze teammates.\\\\n\\\\n\\\\n"\
       },\
       blaze: {\
         Name: "Spawnfire",\
@@ -243,7 +242,7 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 1,\
         Icon: 14,\
-        Desc: "Sets up a Spawnfire that you can teleport to next time you\\'re frozen. Can be broken by enemies, burns out naturally after 30 seconds."\
+        Desc: "Sets up a Spawnfire that you can teleport to next time you\\'re frozen. Can be broken by enemies, burns out naturally after 30 seconds.\\\\n"\
       },\
       speed: {\
         Name: "Speed Boost",\
@@ -251,7 +250,7 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 2,\
         Icon: 15,\
-        Desc: "Gives you speed 3 for 12 seconds."\
+        Desc: "Gives you speed 3 for 12 seconds.\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n"\
       },\
       whoaball: {\
         Name: "Whoaball",\
@@ -259,7 +258,7 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 3,\
         Icon: 16,\
-        Desc: "Throw it and freeze enemies in a 5 block area around where it lands."\
+        Desc: "Throw it and freeze enemies in a 5 block area around where it lands.\\\\n\\\\n\\\\n\\\\n"\
       },\
       none: {\
         Name: "",\
