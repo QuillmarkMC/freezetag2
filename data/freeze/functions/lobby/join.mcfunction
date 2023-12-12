@@ -5,6 +5,7 @@ effect clear @s
 xp set @s 0 points
 xp set @s 0 levels
 spawnpoint @s -1332 61 285 0
+tp @s -1331.5 61 285.5
 spreadplayers -1332 285 3 1 under 63 false @s
 execute at @s run tp @s ~ ~ ~ 0 0
 scoreboard players set @s lobby_trigger 0
