@@ -6,7 +6,7 @@ kill @s
 tag @s add Respawning
 scoreboard players reset @s death
 scoreboard players operation @s freeze_grace = $heat_time options
-tellraw @a[tag=CanSeeDeathMessages] [{"selector":"@s"},{"text":" has succumbed to hypothermia","color":"white"}]
+tellraw @a[tag=CanSeeDeathMessages] [{"selector":"@s"},{"text":" succumbed to hypothermia","color":"white"}]
 function freeze:game/general/items/clear
 function freeze:general/inv/change
 execute if data storage freeze:gamestate {State:{Name:"tdm"}} run function freeze:game/tdm/logic/score
