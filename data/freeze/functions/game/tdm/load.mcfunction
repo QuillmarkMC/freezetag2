@@ -8,11 +8,12 @@ function freeze:game/general/surrender/init
 function freeze:game/general/map/intro/tdm/start
 
 #Set up gamemode
-#function freeze:game/general/items/loot/update {Blacklist:["snowman","mystery"]}
-
 scoreboard players set $score_blue var 0
 scoreboard players set $score_red var 0
 scoreboard players operation $score_win var = $win_score options
 function freeze:game/general/bossbar/update
 
 scoreboard players set $run_game var 1
+
+#Catch-all
+kill @e[type=armor_stand,tag=FreezeSpot]
