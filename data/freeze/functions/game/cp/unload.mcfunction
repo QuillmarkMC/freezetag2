@@ -9,3 +9,6 @@ function freeze:game/general/bossbar/clean
 #Effects
 effect clear @a
 execute as @a run function freeze:game/general/items/clear
+
+#Catch-all
+kill @e[type=armor_stand,tag=FreezeSpot]

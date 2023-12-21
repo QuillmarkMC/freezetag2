@@ -15,6 +15,7 @@ scoreboard players set $4 var 4
 execute unless score $run_game var matches 0.. run scoreboard players set $run_game var 1
 
 scoreboard objectives add ids dummy
+execute unless score $next ids matches 1.. run scoreboard players set $next ids 1
 
 scoreboard objectives add death deathCount
 

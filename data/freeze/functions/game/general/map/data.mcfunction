@@ -123,7 +123,7 @@ data merge storage freeze:map_data {\
     Weather:"rain",\
     LoadedArea:"207 943 112 848",\
     FunctionName:"glacial_keep",\
-    SpectateSpawn:"166 132 899t 135",\
+    SpectateSpawn:"166 132 899 135",\
     Spawnbox:"165 112 899",\
     Spawnpoints: { List: [\
       {Pos:"125 118 922",Rot:"-90",Team:"Red"},\
