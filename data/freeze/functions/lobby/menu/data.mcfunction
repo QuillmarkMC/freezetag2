@@ -41,7 +41,7 @@ data merge storage freeze:menu {\
         InternalGamemode:"cp",\
         MapName: "Big Oil",\
         RecommendedPlayers: "6 - 12 Players",\
-        Gamemode: "Control Point",\
+        Gamemode: "Domination",\
         GamemodeDesc: "Score points by standing on the control points.",\
         MapDesc: "A single control point on an oil rig in a frozen lake. Don\\'t fall in the oil!",\
         MapImage: 17\
@@ -52,7 +52,7 @@ data merge storage freeze:menu {\
         InternalGamemode:"cp",\
         MapName: "Frozen Crag",\
         RecommendedPlayers: "10+ Players",\
-        Gamemode: "Control Point",\
+        Gamemode: "Domination",\
         GamemodeDesc: "Score points by standing on the control points.",\
         MapDesc: "Three control points spread through three craggy caves.\\\\n",\
         MapImage: 18\
