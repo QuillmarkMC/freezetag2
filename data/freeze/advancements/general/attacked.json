@@ -1,0 +1,80 @@
+{
+  "criteria": {
+    "hit_by_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    },
+    "is_team_red": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "team": "Red"
+          }
+        }
+      }
+    },
+    "is_team_blue": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "team": "Blue"
+          }
+        }
+      }
+    },
+    "is_firework": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:player"
+            },
+            "direct_entity": {
+              "type": "minecraft:firework_rocket"
+            }
+          }
+        }
+      }
+    },
+    "is_not_firework": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:player"
+            },
+            "direct_entity": {
+              "type": "#freeze:freezing_entity_source_no_firework"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hit_by_player"
+    ],
+    [
+      "is_team_red",
+      "is_team_blue"
+    ],
+    [
+      "is_firework",
+      "is_not_firework"
+    ]
+  ],
+  "rewards": {
+    "function": "freeze:game/general/freezing/pvp/attacked"
+  }
+}

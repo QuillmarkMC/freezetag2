@@ -1,0 +1,1 @@
+$function freeze:lobby/menu/interact/function with entity @e[limit=1,type=interaction,tag=MenuInteract,nbt={interaction:{player:$(UUID),timestamp:$(Time)L}}] Passengers[0].data

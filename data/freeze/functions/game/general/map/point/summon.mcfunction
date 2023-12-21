@@ -1,0 +1,1 @@
+$execute positioned $(Pos) run function freeze:game/cp/point/summon {Name:"$(Name)",Rad:$(Rad),Slot:$(Slot)}

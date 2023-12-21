@@ -1,0 +1,1 @@
+#can't put tdm start in here because it needs to happen after players are teleported to spawn points

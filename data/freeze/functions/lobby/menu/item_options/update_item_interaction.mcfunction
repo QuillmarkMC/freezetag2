@@ -1,0 +1,1 @@
+$execute on passengers run data modify entity @s data.Args.Name set value "$(Name)"

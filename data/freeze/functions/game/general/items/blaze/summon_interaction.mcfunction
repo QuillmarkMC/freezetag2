@@ -1,0 +1,1 @@
+$execute summon interaction run ride @s mount @e[sort=nearest,limit=1,nbt={UUID:$(UUID)}]

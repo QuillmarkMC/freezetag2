@@ -1,0 +1,1 @@
+$function freeze:game/general/items/use_non_click {Slot:$(Slot)}

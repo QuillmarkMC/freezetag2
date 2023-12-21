@@ -1,0 +1,2 @@
+execute unless score @s item_giver_cooldown matches 1.. run function freeze:game/general/item_giver/state/detecting
+execute if score @s item_giver_cooldown matches 1.. run function freeze:game/general/item_giver/state/reloading

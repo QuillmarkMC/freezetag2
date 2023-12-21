@@ -1,0 +1,2 @@
+#Expects Args[] to contain the items that should be included in output
+$execute if data storage freeze:items {Iterating:{Args:["$(Name)"]}} run data modify storage freeze:items Iterating.OutputArray append value {Name:$(Name),Index:$(MasterIndex)}

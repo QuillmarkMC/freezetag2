@@ -1,0 +1,1 @@
+function freeze:game/general/bossbar/set_visible {IsOn:"false"}

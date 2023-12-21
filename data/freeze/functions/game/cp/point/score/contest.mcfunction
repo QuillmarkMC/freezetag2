@@ -1,0 +1,1 @@
+data modify entity @s data.Color set from storage freeze:bossbar Colors.Contested

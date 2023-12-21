@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"["},{"text":"Freeze Time","color":"blue"},{"text":"] "},{"text":"The amount of time until you succumb to hypothermia after being frozen."}]

@@ -1,0 +1,3 @@
+execute if data storage freeze:gamestate {State:{Name:"cp"}} run function freeze:game/general/items/glow/cp
+execute if entity @s[team=Blue] if data storage freeze:gamestate {State:{Name:"tdm"}} run function freeze:game/general/items/glow/tdm with entity @p[team=Red]
+execute if entity @s[team=Red] if data storage freeze:gamestate {State:{Name:"tdm"}} run function freeze:game/general/items/glow/tdm with entity @p[team=Blue]

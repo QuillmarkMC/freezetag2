@@ -1,0 +1,1 @@
+$execute as @a[nbt={UUID:$(Player)}] run tellraw @s {"text":"The Glacierback must be placed on ground"}

@@ -1,0 +1,5 @@
+execute if entity @s[tag=Invis] run return 0
+item replace entity @s armor.head with minecraft:chainmail_helmet{Unbreakable:1b,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],display:{Name:'{"text":"Blue Helmet","color":"aqua","italic":false}'},CustomModelData:1}
+item replace entity @s armor.chest with minecraft:chainmail_chestplate{Unbreakable:1b,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],display:{Name:'{"text":"Blue Chestplate","color":"aqua","italic":false}'},CustomModelData:1}
+item replace entity @s armor.legs with minecraft:chainmail_leggings{Unbreakable:1b,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],display:{Name:'{"text":"Blue Leggings","color":"aqua","italic":false}'},CustomModelData:1}
+item replace entity @s armor.feet with minecraft:chainmail_boots{Unbreakable:1b,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],display:{Name:'{"text":"Blue Boots","color":"aqua","italic":false}'},CustomModelData:1}

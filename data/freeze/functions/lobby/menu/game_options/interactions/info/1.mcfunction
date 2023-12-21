@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"["},{"text":"Win Score","color":"green"},{"text":"] "},{"text":"The amount of points that must be reached to win the game, the way you score points depends on the gamemode."}]

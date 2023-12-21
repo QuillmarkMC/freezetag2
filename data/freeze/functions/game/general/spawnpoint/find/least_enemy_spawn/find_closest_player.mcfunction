@@ -1,0 +1,1 @@
+$execute at @s run function freeze:game/general/spawnpoint/find/least_enemy_spawn/find_closest_player_dist_fast with entity @a[team=$(Team),limit=1,sort=nearest]

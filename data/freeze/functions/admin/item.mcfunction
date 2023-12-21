@@ -1,0 +1,1 @@
+$function freeze:game/general/items/give_item_by_name {Item:$(Item)}

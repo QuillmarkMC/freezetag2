@@ -1,0 +1,2 @@
+$item replace entity @s hotbar.$(Slot) with ghast_spawn_egg{display:{Name:'{"text":"Mystery Box","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"Spawns a temporary item giver that spawns 3 items.","color":"white","italic":false}','{"text":"Throw item to get rid of it.","color":"dark_purple"}']},HideFlags:255,CustomModelData:11,Item:"mystery",Slot:$(Slot),CanPlaceOn:["#freeze:all_blocks"],EntityTag:{id:"minecraft:marker",Tags:["PlacedItem"],data:{Item:"mystery",Slot:$(Slot),Team:"",Player:[]}}} 1
+$item modify entity @s hotbar.$(Slot) freeze:copy_uuid

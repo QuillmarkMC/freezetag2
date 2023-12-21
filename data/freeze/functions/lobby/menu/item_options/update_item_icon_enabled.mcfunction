@@ -1,0 +1,2 @@
+$execute if predicate freeze:$(Enabled) run data modify entity @s item set value {id:"minecraft:phantom_membrane",tag:{CustomModelData:29},Count:1b}
+$execute unless predicate freeze:$(Enabled) run data modify entity @s item set value {id:"minecraft:phantom_membrane",tag:{CustomModelData:30},Count:1b}

@@ -1,0 +1,2 @@
+$execute if data entity @s {OnGround:false} run function freeze:game/general/items/blaze/use_fail {Slot:$(Slot)}
+execute if data entity @s {OnGround:true} run function freeze:game/general/items/blaze/use_success

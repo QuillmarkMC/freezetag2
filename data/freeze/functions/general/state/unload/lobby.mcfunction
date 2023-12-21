@@ -1,0 +1,1 @@
+function freeze:lobby/unload

@@ -1,0 +1,1 @@
+execute summon snow_golem run function freeze:game/general/items/snowman/init with storage freeze:var SnowmanInit
