@@ -25,7 +25,7 @@ data merge storage freeze:map_data {\
       {Pos:"31.5 34 35.5",Cooldown:200},\
       {Pos:"141.5 29 16.5",Cooldown:200},\
       {Pos:"-40.5 30 -2.5",Cooldown:200},\
-      {Pos:"82.5 33 -12.5",Cooldown:200},\
+      {Pos:"82.5 33.5 -12.5",Cooldown:200},\
     ]}\
   },\
   BigOil:{\
