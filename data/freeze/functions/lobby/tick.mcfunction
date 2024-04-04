@@ -17,3 +17,6 @@ function freeze:lobby/parkour/tick
 
 #player interactions tick
 function freeze:lobby/player_models/tick
+
+#oob
+execute as @a[predicate=!freeze:lobby_oob,gamemode=adventure] run tp @s -1331.5 61.00 274.5 180 0

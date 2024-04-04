@@ -1,6 +1,7 @@
 #General Lobby Stuff
 effect clear @a
 clear @a
+kill @e[tag=lobby]
 
 #Clean Menus
 function freeze:lobby/menu/item_options/edit/set_in_play_items
