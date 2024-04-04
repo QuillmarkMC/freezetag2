@@ -117,5 +117,13 @@ summon minecraft:text_display -1325.563720703125 69.15486850831945 208.523193359
 summon minecraft:text_display -1303.4521484375 66.20612086823857 229.697998046875 {Tags:["lobby"],alignment:"center",background:1073741824,billboard:"center",default_background:0b,line_width:200,see_through:0b,shadow:0b,text:'{"text":"Dragonking1355"}',text_opacity:-1b}
 summon minecraft:text_display -1303.662841796875 69.8125 230.540283203125 {Tags:["lobby"],alignment:"center",background:1073741824,billboard:"center",default_background:0b,line_width:200,see_through:0b,shadow:0b,text:'{"text":"Flare199"}',text_opacity:-1b}
 
-
-
+#Interactions
+summon minecraft:interaction -1304.5 63.0 250.5 {UUID:[I;0,0,0,1],width:1.25,height:2,Tags:["lobby","lobby_cygnus"]}
+summon minecraft:interaction -1306.37 67.00 251.11 {UUID:[I;0,0,0,2],width:1.15,height:2.15,Tags:["lobby","lobby_strongis"]}
+summon minecraft:interaction -1306.78 66.45 256.07 {UUID:[I;0,0,0,3],width:1.25,height:2.5,Tags:["lobby","lobby_jarmzie"]}
+summon minecraft:interaction -1347.5 67.0 220.8 {UUID:[I;0,0,0,4],width:1.15,height:2.25,Tags:["lobby","lobby_soccby"]}
+summon minecraft:interaction -1347.67 68.9 219.00 {UUID:[I;0,0,0,5],width:1.25,height:2.15,Tags:["lobby","lobby_tech"]}
+summon minecraft:interaction -1325.56 67.0 208.52 {UUID:[I;0,0,0,6],width:1.25,height:2.3,Tags:["lobby","lobby_aden"]}
+summon minecraft:interaction -1320.37 67.00 208.49 {UUID:[I;0,0,0,7],width:1.25,height:2.25,Tags:["lobby","lobby_chief"]}
+summon minecraft:interaction -1303.5 64.00 229.65 {UUID:[I;0,0,0,8],width:1.25,height:2.25,Tags:["lobby","lobby_dragonking"]}
+summon minecraft:interaction -1303.57 68.06 230.49 {UUID:[I;0,0,0,9],width:1.7,height:2.0,Tags:["lobby","lobby_flare"]}

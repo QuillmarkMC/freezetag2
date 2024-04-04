@@ -14,3 +14,6 @@ effect give @s weakness infinite 255 true
 
 #parkour tick
 function freeze:lobby/parkour/tick
+
+#player interactions tick
+function freeze:lobby/player_models/tick
