@@ -18,14 +18,14 @@ data merge storage freeze:map_data {\
     ItemGivers: {List: [\
       {Pos:"-78.5 33 -5.5",Cooldown:200},\
       {Pos:"190.5 32 -4.5",Cooldown:200},\
-      {Pos:"-27.5 41 4.5",Cooldown:200},\
-      {Pos:"140.5 47 4.5",Cooldown:200},\
       {Pos:"-39.5 38 84.5",Cooldown:200},\
       {Pos:"-36.5 36 -60.5",Cooldown:200},\
       {Pos:"151.5 40 85.5",Cooldown:200},\
       {Pos:"153.5 41 -59.5",Cooldown:200},\
-      {Pos:"65.5 35 40.5",Cooldown:200},\
       {Pos:"31.5 34 35.5",Cooldown:200},\
+      {Pos:"141.5 29 16.5",Cooldown:200},\
+      {Pos:"-40.5 30 -2.5",Cooldown:200},\
+      {Pos:"83.5 34 -18.5",Cooldown:200},\
     ]}\
   },\
   BigOil:{\
