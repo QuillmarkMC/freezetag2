@@ -1,3 +1,3 @@
-effect clear @a
-clear @a
+effect clear @s
+clear @s
 team join Spectate @s
