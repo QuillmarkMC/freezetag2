@@ -1,1 +1,1 @@
-$execute as @e[type=interaction,limit=1,sort=nearest,nbt={attack:{player:$(UUID)}}] on vehicle run function freeze:game/general/items/blaze/break with entity @s item.tag
+$execute as @e[type=interaction,limit=1,sort=nearest,nbt={attack:{player:$(UUID)}}] on vehicle run function freeze:game/general/items/blaze/break with entity @s item.components.minecraft:custom_data

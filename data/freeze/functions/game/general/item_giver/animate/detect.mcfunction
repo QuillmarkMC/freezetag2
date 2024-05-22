@@ -1,6 +1,6 @@
 #Change items
-data modify entity @s item.tag.CustomModelData set value 3
-execute on passengers run data modify entity @s item.id set value "minecraft:air"
+data modify entity @s item.components.minecraft:custom_model_data set value 3
+execute on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 11
 
 #Particle
 particle minecraft:poof ~ ~1 ~ 0.35 0.35 0.35 0.1 60 force
