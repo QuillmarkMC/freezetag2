@@ -1,19 +1,11 @@
 kill @e[tag=GameOptions]
 
 #Background
-<<<<<<< HEAD
-summon item_display -1336.998 63.0 292.50 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":22}},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0f]}}
-
-#Title
-summon text_display -1336.994 64.75 292.5225 {Tags:["GameOptions"],text:'{"text":"Game Options"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]}}
-summon item_display -1336.996 65.0 292.5 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":26}},Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.625f,2.625f,0f]}}
-=======
 summon item_display -1336.998 63.0 292.50 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:22},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0.001f]}}
 
 #Title
 summon text_display -1336.994 64.75 292.5225 {Tags:["GameOptions"],text:'{"text":"Game Options"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]}}
 summon item_display -1336.996 65.0 292.5 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",tag:{CustomModelData:26},Count:1b},Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.625f,2.625f,0.001f]}}
->>>>>>> 65a5c6892f58bfe02286ed265e813a417bd53b54
 
 #Option Titles (The random white space is the exact amount of spaces needed to push to the next line, which is needed because otherwise it doesn't left align ffs)
 summon text_display -1336.996 63.8125 293.1 {line_width:120,Tags:["GameOptions","Option1"],text:'{"text":"                                Win Score:"}',background:0,Rotation:[-90f,0f],alignment:"left"}
