@@ -11,7 +11,9 @@
             "team": "Red",
             "equipment": {
               "mainhand": {
-                "nbt": "{Item:\"axe\"}"
+                "predicates": {
+                  "minecraft:custom_data": {"Item":"axe"}
+                }
               }
             }
           }
@@ -29,7 +31,9 @@
             "team": "Blue",
             "equipment": {
               "mainhand": {
-                "nbt": "{Item:\"axe\"}"
+                "predicates": {
+                  "minecraft:custom_data": {"Item":"axe"}
+                }
               }
             }
           }

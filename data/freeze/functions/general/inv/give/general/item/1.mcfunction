@@ -1,1 +1,1 @@
-$function freeze:game/general/items/$(Name)/give {Slot:0}
+$function freeze:game/general/items/$(Name)/give {Slot:0,UUID:$(UUID)}

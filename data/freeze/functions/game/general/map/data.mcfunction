@@ -170,17 +170,17 @@ data merge storage freeze:map_data {\
     ItemGivers: {List: [\
       {Pos:"199.5 124 933.5",Cooldown:200},\
       {Pos:"192.5 119 926.5",Cooldown:200},\
-      {Pos:"195.5 118 902.5",Cooldown:200},\
+      {Pos:"191.5 124 902.5",Cooldown:200},\
       {Pos:"191.5 118 884.5",Cooldown:200},\
       {Pos:"199.5 124 866.5",Cooldown:200},\
-      {Pos:"189.5 124 902.5",Cooldown:200},\
+      {Pos:"191.5 118 902.5",Cooldown:200},\
       {Pos:"177.5 125 911.5",Cooldown:200},\
       {Pos:"165.5 119 899.5",Cooldown:200},\
       {Pos:"150.5 121 896.5",Cooldown:200},\
       {Pos:"165.5 118 922.5",Cooldown:200},\
       {Pos:"165.5 124 921.5",Cooldown:200},\
       {Pos:"150.5 124 933.5",Cooldown:200},\
-      {Pos:"145.5 118 923.5",Cooldown:200},\
+      {Pos:"145.5 118 922.5",Cooldown:200},\
       {Pos:"133.5 118 915.5",Cooldown:200},\
       {Pos:"133.5 124 915.5",Cooldown:200},\
       {Pos:"128.5 124 895.5",Cooldown:200},\
@@ -191,7 +191,7 @@ data merge storage freeze:map_data {\
       {Pos:"134.5 118 881.5",Cooldown:200},\
       {Pos:"139.5 118 895.5",Cooldown:200},\
       {Pos:"143.5 124 911.5",Cooldown:200},\
-      {Pos:"145.5 124 898.5",Cooldown:200},\
+      {Pos:"143.5 124 898.5",Cooldown:200},\
       {Pos:"153.5 125 883.5",Cooldown:200},\
       {Pos:"179.5 124 879.5",Cooldown:200},\
       {Pos:"181.5 118 870.5",Cooldown:200}\
