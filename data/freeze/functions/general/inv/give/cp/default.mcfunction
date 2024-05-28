@@ -11,5 +11,6 @@ execute if entity @s[tag=Invis] run function freeze:general/inv/give/general/arm
 execute if score @s drop matches 1.. run function freeze:general/inv/give/general/item/drop
 execute store result storage freeze:var GiveItem.Item1 int 1 run scoreboard players get @s item
 execute store result storage freeze:var GiveItem.Item2 int 1 run scoreboard players get @s item2
+data modify storage freeze:var GiveItem.UUID set from entity @s UUID
 function freeze:general/inv/give/general/item/items with storage freeze:var GiveItem
 execute if entity @s[tag=Frozen] if score @s campfire_time matches 1.. run function freeze:game/general/items/blaze_return/give

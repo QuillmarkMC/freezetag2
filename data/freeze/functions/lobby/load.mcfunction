@@ -9,3 +9,6 @@ execute as @a run function freeze:lobby/join
 
 #Weather
 weather rain
+
+#Lobby Entities (end me)
+function freeze:lobby/player_models/init

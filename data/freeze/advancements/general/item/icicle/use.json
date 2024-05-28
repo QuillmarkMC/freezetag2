@@ -7,7 +7,9 @@
           "team": "Red",
           "equipment": {
             "mainhand": {
-              "nbt": "{Item:\"icicle\"}"
+              "predicates": {
+                "minecraft:custom_data": {"Item":"icicle"}
+              }
             }
           }
         },
@@ -25,7 +27,9 @@
           "team": "Blue",
           "equipment": {
             "mainhand": {
-              "nbt": "{Item:\"icicle\"}"
+              "predicates": {
+                "minecraft:custom_data": {"Item":"icicle"}
+              }
             }
           }
         },

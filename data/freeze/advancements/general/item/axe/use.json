@@ -6,7 +6,9 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "nbt": "{Item:\"axe\"}"
+              "predicates": {
+                "minecraft:custom_data": {"Item":"axe"}
+              }
             }
           },
           "team": "Red"
@@ -23,7 +25,9 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "nbt": "{Item:\"axe\"}"
+              "predicates": {
+                "minecraft:custom_data": {"Item":"axe"}
+              }
             }
           },
           "team": "Blue"

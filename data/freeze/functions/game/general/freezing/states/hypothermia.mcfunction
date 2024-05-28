@@ -1,6 +1,6 @@
 function freeze:game/general/freezing/states/unfreeze
 effect give @s weakness infinite 255 true
-execute at @s run particle minecraft:block ice ~ ~1.5 ~ 0.75 0.4 0.75 1 200 force
+execute at @s run particle minecraft:block{block_state:"minecraft:ice"} ~ ~1.5 ~ 0.75 0.4 0.75 1 200 force
 execute at @s run playsound minecraft:entity.player.hurt_freeze master @a ~ ~ ~ 1 0.5
 kill @s
 tag @s add Respawning
