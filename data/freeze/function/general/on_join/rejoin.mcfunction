@@ -7,3 +7,5 @@ scoreboard players set @s join 0
 
 function freeze:game/general/bossbar/set_players
 function freeze:game/general/death_messages/reset
+
+function freeze:general/music/play_music_for_me with storage freeze:var Music.Playing

@@ -74,6 +74,7 @@ function freeze:game/general/map/data
 function freeze:game/general/bossbar/data
 function freeze:game/general/items/loot/data
 function freeze:lobby/menu/data
+function freeze:general/music/data
 
 ##Forceloads (because mc is cringe)
 #lobby
