@@ -35,6 +35,7 @@ scoreboard objectives add lobby_trigger trigger
 scoreboard objectives add unstuck_me trigger
 scoreboard objectives add surrender trigger
 scoreboard objectives add toggle_death_messages trigger
+scoreboard objectives add toggle_mute_music trigger
 scoreboard objectives add edit_win_score trigger
 scoreboard objectives add edit_freeze_time trigger
 scoreboard objectives add edit_heat_time trigger
