@@ -16,3 +16,5 @@ execute as 00000000-0000-0000-0000-000000000008 on target run function freeze:lo
 execute as 00000000-0000-0000-0000-000000000008 on attacker run function freeze:lobby/player_models/credit/dragonking
 execute as 00000000-0000-0000-0000-000000000009 on target run function freeze:lobby/player_models/credit/flare
 execute as 00000000-0000-0000-0000-000000000009 on attacker run function freeze:lobby/player_models/credit/flare
+execute as 00000000-0000-0000-0000-00000000000a on target run function freeze:lobby/player_models/credit/trianull
+execute as 00000000-0000-0000-0000-00000000000a on attacker run function freeze:lobby/player_models/credit/trianull
