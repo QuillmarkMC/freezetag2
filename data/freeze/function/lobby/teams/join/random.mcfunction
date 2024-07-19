@@ -1,3 +1,3 @@
 team join Random @s
 function freeze:general/inv/change
-tellraw @s ["",{"text":"[!] ","color":"dark_purple"},{"text":"Your team will be "},{"text":"Randomized","color":"dark_purple"}]
+tellraw @s ["",{"text":"[!] ","color":"dark_purple"},{"translate":"text.lobby.team.join.random.0"},{"translate":"text.lobby.team.join.random.1","color":"dark_purple"}]

@@ -4,7 +4,7 @@ kill @e[tag=ItemOptions]
 summon item_display -1326.002 63.00 292.50 {Tags:["ItemOptions"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":31},Count:1b},Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0.001f]}}
 
 #Title
-summon text_display -1326.006 64.75 292.0 {Tags:["ItemOptions"],text:'{"text":"Item Options"}',background:0,Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center"}
+summon text_display -1326.006 64.75 292.0 {Tags:["ItemOptions"],text:'{"translate":"text.lobby.menu.item.title"}',background:0,Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center"}
 summon item_display -1326.004 65.0 292.0 {Tags:["ItemOptions"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":26},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.625f,2.625f,0.001f]}}
 
 #Select Arrows
