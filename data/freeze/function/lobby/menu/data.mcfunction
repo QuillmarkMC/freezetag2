@@ -5,11 +5,11 @@ data merge storage freeze:menu {\
         Index: 0,\
         InternalMap:"GlacialKeep",\
         InternalGamemode:"tdm",\
-        MapName: "Glacial Keep",\
-        RecommendedPlayers: "4 - 12 Players",\
-        Gamemode: "Team Death Match",\
-        GamemodeDesc: "Score points by freezing the enemy team.",\
-        MapDesc: "A castle frozen in a glacial mountain.\\\\n\\\\n",\
+        MapName: "text.lobby.menu.map_select.glacial_keep.name",\
+        RecommendedPlayers: "text.lobby.menu.map_select.glacial_keep.rec_players",\
+        Gamemode: "text.lobby.menu.map_select.glacial_keep.gamemode",\
+        GamemodeDesc: "text.lobby.menu.map_select.glacial_keep.gamemode_desc",\
+        MapDesc: "text.lobby.menu.map_select.glacial_keep.map_desc",\
         MapImage: 15\
     },\
     Maps: [\
@@ -17,44 +17,44 @@ data merge storage freeze:menu {\
         Index: 0,\
         InternalMap:"GlacialKeep",\
         InternalGamemode:"tdm",\
-        MapName: "Glacial Keep",\
-        RecommendedPlayers: "4 - 12 Players",\
-        Gamemode: "Team Death Match",\
-        GamemodeDesc: "Score points by freezing the enemy team.",\
-        MapDesc: "A castle frozen in a glacial mountain.\\\\n\\\\n",\
+        MapName: "text.lobby.menu.map_select.glacial_keep.name",\
+        RecommendedPlayers: "text.lobby.menu.map_select.glacial_keep.rec_players",\
+        Gamemode: "text.lobby.menu.map_select.glacial_keep.gamemode",\
+        GamemodeDesc: "text.lobby.menu.map_select.glacial_keep.gamemode_desc",\
+        MapDesc: "text.lobby.menu.map_select.glacial_keep.map_desc",\
         MapImage: 15\
       },\
       {\
         Index: 1,\
         InternalMap:"FrostyFjord",\
         InternalGamemode:"tdm",\
-        MapName: "Frosty Fjord",\
-        RecommendedPlayers: "10+ Players",\
-        Gamemode: "Team Death Match",\
-        GamemodeDesc: "Score points by freezing the enemy team.",\
-        MapDesc: "A large frosty fishing village. Watch out for the water, it\\'s extra cold!",\
+        MapName: "text.lobby.menu.map_select.frosty_fjord.name",\
+        RecommendedPlayers: "text.lobby.menu.map_select.frosty_fjord.rec_players",\
+        Gamemode: "text.lobby.menu.map_select.frosty_fjord.gamemode",\
+        GamemodeDesc: "text.lobby.menu.map_select.frosty_fjord.gamemode_desc",\
+        MapDesc: "text.lobby.menu.map_select.frosty_fjord.map_desc",\
         MapImage: 16\
       },\
       {\
         Index: 2,\
         InternalMap:"BigOil",\
         InternalGamemode:"cp",\
-        MapName: "Big Oil",\
-        RecommendedPlayers: "6 - 12 Players",\
-        Gamemode: "Domination",\
-        GamemodeDesc: "Score points by standing on the control points.",\
-        MapDesc: "A single control point on an oil rig in a frozen lake. Don\\'t fall in the oil!",\
+        MapName: "text.lobby.menu.map_select.big_oil.name",\
+        RecommendedPlayers: "text.lobby.menu.map_select.big_oil.rec_players",\
+        Gamemode: "text.lobby.menu.map_select.big_oil.gamemode",\
+        GamemodeDesc: "text.lobby.menu.map_select.big_oil.gamemode_desc",\
+        MapDesc: "text.lobby.menu.map_select.big_oil.map_desc",\
         MapImage: 17\
       },\
       {\
         Index: 3,\
         InternalMap:"FrozenCrag",\
         InternalGamemode:"cp",\
-        MapName: "Frozen Crag",\
-        RecommendedPlayers: "10+ Players",\
-        Gamemode: "Domination",\
-        GamemodeDesc: "Score points by standing on the control points.",\
-        MapDesc: "Three control points spread through three craggy caves.\\\\n",\
+        MapName: "text.lobby.menu.map_select.frozen_crag.name",\
+        RecommendedPlayers: "text.lobby.menu.map_select.frozen_crag.rec_players",\
+        Gamemode: "text.lobby.menu.map_select.frozen_crag.gamemode",\
+        GamemodeDesc: "text.lobby.menu.map_select.frozen_crag.gamemode_desc",\
+        MapDesc: "text.lobby.menu.map_select.frozen_crag.map_desc",\
         MapImage: 18\
       }\
     ]\
