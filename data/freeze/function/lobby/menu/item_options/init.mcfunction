@@ -39,7 +39,7 @@ summon interaction -1325.31 61.25 294.0 {response:1b,height:0.5f,width:1.5f,Tags
 summon text_display -1326.004 61.9000 294.0 {line_width:110,Tags:["ItemOptions","ItemDesc"],text:'{"text":""}',background:0,Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.6f,0.6f,0.6f]},alignment:"center"}
 summon item_display -1326.03 64.41 294.04 {Tags:["ItemOptions","ItemIcon"],item:{id:"minecraft:kelp",components:{"minecraft:custom_model_data":0}},Rotation:[90f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,1f]}}
 summon text_display -1326.004 63.2525 294.0 {line_width:100,Tags:["ItemOptions","ItemName"],text:'{"text":""}',background:0,Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},alignment:"center"}
-summon text_display -1326.08 61.35 294.0 {line_width:100,Tags:["ItemOptions"],text:'{"text":"Toggle On/Off"}',background:0,Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
+summon text_display -1326.08 61.35 294.0 {line_width:100,Tags:["ItemOptions"],text:'{"translate":"text.lobby.menu.item.toggle"}',background:0,Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
 
 function freeze:lobby/menu/item_options/update_selected_page with storage freeze:menu ItemOptions
 function freeze:lobby/menu/item_options/update_selected_item with storage freeze:menu ItemOptions.SelectedItem

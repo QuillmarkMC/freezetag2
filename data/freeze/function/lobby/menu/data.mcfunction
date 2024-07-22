@@ -133,132 +133,132 @@ data merge storage freeze:menu {\
     SelectedItem: { Item: "" },\
     ItemInfo: {\
       avalanche: {\
-        Name: "Avalanche",\
+        Name: "text.game.item.avalanche.name",\
         InternalName: "avalanche",\
         Page: 0,\
         NumItem: 0,\
         Icon: 1,\
-        Desc: "Shoots out 5 snowballs that leave slowing snow on the ground in an area where they land.\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.avalanche"\
       },\
       snowman: {\
-        Name: "Decoy Snowman",\
+        Name: "text.game.item.snowman.name",\
         InternalName: "snowman",\
         Page: 0,\
         NumItem: 1,\
         Icon: 2,\
-        Desc: "Can be placed on the ground, spawns a decoy snowman that counts as a player on control points. Useless in Team Death Match.\\\\n"\
+        Desc: "text.lobby.menu.item.desc.snowman"\
       },\
       hot_rod: {\
-        Name: "Fire Rod",\
+        Name: "text.game.item.hot_rod.name",\
         InternalName: "hot_rod",\
         Page: 0,\
         NumItem: 2,\
         Icon: 3,\
-        Desc: "Gives you 3.5 seconds of heat.\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.hot_rod"\
       },\
       turtle: {\
-        Name: "Glacierback",\
+        Name: "text.game.item.turtle.name",\
         InternalName: "turtle",\
         Page: 0,\
         NumItem: 3,\
         Icon: 4,\
-        Desc: "Can be placed on the ground, explodes when walked over by enemies. Blows up automatically after 20 seconds.\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.turtle"\
       },\
       glow: {\
-        Name: "Glow Point",\
+        Name: "text.game.item.glow.name",\
         InternalName: "glow",\
         Page: 0,\
         NumItem: 4,\
         Icon: 5,\
-        Desc: "Makes all enemies on the closest control point glow. If in Team Death Match, only glows closest enemy.\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.glow"\
       },\
       crossbow: {\
-        Name: "Hot Shot",\
+        Name: "text.game.item.crossbow.name",\
         InternalName: "crossbow",\
         Page: 0,\
         NumItem: 5,\
         Icon: 6,\
-        Desc: "Shoots an exploding shot that unfreezes teammates.\\\\n\\\\n\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.crossbow"\
       },\
       axe: {\
-        Name: "Ice Pick",\
+        Name: "text.game.item.axe.name",\
         InternalName: "axe",\
         Page: 1,\
         NumItem: 0,\
         Icon: 7,\
-        Desc: "Hit an enemy to instantly kill them.\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.axe"\
       },\
       icicle: {\
-        Name: "Icicle",\
+        Name: "text.game.item.icicle.name",\
         InternalName: "icicle",\
         Page: 1,\
         NumItem: 1,\
         Icon: 8,\
-        Desc: "Hit an enemy and freeze them to get two items in return.\\\\n\\\\n\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.icicle"\
       },\
       invis: {\
-        Name: "Invisibility",\
+        Name: "text.game.item.invis.name",\
         InternalName: "invis",\
         Page: 1,\
         NumItem: 2,\
         Icon: 9,\
-        Desc: "Turns you invisible for 10 seconds.\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.invis"\
       },\
       mystery: {\
-        Name: "Mystery Box",\
+        Name: "text.game.item.mystery.name",\
         InternalName: "mystery",\
         Page: 1,\
         NumItem: 3,\
         Icon: 10,\
-        Desc: "Can be placed on the ground, spawns a temporary item giver that spawns 3 items. Will only spawn if there are no other Mystery Boxes in play."\
+        Desc: "text.lobby.menu.item.desc.mystery"\
       },\
       phoenix: {\
-        Name: "Phoenix Ignition",\
+        Name: "text.game.item.phoenix.name",\
         InternalName: "phoenix",\
         Page: 1,\
         NumItem: 4,\
         Icon: 11,\
-        Desc: "Unfreezes all teammates within 16 blocks, but you instantly die in the process.\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.phoenix"\
       },\
       explosion: {\
-        Name: "Siberian Ex-snow-sion",\
+        Name: "text.game.item.explosion.name",\
         InternalName: "explosion",\
         Page: 1,\
         NumItem: 5,\
         Icon: 12,\
-        Desc: "Freezes all enemies within 6 blocks, but you freeze as well.\\\\n\\\\n\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.explosion"\
       },\
       bow: {\
-        Name: "Snowy Sniper",\
+        Name: "text.game.item.bow.name",\
         InternalName: "bow",\
         Page: 2,\
         NumItem: 0,\
         Icon: 13,\
-        Desc: "A bow that has 3 shots that can be used to freeze enemies or unfreeze teammates.\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.bow"\
       },\
       blaze: {\
-        Name: "Spawnfire",\
+        Name: "text.game.item.blaze.name",\
         InternalName: "blaze",\
         Page: 2,\
         NumItem: 1,\
         Icon: 14,\
-        Desc: "Sets up a Spawnfire that you can teleport to next time you\\'re frozen. Can be broken by enemies, burns out naturally after 30 seconds.\\\\n"\
+        Desc: "text.lobby.menu.item.desc.blaze"\
       },\
       speed: {\
-        Name: "Speed Boost",\
+        Name: "text.game.item.speed.name",\
         InternalName: "speed",\
         Page: 2,\
         NumItem: 2,\
         Icon: 15,\
-        Desc: "Gives you speed 3 for 12 seconds.\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.speed"\
       },\
       whoaball: {\
-        Name: "Whoaball",\
+        Name: "text.game.item.whoaball.name",\
         InternalName: "whoaball",\
         Page: 2,\
         NumItem: 3,\
         Icon: 16,\
-        Desc: "Throw it and freeze enemies in a 5 block area around where it lands.\\\\n\\\\n\\\\n\\\\n"\
+        Desc: "text.lobby.menu.item.desc.whoaball"\
       },\
       none: {\
         Name: "",\
