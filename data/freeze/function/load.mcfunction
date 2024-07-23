@@ -24,6 +24,7 @@ scoreboard objectives add match_id dummy
 
 #Options
 scoreboard objectives add options dummy
+execute unless score $admin_locked_settings options matches -1.. run scoreboard players set $admin_locked_settings options -1
 execute unless score $win_score options matches 0.. run scoreboard players set $win_score options 500
 execute unless score $overtime_deduction options matches 0.. run scoreboard players set $overtime_deduction options 100
 execute unless score $freeze_time options matches 0.. run scoreboard players set $freeze_time options 200

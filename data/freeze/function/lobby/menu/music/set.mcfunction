@@ -1,0 +1,1 @@
+$data modify storage freeze:var Music.Soundtrack set from storage freeze:var Soundtracks[$(SoundtrackIndex)]

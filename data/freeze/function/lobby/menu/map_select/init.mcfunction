@@ -12,8 +12,8 @@ summon item_display -1330.6875 63 295.996 {Tags:["MapSelect","MapImage"],item:{i
 
 summon item_display -1329.4375 63 295.97 {Tags:["MapSelect"],brightness:{sky:15,block:15},item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":13}},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon item_display -1331.9375 63 295.97 {Tags:["MapSelect"],brightness:{sky:15,block:15},item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":14}},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
-summon interaction -1329.4375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/left_arrow",Args:{}}}]}
-summon interaction -1331.9375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/right_arrow",Args:{}}}]}
+summon interaction -1329.4375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{AdminLocked:"true",Function:"freeze:lobby/menu/map_select/interactions/left_arrow",Args:{}}}]}
+summon interaction -1331.9375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{AdminLocked:"true",Function:"freeze:lobby/menu/map_select/interactions/right_arrow",Args:{}}}]}
 
 #Selected Map Specfiic Text
 summon text_display -1330.6875 64.15625 295.996 {Tags:["MapSelect","MapName"],text:'{"text":"Glacial Keep"}',background:0,Rotation:[180f,0f],alignment:"center"}
@@ -28,7 +28,7 @@ summon text_display -1333.0 62.88 295.996 {Tags:["MapSelect"],text:'{"text":"Map
 
 #Start game button
 summon text_display -1330.6875 61.50625 295.93 {Tags:["MapSelect"],text:'{"text":"Start Game"}',background:0,Rotation:[180f,0f],alignment:"center"}
-summon interaction -1330.6875 61.375 296.94 {response:1b,width:2f,height:0.5625f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{Function:"freeze:lobby/menu/map_select/interactions/start_game",Args:{}}}]}
+summon interaction -1330.6875 61.375 296.94 {response:1b,width:2f,height:0.5625f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{AdminLocked:"true",Function:"freeze:lobby/menu/map_select/interactions/start_game",Args:{}}}]}
 summon item_display -1330.6875 61.628125 295.97 {Tags:["MapSelect"],brightness:{sky:15,block:15},item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":20}},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]}}
 
 
