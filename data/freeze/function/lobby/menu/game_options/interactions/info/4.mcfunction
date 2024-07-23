@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"["},{"text":"Overtime Deduction","color":"gray"},{"text":"] "},{"text":"The amount of points that are deducted from both teams score if both teams win at the same time."}]
+tellraw @s ["",{"text":"["},{"translate":"text.lobby.menu.info.overtime_deduction.name","color":"gray"},{"text":"] "},{"translate":"text.lobby.menu.info.overtime_deduction"}]

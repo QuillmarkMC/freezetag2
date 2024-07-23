@@ -10,7 +10,7 @@ fill 1112 58 -221 1106 63 -221 spruce_fence replace air
 fill 1101 58 -226 1101 63 -230 spruce_fence replace air
 fill 1106 58 -235 1112 63 -235 spruce_fence replace air
 
-tellraw @a [{"text":"[i] ","color":"gray"},{"text":"The game will start in 10 seconds.","color":"white"}]
+tellraw @a [{"text":"[i] ","color":"gray"},{"translate":"text.game.cutscene.start","color":"white"}]
 
 scoreboard players set $countdown var 10
 function freeze:game/general/map/intro/big_oil/countdown

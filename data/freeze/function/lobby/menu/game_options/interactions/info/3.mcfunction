@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"["},{"text":"Heat Time","color":"gold"},{"text":"] "},{"text":"The amount of invulnerability time you have after respawning."}]
+tellraw @s ["",{"text":"["},{"translate":"text.lobby.menu.info.heat_time.name","color":"gold"},{"text":"] "},{"translate":"text.lobby.menu.info.heat_time"}]

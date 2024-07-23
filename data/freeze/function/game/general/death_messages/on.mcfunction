@@ -1,3 +1,3 @@
 tag @s add ToggledDM
 tag @s add CanSeeDeathMessages
-tellraw @s ["",{"text":"[!] ","color":"green"},{"text":"Death messages have been turned on for you."}]
+tellraw @s ["",{"text":"[!] ","color":"green"},{"translate":"text.game.death_messages.enable"}]

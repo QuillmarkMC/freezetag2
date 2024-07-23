@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"["},{"text":"Freeze Time","color":"blue"},{"text":"] "},{"text":"The amount of time until you succumb to hypothermia after being frozen."}]
+tellraw @s ["",{"text":"["},{"translate":"text.lobby.menu.info.freeze_time.name","color":"blue"},{"text":"] "},{"translate":"text.lobby.menu.info.freeze_time"}]

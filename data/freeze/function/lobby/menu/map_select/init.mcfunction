@@ -4,7 +4,7 @@ kill @e[tag=MapSelect]
 summon item_display -1331.5 63 295.998 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":19},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0.001f]}}
 
 #Title
-summon text_display -1331.5 64.75 295.994 {Tags:["MapSelect"],text:'{"text":"Map Select"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center"}
+summon text_display -1331.5 64.75 295.994 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.title"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center"}
 summon item_display -1331.5 65.0 295.996 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":21},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.25f,2.25f,0.001f]}}
 
 #Selected Map
@@ -16,18 +16,18 @@ summon interaction -1329.4375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInt
 summon interaction -1331.9375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{AdminLocked:"true",Function:"freeze:lobby/menu/map_select/interactions/right_arrow",Args:{}}}]}
 
 #Selected Map Specfiic Text
-summon text_display -1330.6875 64.15625 295.996 {Tags:["MapSelect","MapName"],text:'{"text":"Glacial Keep"}',background:0,Rotation:[180f,0f],alignment:"center"}
-summon text_display -1333.0 63.925 295.996 {Tags:["MapSelect","Gamemode"],text:'{"text":"Team Death Match"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
-summon text_display -1333.0 63.23 295.996 {line_width:90,Tags:["MapSelect","GamemodeDesc"],text:'{"text":"Score points by standing on the control points."}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
+summon text_display -1330.6875 64.15625 295.996 {Tags:["MapSelect","MapName"],text:'{"translate":"text.lobby.menu.map_select.name.default"}',background:0,Rotation:[180f,0f],alignment:"center"}
+summon text_display -1333.0 63.925 295.996 {Tags:["MapSelect","Gamemode"],text:'{"translate":"text.lobby.menu.map_select.gamemode.default"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
+summon text_display -1333.0 63.23 295.996 {line_width:90,Tags:["MapSelect","GamemodeDesc"],text:'{"translate":"text.lobby.menu.map_select.gamemode.info.default"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
 summon text_display -1333.0 62.58 295.996 {Tags:["MapSelect","RecommendedPlayers"],text:'{"text":"4 - 12 Players"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
-summon text_display -1333.0 61.58 295.996 {line_width:90,Tags:["MapSelect","MapDesc"],text:'{"text":"A singular control point on an oil rig in the middle of a lake. Don\'t fall in the oil!"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
+summon text_display -1333.0 61.58 295.996 {line_width:90,Tags:["MapSelect","MapDesc"],text:'{"translate":"text.lobby.menu.map_select.map.info.default"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
 
 #Static Text
-summon text_display -1333.0 64.125 295.996 {Tags:["MapSelect"],text:'{"text":"Gamemode"}',background:0,Rotation:[180f,0f],alignment:"center"}
-summon text_display -1333.0 62.88 295.996 {Tags:["MapSelect"],text:'{"text":"Map Info"}',background:0,Rotation:[180f,0f],alignment:"center"}
+summon text_display -1333.0 64.125 295.996 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.static.gamemode"}',background:0,Rotation:[180f,0f],alignment:"center"}
+summon text_display -1333.0 62.88 295.996 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.static.map_info"}',background:0,Rotation:[180f,0f],alignment:"center"}
 
 #Start game button
-summon text_display -1330.6875 61.50625 295.93 {Tags:["MapSelect"],text:'{"text":"Start Game"}',background:0,Rotation:[180f,0f],alignment:"center"}
+summon text_display -1330.6875 61.50625 295.93 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.static.start_game"}',background:0,Rotation:[180f,0f],alignment:"center"}
 summon interaction -1330.6875 61.375 296.94 {response:1b,width:2f,height:0.5625f,Tags:["MenuInteract","MapSelect"],Passengers:[{id:"minecraft:marker",Tags:["MapSelect"],data:{AdminLocked:"true",Function:"freeze:lobby/menu/map_select/interactions/start_game",Args:{}}}]}
 summon item_display -1330.6875 61.628125 295.97 {Tags:["MapSelect"],brightness:{sky:15,block:15},item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":20}},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]}}
 

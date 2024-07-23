@@ -7,4 +7,4 @@ function freeze:lobby/menu/game_options/update_map_options with storage freeze:m
 function freeze:lobby/menu/game_options/update_visuals with storage freeze:menu GameOptions.CurrentOptions
 function freeze:lobby/menu/game_options/edit/update_options
 scoreboard players reset @s edit_win_score
-tellraw @s ["",{"text":"[!] ","color":"dark_green"},{"text":"Win Score has been updated."}]
+tellraw @s ["",{"text":"[!] ","color":"dark_green"},{"translate":"text.lobby.menu.game.win_score.update"}]
