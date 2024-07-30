@@ -26,11 +26,11 @@ data merge storage freeze:var { \
     { \
       Name: "text.lobby.menu.music.soundtrack.minecraft", \
       Songs: { \
-        lobby_none: [{ Name: "freeze:music.soothing_voyage", Duration: 2450 }], \
-        cp_BigOil: [{ Name: "freeze:music.magnificent_machines", Duration: 4480 }], \
-        cp_FrozenCrag: [{ Name: "freeze:music.hastilude", Duration: 4526 }], \
-        tdm_GlacialKeep: [{ Name: "freeze:music.toys_on_a_tear", Duration: 2992 }], \
-        tdm_FrostyFjord: [{ Name: "freeze:music.wonderous_workshop", Duration: 3303 }] \
+        lobby_none: [{ Name: "freeze:music.soothing_voyage", Duration: 2383 }], \
+        cp_BigOil: [{ Name: "freeze:music.magnificent_machines", Duration: 4427 }], \
+        cp_FrozenCrag: [{ Name: "freeze:music.hastilude", Duration: 4458 }], \
+        tdm_GlacialKeep: [{ Name: "freeze:music.toys_on_a_tear", Duration: 2935 }], \
+        tdm_FrostyFjord: [{ Name: "freeze:music.wonderous_workshop", Duration: 3268 }] \
       } \
     } \
   ] \
