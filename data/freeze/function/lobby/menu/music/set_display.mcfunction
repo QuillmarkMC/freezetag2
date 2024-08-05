@@ -1,0 +1,1 @@
+$data modify entity @n[tag=Jukebox_Display] item.components.minecraft:custom_model_data set value $(DisplayCustomModelData)

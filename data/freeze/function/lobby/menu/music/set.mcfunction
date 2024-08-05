@@ -1,1 +1,2 @@
 $data modify storage freeze:var Music.Soundtrack set from storage freeze:var Soundtracks[$(SoundtrackIndex)]
+$function freeze:lobby/menu/music/set_display with storage freeze:var Soundtracks[$(SoundtrackIndex)]
