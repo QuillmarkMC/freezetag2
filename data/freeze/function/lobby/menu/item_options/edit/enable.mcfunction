@@ -1,2 +1,2 @@
 $data modify storage freeze:menu ItemOptions.CurrentItems[$(Page)][$(NumItem)].Enabled set value "true"
-$tellraw @s ["",{"text":"[!] ","color":"green"},{"text":"$(Name)"},{"translate":"text.lobby.menu.item.enable"}]
+$tellraw @s ["",{"text":"[❗] ","color":"green"},{"translate":"$(Name)"},{"translate":"text.lobby.menu.item.enable"}]

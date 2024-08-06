@@ -2,7 +2,10 @@
 data merge storage freeze:var { \
   Music: { \
     Soundtrack: { \
-      Name: "text.lobby.menu.music.soundtrack.original", \
+      Name: "text.lobby.menu.music.soundtrack.original.name", \
+      NameColor: "aqua", \
+      Author: "text.lobby.menu.music.soundtrack.original.author", \
+      AuthorColor: "#F07E2A", \
       Songs: { \
         lobby_none: [{ Name: "freeze:music.lobby", Duration: 2194 }], \
         cp_BigOil: [{ Name: "freeze:music.big_oil", Duration: 1993 }], \
@@ -15,7 +18,10 @@ data merge storage freeze:var { \
   }, \
   Soundtracks: [ \
     { \
-      Name: "text.lobby.menu.music.soundtrack.original", \
+      Name: "text.lobby.menu.music.soundtrack.original.name", \
+      NameColor: "aqua", \
+      Author: "text.lobby.menu.music.soundtrack.original.author", \
+      AuthorColor: "#F07E2A", \
       Songs: { \
         lobby_none: [{ Name: "freeze:music.lobby", Duration: 2194 }], \
         cp_BigOil: [{ Name: "freeze:music.big_oil", Duration: 1993 }], \
@@ -26,7 +32,10 @@ data merge storage freeze:var { \
       DisplayCustomModelData: "42" \
     }, \
     { \
-      Name: "text.lobby.menu.music.soundtrack.minecraft", \
+      Name: "text.lobby.menu.music.soundtrack.minecraft.name", \
+      NameColor: "dark_green", \
+      Author: "text.lobby.menu.music.soundtrack.minecraft.author", \
+      AuthorColor: "red", \
       Songs: { \
         lobby_none: [{ Name: "freeze:music.soothing_voyage", Duration: 2383 }], \
         cp_BigOil: [{ Name: "freeze:music.magnificent_machines", Duration: 4427 }], \

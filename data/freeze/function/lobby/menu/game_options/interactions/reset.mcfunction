@@ -1,2 +1,2 @@
 function freeze:lobby/menu/game_options/edit/return_to_default with storage freeze:menu GameOptions.CurrentOptions
-tellraw @s ["",{"text":"[!] ","color":"dark_red"},{"translate":"text.lobby.menu.reset"}]
+tellraw @s ["",{"text":"[❗] ","color":"dark_red"},{"translate":"text.lobby.menu.reset"}]

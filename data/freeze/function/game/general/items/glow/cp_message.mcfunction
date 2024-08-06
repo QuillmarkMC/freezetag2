@@ -1,0 +1,2 @@
+$execute if score $glowed var matches 0 run tellraw @s [{"text":"[i] ","color":"green"},{"translate":"text.game.item.glow.cp.fail","color":"white"},{"translate":"$(Name)","color":"white","bold":true}]
+$execute unless score $glowed var matches 0 run tellraw @s [{"text":"[i] ","color":"green"},{"translate":"text.game.item.glow.cp.succeed","color":"white"},{"translate":"$(Name)","color":"white","bold":true}]

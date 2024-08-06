@@ -1,2 +1,2 @@
 scoreboard players enable @s edit_win_score
-tellraw @s ["",{"text":"[?] ","color":"dark_green"},{"translate":"text.lobby.menu.interact.prompt.click"},{"translate":"text.lobby.menu.interact.prompt.here","color":"dark_green","clickEvent":{"action":"suggest_command","value":"/trigger edit_win_score set "}},{"translate":"text.lobby.menu.interact.prompt.info"}]
+tellraw @s ["",{"text":"[❓] ","color":"dark_green"},{"translate":"text.lobby.menu.interact.prompt.click"},{"translate":"text.lobby.menu.interact.prompt.here","color":"dark_green","clickEvent":{"action":"suggest_command","value":"/trigger edit_win_score set "}},{"translate":"text.lobby.menu.interact.prompt.info"}]

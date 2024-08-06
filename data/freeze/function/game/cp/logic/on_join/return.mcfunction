@@ -2,4 +2,4 @@ $execute if entity @s[team=!Red,team=!Blue] run function freeze:general/on_join/
 execute if entity @s[team=!Red,team=!Blue] run return 0
 
 function freeze:game/general/freezing/states/hypothermia
-tellraw @s ["",{"text":"[!] ","color":"dark_red"},{"selector":"@s"},{"translate":"text.game.combat_log"}]
+tellraw @s ["",{"text":"[❗] ","color":"dark_red"},{"selector":"@s"},{"translate":"text.game.combat_log"}]

@@ -1,2 +1,2 @@
-tellraw @s {"translate":"text.lobby.menu.admin.fail","color":"dark_red"}
+tellraw @s ["",{"text":"[❗] ","color":"dark_red"},{"translate":"text.lobby.menu.admin.fail","color":"red","with":[[{"translate":"text.lobby.menu.admin.here","color":"dark_red","clickEvent":{"action":"suggest_command","value":"/function freeze:admin/give_admin"}}]]}]
 execute at @s run playsound item.lodestone_compass.lock player @s ~ ~ ~

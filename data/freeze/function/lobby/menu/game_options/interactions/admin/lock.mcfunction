@@ -1,3 +1,4 @@
+tag @a[tag=!OverrideAdmin] remove Admin
 tag @s add Admin
 scoreboard players set $admin_locked_settings options 1
 tellraw @s ["",{"text": "[🔒] ","color": "dark_red","bold": true},{"translate":"text.lobby.menu.admin.lock"}]

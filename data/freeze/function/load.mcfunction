@@ -160,7 +160,7 @@ gamerule naturalRegeneration false
 gamerule playersSleepingPercentage 101
 #TALK ABOUT THIS
 gamerule reducedDebugInfo false
-gamerule sendCommandFeedback true
+gamerule sendCommandFeedback false
 #TALK ABOUT THIS
 gamerule showDeathMessages false
 #TALK ABOUT THIS

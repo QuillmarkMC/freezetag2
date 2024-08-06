@@ -14,6 +14,8 @@ scoreboard players reset @s edit_win_score
 scoreboard players reset @s edit_freeze_time
 scoreboard players reset @s edit_heat_time
 scoreboard players reset @s edit_overtime_deduction
+scoreboard players reset @s surrender
+scoreboard players reset @s unstuck_me
 function freeze:general/inv/change
 
 #This is dumb but whatever
