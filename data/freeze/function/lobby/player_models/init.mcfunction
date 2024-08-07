@@ -127,7 +127,7 @@ summon minecraft:interaction -1325.56 67.0 208.52 {UUID:[I;0,0,0,6],width:1.25,h
 summon minecraft:interaction -1320.37 67.00 208.49 {UUID:[I;0,0,0,7],width:1.25,height:2.25,Tags:["lobby","lobby_chief"]}
 summon minecraft:interaction -1303.5 64.00 229.65 {UUID:[I;0,0,0,8],width:1.25,height:2.25,Tags:["lobby","lobby_dragonking"]}
 summon minecraft:interaction -1303.57 68.06 230.49 {UUID:[I;0,0,0,9],width:1.7,height:2.0,Tags:["lobby","lobby_flare"]}
-#summon minecraft:interaction -1325.30 71.00 207.38 {UUID:[I;0,0,0,10],width:1.25,height:2.25,Tags:["lobby","lobby_trianull"]}
+summon minecraft:interaction -1325.30 71.00 207.38 {UUID:[I;0,0,0,10],width:1.25,height:2.25,Tags:["lobby","lobby_trianull"]}
 
 #More Misc Props
 summon minecraft:item_display -1304.18798828125 67.34619009522619 254.40749569885676 {Tags:["lobby"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":37}},transformation:{left_rotation:[0.0f,-0.70710677f,0.0f,0.70710677f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.9999999f,0.99999994f,0.9999999f],translation:[0.0f,0.0f,0.0f]}}
