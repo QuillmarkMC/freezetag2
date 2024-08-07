@@ -9,7 +9,7 @@ data merge storage freeze:var { \
       Songs: { \
         lobby_none: [{ Name: "freeze:music.lobby", Duration: 2194 }], \
         cp_BigOil: [{ Name: "freeze:music.big_oil", Duration: 1993 }], \
-        cp_FrozenCrag: [{ Name: "freeze:music.frozen_crag", Duration: 1000 }], \
+        cp_FrozenCrag: [{ Name: "freeze:music.frozen_crag", Duration: 2276 }], \
         tdm_GlacialKeep: [{ Name: "freeze:music.glacial_keep", Duration: 1870 }], \
         tdm_FrostyFjord: [{ Name: "freeze:music.frosty_fjord", Duration: 1600 }] \
       }, \
@@ -25,7 +25,7 @@ data merge storage freeze:var { \
       Songs: { \
         lobby_none: [{ Name: "freeze:music.lobby", Duration: 2194 }], \
         cp_BigOil: [{ Name: "freeze:music.big_oil", Duration: 1993 }], \
-        cp_FrozenCrag: [{ Name: "freeze:music.frozen_crag", Duration: 1000 }], \
+        cp_FrozenCrag: [{ Name: "freeze:music.frozen_crag", Duration: 2276 }], \
         tdm_GlacialKeep: [{ Name: "freeze:music.glacial_keep", Duration: 1870 }], \
         tdm_FrostyFjord: [{ Name: "freeze:music.frosty_fjord", Duration: 1600 }] \
       }, \
