@@ -1,1 +1,1 @@
-$execute as @a[nbt={UUID:$(Player)}] run tellraw @s {"text":"The Glacierback must be placed on ground"}
+$execute as @a[nbt={UUID:$(Player)}] run tellraw @s {"translate":"text.game.item.turtle.use.fail"}

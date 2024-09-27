@@ -1,6 +1,6 @@
 #scoreboard players operation $state gamestate *= $-1 var
 
-tellraw @a [{"text":"[i] ","color":"gray"},{"text":"The game will start in 10 seconds.","color":"white"}]
+tellraw @a [{"text":"[i] ","color":"gray"},{"translate":"text.game.cutscene.start","color":"white"}]
 
 execute as @a[team=!Spectate] at @s run function freeze:game/general/map/intro/tdm/stand/summon with entity @s
 

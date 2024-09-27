@@ -1,1 +1,1 @@
-$execute as @a[nbt={UUID:$(Player)}] run tellraw @s {"text":"Failed to place Mystery Box"}
+$execute as @a[nbt={UUID:$(Player)}] run tellraw @s {"translate":"text.game.item.mystery.use.fail"}

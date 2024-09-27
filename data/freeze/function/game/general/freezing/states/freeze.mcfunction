@@ -5,7 +5,7 @@ execute summon armor_stand run function freeze:game/general/freezing/states/init
 effect clear @s
 effect give @s slowness infinite 255 true
 effect give @s weakness infinite 255 true
-effect give @s jump_boost infinite 128 true
+attribute @s generic.jump_strength base set 0
 attribute @s generic.knockback_resistance base set 1
 tag @s add Frozen
 tag @s add FrozenThisTick

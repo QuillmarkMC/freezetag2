@@ -24,6 +24,7 @@ scoreboard objectives add match_id dummy
 
 #Options
 scoreboard objectives add options dummy
+execute unless score $admin_locked_settings options matches -1.. run scoreboard players set $admin_locked_settings options -1
 execute unless score $win_score options matches 0.. run scoreboard players set $win_score options 500
 execute unless score $overtime_deduction options matches 0.. run scoreboard players set $overtime_deduction options 100
 execute unless score $freeze_time options matches 0.. run scoreboard players set $freeze_time options 200
@@ -70,12 +71,12 @@ bossbar add freeze:hud_points ""
 bossbar set freeze:hud_points color yellow
 
 ##Data
+function freeze:general/music/data
+function freeze:lobby/menu/data
 execute unless data storage freeze:gamestate State run function freeze:admin/lobby
 function freeze:game/general/map/data
 function freeze:game/general/bossbar/data
 function freeze:game/general/items/loot/data
-function freeze:lobby/menu/data
-function freeze:general/music/data
 
 ##Forceloads (because mc is cringe)
 #lobby
@@ -95,31 +96,31 @@ team add Red
 team modify Red color red
 team modify Red friendlyFire true
 team modify Red collisionRule pushOtherTeams
-team modify Red prefix {"text":"[Red] ","color":"red"}
+team modify Red prefix {"translate":"text.general.team.prefix.red","color":"red"}
 team add Blue
 team modify Blue color aqua
 team modify Blue friendlyFire true
 team modify Blue collisionRule pushOtherTeams
-team modify Blue prefix {"text":"[Blue] ","color":"aqua"}
+team modify Blue prefix {"translate":"text.general.team.prefix.blue","color":"aqua"}
 team add Spectate
 team modify Spectate color dark_gray
 team modify Spectate friendlyFire false
-team modify Spectate prefix {"text":"[Spectate] ","color":"dark_gray"}
+team modify Spectate prefix {"translate":"text.general.team.prefix.spectate","color":"dark_gray"}
 team add TempBlue
 team modify TempBlue color aqua
 team modify TempBlue friendlyFire false
 team modify TempBlue collisionRule never
-team modify TempBlue prefix {"text":"[Blue] ","color":"aqua"}
+team modify TempBlue prefix {"translate":"text.general.team.prefix.blue","color":"aqua"}
 team add TempRed
 team modify TempRed color red
 team modify TempRed friendlyFire false
 team modify TempRed collisionRule never
-team modify TempRed prefix {"text":"[Red] ","color":"red"}
+team modify TempRed prefix {"translate":"text.general.team.prefix.red","color":"red"}
 team add Random
 team modify Random color dark_purple
 team modify Random friendlyFire false
 team modify Random collisionRule never
-team modify Random prefix {"text":"[Random] ","color":"dark_purple"}
+team modify Random prefix {"translate":"text.general.team.prefix.random","color":"dark_purple"}
 team add Dev
 team modify color color dark_aqua
 
@@ -159,7 +160,7 @@ gamerule naturalRegeneration false
 gamerule playersSleepingPercentage 101
 #TALK ABOUT THIS
 gamerule reducedDebugInfo false
-gamerule sendCommandFeedback true
+gamerule sendCommandFeedback false
 #TALK ABOUT THIS
 gamerule showDeathMessages false
 #TALK ABOUT THIS

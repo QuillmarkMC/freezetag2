@@ -1,11 +1,11 @@
 kill @e[tag=TeamSelect]
 
 #Interactions
-summon interaction -1333.5 61.7 278.3 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{Function:"freeze:lobby/menu/team_select/interactions/blue",Args:{}}}]}
-summon interaction -1329.5 61.7 278.3 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{Function:"freeze:lobby/menu/team_select/interactions/red",Args:{}}}]}
-summon interaction -1331.5 61.7 278.3 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{Function:"freeze:lobby/menu/team_select/interactions/random",Args:{}}}]}
-summon interaction -1337.7 61.7 280.5 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{Function:"freeze:lobby/menu/team_select/interactions/spectate",Args:{}}}]}
-summon interaction -1325.3 61.7 280.5 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{Function:"freeze:lobby/menu/team_select/interactions/spectate",Args:{}}}]}
+summon interaction -1333.5 61.7 278.3 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{AdminLocked:"false",Function:"freeze:lobby/menu/team_select/interactions/blue",Args:{}}}]}
+summon interaction -1329.5 61.7 278.3 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{AdminLocked:"false",Function:"freeze:lobby/menu/team_select/interactions/red",Args:{}}}]}
+summon interaction -1331.5 61.7 278.3 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{AdminLocked:"false",Function:"freeze:lobby/menu/team_select/interactions/random",Args:{}}}]}
+summon interaction -1337.7 61.7 280.5 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{AdminLocked:"false",Function:"freeze:lobby/menu/team_select/interactions/spectate",Args:{}}}]}
+summon interaction -1325.3 61.7 280.5 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{AdminLocked:"false",Function:"freeze:lobby/menu/team_select/interactions/spectate",Args:{}}}]}
 
 #Coats
 summon armor_stand -1333.5 62 278.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:chainmail_chestplate",Count:1b},{}],Rotation:[0f,0f]}
@@ -15,11 +15,11 @@ summon armor_stand -1337.5 62 280.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],
 summon armor_stand -1325.5 62 280.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:netherite_chestplate",Count:1b},{}],Rotation:[90f,0f]}
 
 #Text
-summon text_display -1333.5 62 278.5 {Tags:["TeamSelect"],text:'[{"text":"Click to\\nJoin "},{"text":"Blue","color":"aqua"}]',billboard:"center",alignment:"center"}
-summon text_display -1329.5 62 278.5 {Tags:["TeamSelect"],text:'[{"text":"Click to\\nJoin "},{"text":"Red","color":"red"}]',billboard:"center",alignment:"center"}
-summon text_display -1331.5 62 278.5 {Tags:["TeamSelect"],text:'[{"text":"Click to\\nJoin "},{"text":"Random","color":"dark_purple"}]',billboard:"center",alignment:"center"}
-summon text_display -1337.5 62 280.5 {Tags:["TeamSelect"],text:'[{"text":"Click to\\nJoin "},{"text":"Spectator","color":"gray"}]',billboard:"center",alignment:"center"}
-summon text_display -1325.5 62 280.5 {Tags:["TeamSelect"],text:'[{"text":"Click to\\nJoin "},{"text":"Spectator","color":"gray"}]',billboard:"center",alignment:"center"}
+summon text_display -1333.5 62 278.5 {Tags:["TeamSelect"],text:'[{"translate":"text.lobby.menu.team_select.prompt"},{"translate":"text.lobby.menu.team_select.blue","color":"aqua"}]',billboard:"center",alignment:"center"}
+summon text_display -1329.5 62 278.5 {Tags:["TeamSelect"],text:'[{"translate":"text.lobby.menu.team_select.prompt"},{"translate":"text.lobby.menu.team_select.red","color":"red"}]',billboard:"center",alignment:"center"}
+summon text_display -1331.5 62 278.5 {Tags:["TeamSelect"],text:'[{"translate":"text.lobby.menu.team_select.prompt"},{"translate":"text.lobby.menu.team_select.random","color":"dark_purple"}]',billboard:"center",alignment:"center"}
+summon text_display -1337.5 62 280.5 {Tags:["TeamSelect"],text:'[{"translate":"text.lobby.menu.team_select.prompt"},{"translate":"text.lobby.menu.team_select.spectator","color":"gray"}]',billboard:"center",alignment:"center"}
+summon text_display -1325.5 62 280.5 {Tags:["TeamSelect"],text:'[{"translate":"text.lobby.menu.team_select.prompt"},{"translate":"text.lobby.menu.team_select.spectator","color":"gray"}]',billboard:"center",alignment:"center"}
 
 # #Interactions
 # summon interaction -1325.3 62.5 291.5 {response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{Function:"freeze:lobby/menu/team_select/interactions/blue"}}]}

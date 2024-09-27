@@ -7,10 +7,10 @@ execute as @a if score @s edit_heat_time matches -2147483648..2147483647 unless 
 execute as @a if score @s edit_overtime_deduction matches -2147483648..2147483647 unless score @s edit_overtime_deduction matches 0 run function freeze:lobby/menu/game_options/edit/overtime_deduction
 
 #Effects (just in case, idk what keeps letting people spawn with nothing)
-effect give @s saturation infinite 255 true
-effect give @s regeneration infinite 255 true
-effect give @s resistance infinite 255 true
-effect give @s weakness infinite 255 true
+effect give @a saturation infinite 255 true
+effect give @a regeneration infinite 255 true
+effect give @a resistance infinite 255 true
+effect give @a weakness infinite 255 true
 
 #parkour tick
 function freeze:lobby/parkour/tick
@@ -20,3 +20,6 @@ function freeze:lobby/player_models/tick
 
 #oob
 execute as @a[predicate=!freeze:lobby_oob,gamemode=adventure] run tp @s -1331.5 61.00 274.5 180 0
+
+#Auto admin lock unlock
+execute if score $admin_locked_settings options matches 1 unless entity @a[tag=Admin] run function freeze:lobby/menu/game_options/interactions/admin/auto_unlock
