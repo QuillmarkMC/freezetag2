@@ -8,7 +8,7 @@ execute as @e[type=marker,tag=BallRider] run kill @s
 execute as @e[type=block_display,tag=AvalancheSnow] run function freeze:game/general/items/avalanche/snow/kill
 
 #Campfires
-execute as @e[type=block_display,tag=Campfire] run function freeze:game/general/items/blaze/clean
+execute as @e[type=item_display,tag=Campfire] run function freeze:game/general/items/blaze/clean
 
 #Mystery Boxes
 execute as @e[type=item_display,tag=TempItemGiverCore] run function freeze:game/general/items/mystery/temp_item_giver/clean {PlayerUUID:[]}

@@ -1,5 +1,5 @@
 #Rotate box
-tp @s ~ ~ ~ ~6 ~
+rotate @s ~6 ~
 
 #Rotate and bounce question mark
 execute on passengers at @s run function freeze:game/general/item_giver/animate/question_mark
