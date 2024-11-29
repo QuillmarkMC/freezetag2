@@ -13,3 +13,4 @@ execute as @a if score @s unstuck_me matches 1.. at @s run function freeze:game/
 effect give @a minecraft:regeneration infinite 255 true
 effect give @a minecraft:saturation infinite 255 true
 effect give @a minecraft:resistance infinite 255 true
+effect give @a minecraft:strength infinite 1 true
