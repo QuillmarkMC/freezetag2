@@ -4,8 +4,9 @@ scoreboard players operation $temp ids = @s ids
 execute as @e[tag=FreezeSpot] if score @s ids = $temp ids run kill @s
 effect clear @s minecraft:slowness
 effect clear @s minecraft:weakness
-attribute @s generic.jump_strength base set 0.42
-attribute @s generic.knockback_resistance base set 0
+# TODO: Replace with reset once that gets officially released
+attribute @s minecraft:jump_strength base set 0.42
+attribute @s minecraft:knockback_resistance base set 0
 tag @s remove Frozen
 function freeze:general/inv/change
 
