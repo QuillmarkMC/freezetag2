@@ -8,11 +8,11 @@ summon interaction -1337.7 61.7 280.5 {height:2,response:1b,Tags:["MenuInteract"
 summon interaction -1325.3 61.7 280.5 {height:2,response:1b,Tags:["MenuInteract","TeamSelect"],Passengers:[{id:"minecraft:marker",Tags:["TeamSelect"],data:{AdminLocked:"false",Function:"freeze:lobby/menu/team_select/interactions/spectate",Args:{}}}]}
 
 #Coats
-summon armor_stand -1333.5 62 278.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,model:"freeze:humanoid/blue"}}},{}],Rotation:[0f,0f]}
-summon armor_stand -1329.5 62 278.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,model:"freeze:humanoid/red"}}},{}],Rotation:[0f,0f]}
-summon armor_stand -1331.5 62 278.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,model:"freeze:humanoid/random"}}},{}],Rotation:[0f,0f]}
-summon armor_stand -1337.5 62 280.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,model:"freeze:humanoid/spectator"}}},{}],Rotation:[-90f,0f]}
-summon armor_stand -1325.5 62 280.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,model:"freeze:humanoid/spectator"}}},{}],Rotation:[90f,0f]}
+summon armor_stand -1333.5 62 278.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,asset_id:"freeze:humanoid/blue"}}},{}],Rotation:[0f,0f]}
+summon armor_stand -1329.5 62 278.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,asset_id:"freeze:humanoid/red"}}},{}],Rotation:[0f,0f]}
+summon armor_stand -1331.5 62 278.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,asset_id:"freeze:humanoid/random"}}},{}],Rotation:[0f,0f]}
+summon armor_stand -1337.5 62 280.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,asset_id:"freeze:humanoid/spectator"}}},{}],Rotation:[-90f,0f]}
+summon armor_stand -1325.5 62 280.5 {Marker:1b,Invisible:1b,Tags:["TeamSelect"],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,components:{equippable:{slot:chest,asset_id:"freeze:humanoid/spectator"}}},{}],Rotation:[90f,0f]}
 
 #Text
 summon text_display -1333.5 62 278.5 {Tags:["TeamSelect"],text:'[{"translate":"text.lobby.menu.team_select.prompt"},{"translate":"text.lobby.menu.team_select.blue","color":"aqua"}]',billboard:"center",alignment:"center"}
