@@ -4,11 +4,11 @@ kill @e[tag=MapSelect]
 summon item_display -1331.5 63 295.998 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/map_select_bg"},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0.001f]}}
 
 #Title
-summon text_display -1331.5 64.75 295.994 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.title"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center"}
+summon text_display -1331.5 64.8 295.994 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.title"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center"}
 summon item_display -1331.5 65.0 295.996 {Tags:["MapSelect"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/map_select_title_bg"},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.25f,2.25f,0.001f]}}
 
 #Selected Map
-summon item_display -1330.6875 63 295.996 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":15},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,0.001f]}}
+summon item_display -1330.6875 63 295.996 {Tags:["MapSelect","MapImage"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/menu_gk"},Count:1b},Rotation:[0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,0.001f]}}
 
 summon item_display -1329.4375 63 295.97 {Tags:["MapSelect"],brightness:{sky:15,block:15},item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/arrow_left"}},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 summon item_display -1331.9375 63 295.97 {Tags:["MapSelect"],brightness:{sky:15,block:15},item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/arrow_right"}},Rotation:[180f,0f],transformation:{left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
@@ -18,13 +18,13 @@ summon interaction -1331.9375 62.5 296.19 {response:1b,width:0.5f,Tags:["MenuInt
 #Selected Map Specfiic Text
 summon text_display -1330.6875 64.15625 295.996 {Tags:["MapSelect","MapName"],text:'{"translate":"text.lobby.menu.map_select.name.default"}',background:0,Rotation:[180f,0f],alignment:"center"}
 summon text_display -1333.0 63.925 295.996 {Tags:["MapSelect","Gamemode"],text:'{"translate":"text.lobby.menu.map_select.gamemode.default"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
-summon text_display -1333.0 63.23 295.996 {line_width:90,Tags:["MapSelect","GamemodeDesc"],text:'{"translate":"text.lobby.menu.map_select.gamemode.info.default"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
+summon text_display -1333.0 63.27 295.996 {line_width:90,Tags:["MapSelect","GamemodeDesc"],text:'{"translate":"text.lobby.menu.map_select.gamemode.info.default"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
 summon text_display -1333.0 62.58 295.996 {Tags:["MapSelect","RecommendedPlayers"],text:'{"text":"4 - 12 Players"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
 summon text_display -1333.0 61.58 295.996 {line_width:90,Tags:["MapSelect","MapDesc"],text:'{"translate":"text.lobby.menu.map_select.map.info.default"}',background:0,Rotation:[180f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},alignment:"center"}
 
 #Static Text
 summon text_display -1333.0 64.125 295.996 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.static.gamemode"}',background:0,Rotation:[180f,0f],alignment:"center"}
-summon text_display -1333.0 62.88 295.996 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.static.map_info"}',background:0,Rotation:[180f,0f],alignment:"center"}
+summon text_display -1333.0 62.9 295.996 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.static.map_info"}',background:0,Rotation:[180f,0f],alignment:"center"}
 
 #Start game button
 summon text_display -1330.6875 61.50625 295.93 {Tags:["MapSelect"],text:'{"translate":"text.lobby.menu.map_select.static.start_game"}',background:0,Rotation:[180f,0f],alignment:"center"}

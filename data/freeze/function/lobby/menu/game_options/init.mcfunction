@@ -4,7 +4,7 @@ kill @e[tag=GameOptions]
 summon item_display -1336.998 63.0 292.50 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/game_options_bg"},Count:1b},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,0.001f]}}
 
 #Title
-summon text_display -1336.994 64.75 292.5225 {Tags:["GameOptions"],text:'{"translate":"text.lobby.menu.game.title"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center"}
+summon text_display -1336.994 64.8 292.5225 {Tags:["GameOptions"],text:'{"translate":"text.lobby.menu.game.title"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center"}
 summon item_display -1336.996 65.0 292.5 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/game_options_title_bg"},Count:1b},Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.625f,2.625f,0.001f]}}
 
 #Option Titles (The random white space is the exact amount of spaces needed to push to the next line, which is needed because otherwise it doesn't left align ffs)
@@ -48,12 +48,12 @@ summon item_display -1336.96875 62.3125 290.625 {Tags:["GameOptions"],item:{id:"
 summon item_display -1336.96875 61.5625 290.625 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/button_question"}},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 
 #Reset Button
-summon text_display -1336.93 64.4200 290.68 {Tags:["GameOptions"],text:'{"text":"↺"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.75f,1.75f,1.75f]},alignment:"center"}
+summon text_display -1336.93 64.4700 290.68 {Tags:["GameOptions"],text:'{"text":"↺"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.75f,1.75f,1.75f]},alignment:"center"}
 summon interaction -1337.1025 64.4375 290.65 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["GameOptions"],data:{AdminLocked:"true",Function:"freeze:lobby/menu/game_options/interactions/reset",Args:{}}}]}
 summon item_display -1336.96875 64.5000 290.625 {Tags:["GameOptions"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/button_reset"}},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 
 #Admin Button
-summon text_display -1336.93 64.5 294.37 {Tags:["GameOptions","AdminLock"],text:'{"text":"🔒"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.9f,0.9f,0.9f]},alignment:"center"}
+summon text_display -1336.93 64.54 294.37 {Tags:["GameOptions","AdminLock"],text:'{"text":"🔒"}',background:0,Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.9f,0.9f,0.9f]},alignment:"center"}
 summon interaction -1337.1025 64.4375 294.35 {response:1b,width:0.425f,height:0.425f,Tags:["MenuInteract","GameOptions"],Passengers:[{id:"minecraft:marker",Tags:["GameOptions"],data:{AdminLocked:"true",Function:"freeze:lobby/menu/game_options/interactions/admin/run",Args:{}}}]}
 summon item_display -1336.96875 64.5000 294.325 {Tags:["GameOptions","AdminLock"],item:{id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/button_question"}},Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
 

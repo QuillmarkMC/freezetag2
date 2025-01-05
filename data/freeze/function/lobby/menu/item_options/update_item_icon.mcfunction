@@ -1,1 +1,1 @@
-$data modify entity @s item.components.minecraft:custom_model_data set from storage freeze:menu ItemOptions.ItemInfo.$(Name).Icon
+$data modify entity @s item.components.minecraft:item_model set from storage freeze:menu ItemOptions.ItemInfo.$(Name).ItemModel
