@@ -13,7 +13,8 @@ data merge storage freeze:var { \
         tdm_GlacialKeep: [{ Name: "freeze:music.glacial_keep", Duration: 1870 }], \
         tdm_FrostyFjord: [{ Name: "freeze:music.frosty_fjord", Duration: 1600 }] \
       }, \
-      DisplayCustomModelData: "42" \
+      DisplayCustomModelData: "42", \
+      DisplayItemModel: "freeze:misc_lobby/phonograph/phonograph" \
     } \
   }, \
   Soundtracks: [ \
@@ -29,7 +30,8 @@ data merge storage freeze:var { \
         tdm_GlacialKeep: [{ Name: "freeze:music.glacial_keep", Duration: 1870 }], \
         tdm_FrostyFjord: [{ Name: "freeze:music.frosty_fjord", Duration: 1600 }] \
       }, \
-      DisplayCustomModelData: "42" \
+      DisplayCustomModelData: "42", \
+      DisplayItemModel: "freeze:misc_lobby/phonograph/phonograph" \
     }, \
     { \
       Name: "text.lobby.menu.music.soundtrack.minecraft.name", \
@@ -43,7 +45,8 @@ data merge storage freeze:var { \
         tdm_GlacialKeep: [{ Name: "freeze:music.toys_on_a_tear", Duration: 2935 }], \
         tdm_FrostyFjord: [{ Name: "freeze:music.wonderous_workshop", Duration: 3268 }] \
       }, \
-      DisplayCustomModelData: "44" \
+      DisplayCustomModelData: "44", \
+      DisplayItemModel: "freeze:misc_lobby/phonograph/green_phonograph" \
     } \
   ] \
 }

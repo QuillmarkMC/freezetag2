@@ -1,3 +1,3 @@
 $tellraw @s ["",{"text":"[❓] ","color":"dark_green"},{"translate":"text.lobby.menu.music.set","with":[{"translate":"$(Name)","color":"$(NameColor)"},{"translate":"$(Author)","color":"$(AuthorColor)"}]}]
-$data modify entity @n[tag=Phonograph] item.components.minecraft:custom_model_data set value $(DisplayCustomModelData)
+$data modify entity @n[tag=Phonograph] item.components.minecraft:item_model set value "$(DisplayItemModel)"
 $data modify entity @n[tag=CurrentlyPlaying] text set value '{"translate":"text.lobby.menu.music.currently_playing","with":[{"translate":"$(Name)","color":"$(NameColor)"}]}'
