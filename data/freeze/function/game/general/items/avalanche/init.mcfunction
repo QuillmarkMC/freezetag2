@@ -1,4 +1,4 @@
-data merge entity @s {Tags:["Ball"],Item:{id:"minecraft:snowball",Count:1b}}
+data merge entity @s {Tags:["Ball"],Item:{id:"minecraft:snowball",count:1b}}
 $data modify storage freeze:var BallRiderInit.Team set value $(Team)
 data modify storage freeze:var BallRiderInit.UUID set from entity @s UUID
 data modify entity @s Motion set from storage freeze:var MotionFromAngle

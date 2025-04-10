@@ -1,7 +1,8 @@
 {
     "pack": {
-        "pack_format": 57,
-        "description": "Data Pack for Frostbite Frenzy"
+        "pack_format": 71,
+        "description": "Data Pack for Frostbite Frenzy",
+        "supported_formats": [71, 71]
     },
     "filter": {
         "block": [

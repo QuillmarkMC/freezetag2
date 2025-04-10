@@ -1,1 +1,1 @@
-$data modify storage freeze:bossbar CPInfo[$(Slot)] set value '["",{"text":"["},{"color":"$(Color)","translate":"$(Name)"},{"text":"]"}]'
+$data modify storage freeze:bossbar CPInfo[$(Slot)] set value ["",{"text":"["},{"color":"$(Color)","translate":"$(Name)"},{"text":"]"}]
