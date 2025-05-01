@@ -122,7 +122,7 @@ team modify Random friendlyFire false
 team modify Random collisionRule never
 team modify Random prefix {"translate":"text.general.team.prefix.random","color":"dark_purple"}
 team add Dev
-team modify color color dark_aqua
+team modify Dev color dark_aqua
 
 ##Gamerules
 gamerule announceAdvancements false

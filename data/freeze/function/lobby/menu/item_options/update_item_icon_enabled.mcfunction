@@ -1,2 +1,2 @@
-$execute if predicate freeze:$(Enabled) run data modify entity @s item set value {id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":29}}
-$execute unless predicate freeze:$(Enabled) run data modify entity @s item set value {id:"minecraft:phantom_membrane",components:{"minecraft:custom_model_data":30}}
+$execute if predicate freeze:$(Enabled) run data modify entity @s item set value {id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/item_enabled"}}
+$execute unless predicate freeze:$(Enabled) run data modify entity @s item set value {id:"minecraft:phantom_membrane",components:{"minecraft:item_model":"freeze:menu/item_disabled"}}

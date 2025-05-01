@@ -1,4 +1,4 @@
-execute unless score @s edit_win_score matches 1..9999 run tellraw @s ["",{"text":"[❗] ","color":"dark_red"},{"text":"Win score must be within the range of 1 to 9999 points."}]
+execute unless score @s edit_win_score matches 1..9999 run tellraw @s ["",{"text":"[❗] ","color":"dark_red"},{"translate":"text.lobby.menu.game.win_score.info"}]
 execute unless score @s edit_win_score matches 1..9999 run scoreboard players reset @s edit_win_score
 execute unless score @s edit_win_score matches 1..9999 run return 0
 execute store result storage freeze:menu GameOptions.CurrentOptions.WinScore int 1 run scoreboard players get @s edit_win_score

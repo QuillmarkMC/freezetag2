@@ -1,9 +1,9 @@
 #Change items
-data modify entity @s item.components.minecraft:custom_model_data set value 3
-execute if score @s item_giver_cooldown matches 3 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 6
-execute if score @s item_giver_cooldown matches 2 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 5
-execute if score @s item_giver_cooldown matches 1 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 4
-execute unless score @s item_giver_cooldown matches 1..3 on passengers run data modify entity @s item.components.minecraft:custom_model_data set value 2
+data modify entity @s item.components.minecraft:item_model set value "freeze:item_giver/item_giver_inactive"
+execute if score @s item_giver_cooldown matches 3 on passengers run data modify entity @s item.components.minecraft:item_model set value "freeze:item_giver/item_num_three"
+execute if score @s item_giver_cooldown matches 2 on passengers run data modify entity @s item.components.minecraft:item_model set value "freeze:item_giver/item_num_two"
+execute if score @s item_giver_cooldown matches 1 on passengers run data modify entity @s item.components.minecraft:item_model set value "freeze:item_giver/item_num_one"
+execute unless score @s item_giver_cooldown matches 1..3 on passengers run data modify entity @s item.components.minecraft:item_model set value "freeze:item_giver/mystery_box"
 
 #Particle
 particle minecraft:poof ~ ~1 ~ 0.35 0.35 0.35 0.1 60 force

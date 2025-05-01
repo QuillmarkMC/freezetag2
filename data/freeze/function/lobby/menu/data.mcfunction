@@ -10,7 +10,8 @@ data merge storage freeze:menu {\
         Gamemode: "text.lobby.menu.map_select.glacial_keep.gamemode",\
         GamemodeDesc: "text.lobby.menu.map_select.glacial_keep.gamemode_desc",\
         MapDesc: "text.lobby.menu.map_select.glacial_keep.map_desc",\
-        MapImage: 15\
+        MapImage: 15,\
+        MapImageItemModel: "freeze:menu/menu_gk",\
     },\
     Maps: [\
       {\
@@ -22,7 +23,8 @@ data merge storage freeze:menu {\
         Gamemode: "text.lobby.menu.map_select.glacial_keep.gamemode",\
         GamemodeDesc: "text.lobby.menu.map_select.glacial_keep.gamemode_desc",\
         MapDesc: "text.lobby.menu.map_select.glacial_keep.map_desc",\
-        MapImage: 15\
+        MapImage: 15,\
+        MapImageItemModel: "freeze:menu/menu_gk",\
       },\
       {\
         Index: 1,\
@@ -33,7 +35,8 @@ data merge storage freeze:menu {\
         Gamemode: "text.lobby.menu.map_select.frosty_fjord.gamemode",\
         GamemodeDesc: "text.lobby.menu.map_select.frosty_fjord.gamemode_desc",\
         MapDesc: "text.lobby.menu.map_select.frosty_fjord.map_desc",\
-        MapImage: 16\
+        MapImage: 16,\
+        MapImageItemModel: "freeze:menu/menu_ff",\
       },\
       {\
         Index: 2,\
@@ -44,7 +47,8 @@ data merge storage freeze:menu {\
         Gamemode: "text.lobby.menu.map_select.big_oil.gamemode",\
         GamemodeDesc: "text.lobby.menu.map_select.big_oil.gamemode_desc",\
         MapDesc: "text.lobby.menu.map_select.big_oil.map_desc",\
-        MapImage: 17\
+        MapImage: 17,\
+        MapImageItemModel: "freeze:menu/menu_bo",\
       },\
       {\
         Index: 3,\
@@ -55,7 +59,8 @@ data merge storage freeze:menu {\
         Gamemode: "text.lobby.menu.map_select.frozen_crag.gamemode",\
         GamemodeDesc: "text.lobby.menu.map_select.frozen_crag.gamemode_desc",\
         MapDesc: "text.lobby.menu.map_select.frozen_crag.map_desc",\
-        MapImage: 18\
+        MapImage: 18,\
+        MapImageItemModel: "freeze:menu/menu_fc",\
       }\
     ]\
   },\
@@ -138,7 +143,8 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 0,\
         Icon: 1,\
-        Desc: "text.lobby.menu.item.desc.avalanche"\
+        Desc: "text.lobby.menu.item.desc.avalanche",\
+        ItemModel: "freeze:powerups/avalanche"\
       },\
       snowman: {\
         Name: "text.game.item.snowman.name",\
@@ -146,7 +152,8 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 1,\
         Icon: 2,\
-        Desc: "text.lobby.menu.item.desc.snowman"\
+        Desc: "text.lobby.menu.item.desc.snowman",\
+        ItemModel: "freeze:powerups/decoy_snowman"\
       },\
       hot_rod: {\
         Name: "text.game.item.hot_rod.name",\
@@ -154,7 +161,8 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 2,\
         Icon: 3,\
-        Desc: "text.lobby.menu.item.desc.hot_rod"\
+        Desc: "text.lobby.menu.item.desc.hot_rod",\
+        ItemModel: "freeze:powerups/fire_rod"\
       },\
       turtle: {\
         Name: "text.game.item.turtle.name",\
@@ -162,7 +170,8 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 3,\
         Icon: 4,\
-        Desc: "text.lobby.menu.item.desc.turtle"\
+        Desc: "text.lobby.menu.item.desc.turtle",\
+        ItemModel: "freeze:powerups/glacierback"\
       },\
       glow: {\
         Name: "text.game.item.glow.name",\
@@ -170,7 +179,8 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 4,\
         Icon: 5,\
-        Desc: "text.lobby.menu.item.desc.glow"\
+        Desc: "text.lobby.menu.item.desc.glow",\
+        ItemModel: "freeze:powerups/glow_point"\
       },\
       crossbow: {\
         Name: "text.game.item.crossbow.name",\
@@ -178,7 +188,8 @@ data merge storage freeze:menu {\
         Page: 0,\
         NumItem: 5,\
         Icon: 6,\
-        Desc: "text.lobby.menu.item.desc.crossbow"\
+        Desc: "text.lobby.menu.item.desc.crossbow",\
+        ItemModel: "freeze:powerups/hot_shot"\
       },\
       axe: {\
         Name: "text.game.item.axe.name",\
@@ -186,7 +197,8 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 0,\
         Icon: 7,\
-        Desc: "text.lobby.menu.item.desc.axe"\
+        Desc: "text.lobby.menu.item.desc.axe",\
+        ItemModel: "freeze:powerups/ice_pick"\
       },\
       icicle: {\
         Name: "text.game.item.icicle.name",\
@@ -194,7 +206,8 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 1,\
         Icon: 8,\
-        Desc: "text.lobby.menu.item.desc.icicle"\
+        Desc: "text.lobby.menu.item.desc.icicle",\
+        ItemModel: "freeze:powerups/icicle"\
       },\
       invis: {\
         Name: "text.game.item.invis.name",\
@@ -202,7 +215,8 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 2,\
         Icon: 9,\
-        Desc: "text.lobby.menu.item.desc.invis"\
+        Desc: "text.lobby.menu.item.desc.invis",\
+        ItemModel: "freeze:powerups/invisibility"\
       },\
       mystery: {\
         Name: "text.game.item.mystery.name",\
@@ -210,7 +224,8 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 3,\
         Icon: 10,\
-        Desc: "text.lobby.menu.item.desc.mystery"\
+        Desc: "text.lobby.menu.item.desc.mystery",\
+        ItemModel: "freeze:powerups/mystery_box"\
       },\
       phoenix: {\
         Name: "text.game.item.phoenix.name",\
@@ -218,7 +233,8 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 4,\
         Icon: 11,\
-        Desc: "text.lobby.menu.item.desc.phoenix"\
+        Desc: "text.lobby.menu.item.desc.phoenix",\
+        ItemModel: "freeze:powerups/phoenix_ignition"\
       },\
       explosion: {\
         Name: "text.game.item.explosion.name",\
@@ -226,7 +242,8 @@ data merge storage freeze:menu {\
         Page: 1,\
         NumItem: 5,\
         Icon: 12,\
-        Desc: "text.lobby.menu.item.desc.explosion"\
+        Desc: "text.lobby.menu.item.desc.explosion",\
+        ItemModel: "freeze:powerups/siberian_exsnowsion"\
       },\
       bow: {\
         Name: "text.game.item.bow.name",\
@@ -234,7 +251,8 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 0,\
         Icon: 13,\
-        Desc: "text.lobby.menu.item.desc.bow"\
+        Desc: "text.lobby.menu.item.desc.bow",\
+        ItemModel: "freeze:powerups/snowy_sniper"\
       },\
       blaze: {\
         Name: "text.game.item.blaze.name",\
@@ -242,7 +260,8 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 1,\
         Icon: 14,\
-        Desc: "text.lobby.menu.item.desc.blaze"\
+        Desc: "text.lobby.menu.item.desc.blaze",\
+        ItemModel: "freeze:powerups/campfire"\
       },\
       speed: {\
         Name: "text.game.item.speed.name",\
@@ -250,7 +269,8 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 2,\
         Icon: 15,\
-        Desc: "text.lobby.menu.item.desc.speed"\
+        Desc: "text.lobby.menu.item.desc.speed",\
+        ItemModel: "freeze:powerups/speed_boost"\
       },\
       whoaball: {\
         Name: "text.game.item.whoaball.name",\
@@ -258,7 +278,8 @@ data merge storage freeze:menu {\
         Page: 2,\
         NumItem: 3,\
         Icon: 16,\
-        Desc: "text.lobby.menu.item.desc.whoaball"\
+        Desc: "text.lobby.menu.item.desc.whoaball",\
+        ItemModel: "freeze:powerups/whoaball"\
       },\
       none: {\
         Name: "",\
@@ -266,7 +287,8 @@ data merge storage freeze:menu {\
         Page: -1,\
         NumItem: -1,\
         Icon: 0,\
-        Desc: ""\
+        Desc: "",\
+        ItemModel: "freeze:nothing"\
       }\
     },\
     CurrentItems: [\
