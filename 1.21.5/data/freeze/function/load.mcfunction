@@ -154,7 +154,6 @@ gamerule freezeDamage false
 gamerule globalSoundEvents false
 gamerule keepInventory true
 gamerule lavaSourceConversion false
-gamerule locatorBar false
 gamerule mobExplosionDropDecay false
 gamerule mobGriefing false
 gamerule naturalRegeneration false
