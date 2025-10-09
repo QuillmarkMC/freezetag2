@@ -1,8 +1,8 @@
 {
     "pack": {
-        "pack_format": 81,
-        "description": "Data Pack for Frostbite Frenzy",
-        "supported_formats": [71, 81]
+        "min_format": [88,0],
+        "max_format": [88,0],
+        "description": "Data Pack for Frostbite Frenzy"
     },
     "filter": {
         "block": [
@@ -13,14 +13,6 @@
             {
                 "namespace": "minecraft",
                 "path": "advancement/.*"
-            }
-        ]
-    },
-    "overlays": {
-        "entries": [
-            {
-                "formats": 71,
-                "directory": "1.21.5"
             }
         ]
     }

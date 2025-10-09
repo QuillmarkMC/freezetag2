@@ -5,7 +5,7 @@ data merge storage freeze:map_data {\
     LoadedArea:"255 -128 -128 127",\
     FunctionName:"frozen_crag",\
     Spawnbox:"57 2 8",\
-    SpectateSpawn:"57 37 8 90",\
+    SpectateSpawn:"57 37 8 90 0",\
     Spawnpoints: { List: [\
       {Pos:"202 33 4",Rot:"90",Team:"Red"},\
       {Pos:"-88 34 4",Rot:"-90",Team:"Blue"}\
@@ -33,7 +33,7 @@ data merge storage freeze:map_data {\
     Weather:"clear",\
     LoadedArea:"1135 -145 976 -320",\
     FunctionName:"big_oil",\
-    SpectateSpawn:"1059 68 -228 -90",\
+    SpectateSpawn:"1059 68 -228 -90 0",\
     Spawnbox:"1059 28 -228",\
     Spawnpoints: { List: [\
       {Pos:"1110 59 -228",Rot:"90",Team:"Red"},\
@@ -60,7 +60,7 @@ data merge storage freeze:map_data {\
     Weather:"clear",\
     LoadedArea:"-164 485 -302 611",\
     FunctionName:"glacial_keep",\
-    SpectateSpawn:"-225 15 527 45",\
+    SpectateSpawn:"-225 15 527 45 0",\
     Spawnbox:"-236 6 537",\
     Spawnpoints: { List: [\
       {Pos:"-212 11 513",Rot:"44",Team:"Red"},\
@@ -123,7 +123,7 @@ data merge storage freeze:map_data {\
     Weather:"rain",\
     LoadedArea:"207 943 112 848",\
     FunctionName:"glacial_keep",\
-    SpectateSpawn:"166 132 899 135",\
+    SpectateSpawn:"166 132 899 135 0",\
     Spawnbox:"165 112 899",\
     Spawnpoints: { List: [\
       {Pos:"125 118 922",Rot:"-90",Team:"Red"},\
@@ -203,7 +203,7 @@ data merge storage freeze:map_data {\
     Weather:"rain",\
     LoadedArea:"1136 -2193 1343 -2416",\
     FunctionName:"frosty_fjord",\
-    SpectateSpawn:"1235 45 -2348 0",\
+    SpectateSpawn:"1235 45 -2348 0 0",\
     Spawnbox:"1238 3 -2305",\
     Spawnpoints: { List: [\
       {Pos:"1211.0 12.5 -2314.0",Rot:"180",Team:"Red"},\
