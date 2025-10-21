@@ -23,7 +23,7 @@ function freeze:game/general/map/spawnpoint/loop
 
 #Spectators (kept in here instead of gamemode loading because they will work the same on every map/they don't need as complicated of spawning overhead)
 $spawnpoint @a[team=Spectate] $(SpectateSpawn)
-$tp @a[team=Spectate] $(SpectateSpawn) 0
+$tp @a[team=Spectate] $(SpectateSpawn)
 gamemode spectator @a[team=Spectate] 
 
 #Start tick and init
