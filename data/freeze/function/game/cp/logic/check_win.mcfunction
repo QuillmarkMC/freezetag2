@@ -1,3 +1,3 @@
 execute if score $score_red var >= $score_win var if score $score_blue var >= $score_win var run function freeze:game/general/overtime
-execute if score $score_red var >= $score_win var run function freeze:game/cp/logic/win {Team:Red,Color:red}
-execute if score $score_blue var >= $score_win var run function freeze:game/cp/logic/win {Team:Blue,Color:aqua}
+execute if score $score_red var >= $score_win var run function freeze:game/cp/logic/win {Team:"Red",Color:"red",Translate:"text.game.cutscene.team_wins.red"}
+execute if score $score_blue var >= $score_win var run function freeze:game/cp/logic/win {Team:"Blue",Color:"aqua",Translate:"text.game.cutscene.team_wins.blue"}
