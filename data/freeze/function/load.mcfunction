@@ -171,3 +171,4 @@ gamerule spectators_generate_chunks false
 gamerule tnt_explosion_drop_decay false
 gamerule universal_anger false
 gamerule water_source_conversion false
+gamerule random_tick_speed 0
