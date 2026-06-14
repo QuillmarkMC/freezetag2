@@ -4,18 +4,19 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
+          "team": "Red",
           "equipment": {
             "mainhand": {
               "predicates": {
-                "minecraft:custom_data": {"Item":"axe"}
+                "minecraft:custom_data": {"Item":"icicle"}
               }
             }
-          },
-          "team": "Red"
+          }
         },
         "entity": {
-          "entity_type": "minecraft:player",
-          "team": "Blue"
+          "team":"Blue",
+          "type": "minecraft:player",
+          "nbt": "{Tags:[\"FrozenThisTick\"]}"
         }
       }
     },
@@ -23,18 +24,19 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
+          "team": "Blue",
           "equipment": {
             "mainhand": {
               "predicates": {
-                "minecraft:custom_data": {"Item":"axe"}
+                "minecraft:custom_data": {"Item":"icicle"}
               }
             }
-          },
-          "team": "Blue"
+          }
         },
         "entity": {
-          "entity_type": "minecraft:player",
-          "team": "Red"
+          "team":"Red",
+          "type": "minecraft:player",
+          "nbt": "{Tags:[\"FrozenThisTick\"]}"
         }
       }
     }
@@ -46,6 +48,6 @@
     ]
   ],
   "rewards": {
-    "function": "freeze:game/general/items/axe/use"
+    "function": "freeze:game/general/items/icicle/use"
   }
 }

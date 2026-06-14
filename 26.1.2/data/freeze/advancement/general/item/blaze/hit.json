@@ -7,7 +7,7 @@
           "team": "Blue"
         },
         "entity": {
-          "entity_type": "minecraft:interaction",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"Campfire\",\"RedCampfire\"]}"
         }
       }
@@ -19,7 +19,7 @@
           "team": "Red"
         },
         "entity": {
-          "entity_type": "minecraft:interaction",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"Campfire\",\"BlueCampfire\"]}"
         }
       }

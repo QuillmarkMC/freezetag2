@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "vehicle": {
-      "entity_type": "snowball",
+      "type": "minecraft:snowball",
       "nbt": "{Tags:[\"Ball\"]}"
     }
   }

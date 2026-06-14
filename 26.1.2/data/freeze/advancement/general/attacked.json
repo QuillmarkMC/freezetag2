@@ -5,7 +5,7 @@
       "conditions": {
         "damage": {
           "source_entity": {
-            "entity_type": "minecraft:player"
+            "type": "minecraft:player"
           }
         }
       }
@@ -36,10 +36,10 @@
         "damage": {
           "type": {
             "source_entity": {
-              "entity_type": "minecraft:player"
+              "type": "minecraft:player"
             },
             "direct_entity": {
-              "entity_type": "minecraft:firework_rocket"
+              "type": "minecraft:firework_rocket"
             }
           }
         }
@@ -51,10 +51,10 @@
         "damage": {
           "type": {
             "source_entity": {
-              "entity_type": "minecraft:player"
+              "type": "minecraft:player"
             },
             "direct_entity": {
-              "entity_type": "#freeze:freezing_entity_source_no_firework"
+              "type": "#freeze:freezing_entity_source_no_firework"
             }
           }
         }
