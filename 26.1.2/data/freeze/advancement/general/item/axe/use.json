@@ -14,7 +14,7 @@
           "team": "Red"
         },
         "entity": {
-          "entity_type": "minecraft:player",
+          "type": "minecraft:player",
           "team": "Blue"
         }
       }
@@ -33,7 +33,7 @@
           "team": "Blue"
         },
         "entity": {
-          "entity_type": "minecraft:player",
+          "type": "minecraft:player",
           "team": "Red"
         }
       }

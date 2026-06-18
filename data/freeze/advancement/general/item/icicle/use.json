@@ -15,7 +15,7 @@
         },
         "entity": {
           "team":"Blue",
-          "type": "minecraft:player",
+          "entity_type": "minecraft:player",
           "nbt": "{Tags:[\"FrozenThisTick\"]}"
         }
       }
@@ -35,7 +35,7 @@
         },
         "entity": {
           "team":"Red",
-          "type": "minecraft:player",
+          "entity_type": "minecraft:player",
           "nbt": "{Tags:[\"FrozenThisTick\"]}"
         }
       }
