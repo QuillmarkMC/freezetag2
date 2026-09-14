@@ -4,18 +4,25 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {"Item":"axe"}
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {"Item":"axe"}
+                }
               }
-            }
-          },
-          "team": "Red"
+            },
+            "team": "Red"
+          }
         },
         "entity": {
-          "entity_type": "minecraft:player",
-          "team": "Blue"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "Blue"
+          }
         }
       }
     },
@@ -23,18 +30,25 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {"Item":"axe"}
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {"Item":"axe"}
+                }
               }
-            }
-          },
-          "team": "Blue"
+            },
+            "team": "Blue"
+          }
         },
         "entity": {
-          "entity_type": "minecraft:player",
-          "team": "Red"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "Red"
+          }
         }
       }
     }

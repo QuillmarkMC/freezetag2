@@ -1,5 +1,5 @@
 {
-  "type": "copy_custom_data",
+  "function": "minecraft:copy_custom_data",
   "source": "this",
   "ops": [
     {

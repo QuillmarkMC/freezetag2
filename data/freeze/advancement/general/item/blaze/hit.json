@@ -4,11 +4,23 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "team": "Blue"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "Blue"
+          }
         },
         "entity": {
-          "entity_type": "minecraft:interaction",
-          "nbt": "{Tags:[\"Campfire\",\"RedCampfire\"]}"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_tags": {
+              "all_of": [
+                "Campfire",
+                "RedCampfire"
+              ]
+            }
+          }
         }
       }
     },
@@ -16,11 +28,24 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "team": "Red"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "Red"
+          }
         },
         "entity": {
-          "entity_type": "minecraft:interaction",
-          "nbt": "{Tags:[\"Campfire\",\"BlueCampfire\"]}"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "interaction",
+            "entity_tags": {
+              "all_of": [
+                "Campfire",
+                "BlueCampfire"
+              ]
+            }
+          }
         }
       }
     }

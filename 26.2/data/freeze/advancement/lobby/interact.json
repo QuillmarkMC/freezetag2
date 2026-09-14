@@ -3,19 +3,16 @@
     "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "entity": {
-          "type": "entity_properties",
-          "entity": "this",
-          "predicate": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
               "entity_type": "minecraft:interaction",
-              "entity_tags": {
-                "all_of": [
-                  "MenuInteract"
-                ]
-              }
+              "nbt": "{Tags:[\"MenuInteract\"]}"
+            }
           }
-        }
-        
+        ]
       }
     }
   },

@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "red_hit_blue": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Red",
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {"Item":"icicle"}
+              }
+            }
+          }
+        },
+        "entity": {
+          "team":"Blue",
+          "entity_type": "minecraft:player",
+          "nbt": "{Tags:[\"FrozenThisTick\"]}"
+        }
+      }
+    },
+    "blue_hit_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Blue",
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {"Item":"icicle"}
+              }
+            }
+          }
+        },
+        "entity": {
+          "team":"Red",
+          "entity_type": "minecraft:player",
+          "nbt": "{Tags:[\"FrozenThisTick\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_hit_blue",
+      "blue_hit_red"
+    ]
+  ],
+  "rewards": {
+    "function": "freeze:game/general/items/icicle/use"
+  }
+}
