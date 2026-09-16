@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "red_hit_blue": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "team": "Blue"
+        },
+        "damage": {
+          "source_entity": {
+            "team": "Red",
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {"Item":"axe"}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "blue_hit_red": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "team": "Red"
+        },
+        "damage": {
+          "source_entity": {
+            "team": "Blue",
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {"Item":"axe"}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_hit_blue",
+      "blue_hit_red"
+    ]
+  ],
+  "rewards": {
+    "function": "freeze:game/general/items/axe/attacked"
+  }
+}
