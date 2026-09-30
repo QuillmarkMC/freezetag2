@@ -1,10 +1,14 @@
 {
-  "condition": "minecraft:entity_properties",
+  "type": "entity_properties",
   "entity": "this",
   "predicate": {
     "vehicle": {
       "entity_type": "snowball",
-      "nbt": "{Tags:[\"Ball\"]}"
+      "entity_tags": {
+        "all_of": [
+          "Ball"
+        ]
+      }
     }
   }
 }

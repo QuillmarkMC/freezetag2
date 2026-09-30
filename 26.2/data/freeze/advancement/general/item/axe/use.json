@@ -1,0 +1,51 @@
+{
+  "criteria": {
+    "red_hit_blue": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {"Item":"axe"}
+              }
+            }
+          },
+          "team": "Red"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "team": "Blue"
+        }
+      }
+    },
+    "blue_hit_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {"Item":"axe"}
+              }
+            }
+          },
+          "team": "Blue"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "team": "Red"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_hit_blue",
+      "blue_hit_red"
+    ]
+  ],
+  "rewards": {
+    "function": "freeze:game/general/items/axe/use"
+  }
+}

@@ -4,11 +4,7 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "type": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "team": "Blue"
-          }
+          "team": "Blue"
         },
         "damage": {
           "source_entity": {
@@ -28,11 +24,7 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "type": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "team": "Red"
-          }
+          "team": "Red"
         },
         "damage": {
           "source_entity": {
